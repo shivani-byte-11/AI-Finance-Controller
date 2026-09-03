@@ -1,0 +1,2001 @@
+transaction_id,date,transaction_type,category,merchant,amount,payment_method
+TXN01917,2025-01-01,Income,Investment,Client,20714.68,UPI
+TXN00955,2025-01-01,Expense,Other,Electricity Board,1082.53,Debit Card
+TXN00959,2025-01-01,Expense,Transport,BigBasket,5497.39,UPI
+TXN01348,2025-01-01,Expense,Food,BigBasket,13109.26,Bank Transfer
+TXN01182,2025-01-02,Expense,Travel,Ola,13272.36,UPI
+TXN00557,2025-01-02,Expense,Other,Myntra,5999.36,Debit Card
+TXN01245,2025-01-02,Income,Freelance,Bank,30485.67,Credit Card
+TXN01120,2025-01-02,Expense,Shopping,Spotify,4413.69,Credit Card
+TXN01603,2025-01-02,Expense,Education,College,7472.69,UPI
+TXN01391,2025-01-03,Expense,Groceries,Amazon,4487.73,Cash
+TXN00967,2025-01-03,Expense,Other,Jio,45573.98,UPI
+TXN01976,2025-01-03,Expense,Shopping,Flipkart,6671.18,Credit Card
+TXN00972,2025-01-03,Income,Freelance,Investment Account,18577.39,Credit Card
+TXN00510,2025-01-03,Expense,Transport,IRCTC,9366.99,UPI
+TXN00214,2025-01-03,Expense,Entertainment,BigBasket,1623.69,Cash
+TXN01068,2025-01-03,Expense,Entertainment,Jio,3136.16,Cash
+TXN00359,2025-01-03,Expense,Healthcare,IRCTC,7323.91,UPI
+TXN00031,2025-01-03,Expense,Food,BigBasket,1786.51,Bank Transfer
+TXN00021,2025-01-04,Expense,Bills,Electricity Board,7241.75,UPI
+TXN01817,2025-01-04,Expense,Bills,Uber,7321.85,Debit Card
+TXN01846,2025-01-04,Expense,Entertainment,Ola,4233.0,UPI
+TXN00425,2025-01-04,Expense,Entertainment,Hospital,2429.12,Credit Card
+TXN00084,2025-01-04,Expense,Transport,Electricity Board,2268.07,UPI
+TXN00223,2025-01-04,Income,Investment,Bank,9780.52,Debit Card
+TXN00674,2025-01-05,Expense,Entertainment,College,1052.54,UPI
+TXN00731,2025-01-05,Expense,Healthcare,Spotify,10253.43,Credit Card
+TXN01192,2025-01-05,Expense,Shopping,Uber,14549.76,Bank Transfer
+TXN00501,2025-01-05,Expense,Bills,Airtel,3940.76,Bank Transfer
+TXN00416,2025-01-05,Expense,Transport,Netflix,616.44,Cash
+TXN01422,2025-01-05,Income,Freelance,Client,34325.4,Debit Card
+TXN00187,2025-01-06,Expense,Bills,Ola,1270.91,UPI
+TXN00747,2025-01-06,Expense,Groceries,Airtel,13216.28,Cash
+TXN00502,2025-01-06,Expense,Groceries,Zomato,9715.88,Cash
+TXN00918,2025-01-06,Income,Freelance,Client,16207.62,Credit Card
+TXN01675,2025-01-06,Expense,Entertainment,College,14758.21,Debit Card
+TXN00059,2025-01-07,Expense,Groceries,Airtel,8792.56,Debit Card
+TXN01446,2025-01-07,Expense,Travel,Swiggy,4408.72,Credit Card
+TXN01477,2025-01-07,Expense,Bills,Electricity Board,12786.05,UPI
+TXN00894,2025-01-07,Expense,Other,Netflix,1094.59,UPI
+TXN00857,2025-01-07,Expense,Transport,BookMyShow,7240.09,Credit Card
+TXN00859,2025-01-07,Expense,Entertainment,College,4774.68,UPI
+TXN01856,2025-01-08,Expense,Transport,Flipkart,24889.15,UPI
+TXN00654,2025-01-08,Income,Salary,Client,52753.73,Cash
+TXN01181,2025-01-08,Expense,Shopping,Myntra,4981.7,Credit Card
+TXN00680,2025-01-08,Expense,Groceries,College,14811.11,UPI
+TXN00210,2025-01-08,Expense,Entertainment,Flipkart,14355.79,Bank Transfer
+TXN01981,2025-01-08,Expense,Shopping,Airtel,5494.04,Bank Transfer
+TXN01137,2025-01-09,Expense,Other,Netflix,1170.16,Debit Card
+TXN00378,2025-01-09,Income,Salary,Company,17741.04,Bank Transfer
+TXN01711,2025-01-09,Expense,Food,College,13789.08,Credit Card
+TXN00117,2025-01-09,Expense,Healthcare,Jio,3592.16,Credit Card
+TXN00657,2025-01-10,Expense,Travel,College,12970.0,Bank Transfer
+TXN00404,2025-01-10,Expense,Bills,Electricity Board,3155.44,Bank Transfer
+TXN01657,2025-01-10,Expense,Bills,BigBasket,1846.12,Bank Transfer
+TXN00225,2025-01-10,Income,Freelance,Investment Account,9327.12,Credit Card
+TXN01663,2025-01-10,Expense,Travel,Amazon,65783.54,Cash
+TXN00973,2025-01-10,Expense,Food,Electricity Board,10272.68,UPI
+TXN00203,2025-01-10,Expense,Education,Ola,9368.48,Credit Card
+TXN01734,2025-01-10,Expense,Transport,Hospital,21927.47,Bank Transfer
+TXN01434,2025-01-11,Expense,Food,Hospital,752.84,UPI
+TXN01543,2025-01-11,Expense,Food,Hospital,4818.11,UPI
+TXN01876,2025-01-11,Expense,Transport,BigBasket,7268.32,Cash
+TXN00329,2025-01-11,Expense,Other,IRCTC,11593.16,Debit Card
+TXN00479,2025-01-12,Expense,Food,BigBasket,501.54,Debit Card
+TXN01683,2025-01-12,Expense,Healthcare,College,1924.91,Cash
+TXN01466,2025-01-12,Income,Salary,Company,33140.46,UPI
+TXN00871,2025-01-13,Expense,Transport,Jio,3043.51,Bank Transfer
+TXN00410,2025-01-13,Expense,Bills,Uber,2152.9,Credit Card
+TXN00621,2025-01-13,Expense,Travel,Hospital,7466.45,Cash
+TXN01228,2025-01-13,Income,Investment,Investment Account,49531.3,Bank Transfer
+TXN01938,2025-01-13,Expense,Entertainment,Airtel,12252.14,Debit Card
+TXN01502,2025-01-14,Expense,Other,Jio,10671.2,Bank Transfer
+TXN00045,2025-01-14,Income,Salary,Bank,19283.35,Debit Card
+TXN01794,2025-01-14,Expense,Other,Netflix,13364.52,Bank Transfer
+TXN01738,2025-01-14,Expense,Groceries,Electricity Board,254.89,Cash
+TXN00104,2025-01-15,Expense,Food,College,13474.98,UPI
+TXN01907,2025-01-15,Expense,Entertainment,Zomato,11965.27,Bank Transfer
+TXN01518,2025-01-15,Expense,Food,Netflix,5114.23,Bank Transfer
+TXN01105,2025-01-15,Expense,Entertainment,Uber,8726.24,Bank Transfer
+TXN01526,2025-01-15,Expense,Education,Flipkart,10218.36,Debit Card
+TXN01058,2025-01-15,Expense,Shopping,Spotify,13729.23,UPI
+TXN00835,2025-01-16,Expense,Entertainment,Airtel,7564.29,Bank Transfer
+TXN00637,2025-01-16,Expense,Travel,Jio,5080.05,Credit Card
+TXN00092,2025-01-16,Expense,Entertainment,Airtel,6596.15,UPI
+TXN00875,2025-01-17,Income,Investment,Investment Account,52088.59,UPI
+TXN00116,2025-01-17,Income,Investment,Client,64894.8,Bank Transfer
+TXN00911,2025-01-17,Income,Investment,Investment Account,72928.5,Cash
+TXN01098,2025-01-17,Income,Freelance,Client,11945.18,Bank Transfer
+TXN00110,2025-01-17,Expense,Shopping,Zomato,14784.03,Credit Card
+TXN00791,2025-01-17,Expense,Shopping,Electricity Board,6805.87,Credit Card
+TXN00001,2025-01-17,Expense,Bills,Flipkart,6258.92,Bank Transfer
+TXN00013,2025-01-17,Expense,Entertainment,Netflix,4620.46,Debit Card
+TXN01682,2025-01-17,Expense,Education,Jio,11541.05,UPI
+TXN00908,2025-01-18,Expense,Groceries,Ola,7466.65,Cash
+TXN01390,2025-01-18,Expense,Shopping,Flipkart,9153.94,Credit Card
+TXN00130,2025-01-18,Expense,Travel,Swiggy,5426.34,Bank Transfer
+TXN01642,2025-01-18,Expense,Transport,Amazon,6835.62,Credit Card
+TXN01435,2025-01-18,Income,Salary,Investment Account,7902.72,Cash
+TXN00736,2025-01-19,Expense,Entertainment,Airtel,5321.62,Bank Transfer
+TXN01146,2025-01-19,Expense,Transport,Myntra,6610.92,Cash
+TXN00711,2025-01-19,Expense,Bills,Zomato,1929.08,Credit Card
+TXN01320,2025-01-19,Income,Salary,Bank,62091.12,Debit Card
+TXN01073,2025-01-19,Expense,Other,College,774.38,UPI
+TXN00813,2025-01-19,Expense,Shopping,Myntra,6129.08,Cash
+TXN01996,2025-01-19,Expense,Travel,Myntra,24300.83,Cash
+TXN01975,2025-01-19,Expense,Healthcare,BookMyShow,5379.96,Credit Card
+TXN00334,2025-01-20,Expense,Education,BigBasket,4694.93,UPI
+TXN01650,2025-01-20,Expense,Other,College,10708.33,Bank Transfer
+TXN01765,2025-01-20,Expense,Bills,BookMyShow,14909.83,Cash
+TXN01180,2025-01-21,Expense,Education,Swiggy,5169.17,Credit Card
+TXN00699,2025-01-21,Expense,Travel,Zomato,13334.5,UPI
+TXN01942,2025-01-21,Expense,Transport,BookMyShow,14815.19,Cash
+TXN00478,2025-01-21,Expense,Entertainment,Amazon,9745.88,UPI
+TXN00192,2025-01-21,Expense,Entertainment,IRCTC,2648.19,Debit Card
+TXN00948,2025-01-22,Income,Freelance,Bank,43635.5,Credit Card
+TXN00286,2025-01-22,Expense,Healthcare,Myntra,14773.1,Bank Transfer
+TXN00665,2025-01-22,Income,Salary,Client,26335.79,Credit Card
+TXN00645,2025-01-22,Expense,Other,Swiggy,2835.74,Debit Card
+TXN01847,2025-01-22,Expense,Healthcare,College,12905.9,Cash
+TXN01687,2025-01-22,Expense,Groceries,IRCTC,7194.03,Debit Card
+TXN00336,2025-01-22,Expense,Healthcare,Zomato,66627.12,UPI
+TXN01080,2025-01-22,Income,Freelance,Company,78589.85,UPI
+TXN00693,2025-01-22,Income,Salary,Client,37674.98,Debit Card
+TXN00870,2025-01-23,Expense,Food,Electricity Board,2823.5,UPI
+TXN00903,2025-01-24,Expense,Education,College,3518.35,Credit Card
+TXN00804,2025-01-24,Expense,Travel,DMart,9854.66,Cash
+TXN01736,2025-01-24,Expense,Entertainment,Zomato,10357.91,UPI
+TXN01476,2025-01-24,Expense,Healthcare,Swiggy,13791.53,Credit Card
+TXN01949,2025-01-24,Income,Freelance,Company,79159.85,Debit Card
+TXN01060,2025-01-25,Expense,Healthcare,Spotify,7922.13,Bank Transfer
+TXN00784,2025-01-25,Income,Investment,Bank,37301.02,Credit Card
+TXN00821,2025-01-25,Expense,Education,DMart,10607.16,Cash
+TXN01517,2025-01-25,Income,Freelance,Bank,15187.22,Cash
+TXN00572,2025-01-25,Expense,Food,IRCTC,2574.17,Bank Transfer
+TXN01412,2025-01-26,Expense,Transport,Amazon,12475.72,Cash
+TXN00362,2025-01-26,Expense,Healthcare,IRCTC,8876.1,UPI
+TXN00769,2025-01-26,Expense,Other,Ola,5140.05,UPI
+TXN00183,2025-01-26,Expense,Entertainment,College,6186.2,Debit Card
+TXN01805,2025-01-26,Expense,Groceries,BookMyShow,6422.19,Credit Card
+TXN00962,2025-01-26,Expense,Entertainment,Electricity Board,13245.53,Credit Card
+TXN00591,2025-01-26,Expense,Groceries,Jio,11566.62,Cash
+TXN00595,2025-01-26,Expense,Transport,IRCTC,4574.77,Debit Card
+TXN00677,2025-01-27,Expense,Entertainment,Ola,719.74,UPI
+TXN01884,2025-01-27,Expense,Transport,DMart,5682.39,Debit Card
+TXN01427,2025-01-27,Expense,Healthcare,BigBasket,1929.9,Cash
+TXN01074,2025-01-27,Income,Freelance,Company,32465.31,Debit Card
+TXN00556,2025-01-27,Income,Salary,Company,18356.68,Credit Card
+TXN00264,2025-01-27,Expense,Bills,Electricity Board,1052.34,Bank Transfer
+TXN01409,2025-01-27,Expense,Travel,Airtel,6224.83,Bank Transfer
+TXN01426,2025-01-27,Income,Investment,Investment Account,12310.37,Credit Card
+TXN00815,2025-01-27,Expense,Healthcare,BigBasket,2011.26,Bank Transfer
+TXN01375,2025-01-28,Expense,Travel,Amazon,7805.88,Cash
+TXN00587,2025-01-28,Income,Salary,Client,25226.13,Credit Card
+TXN01289,2025-01-28,Expense,Food,BigBasket,3239.0,Debit Card
+TXN00331,2025-01-28,Expense,Travel,College,10338.35,Credit Card
+TXN00798,2025-01-28,Expense,Food,Ola,4317.1,Bank Transfer
+TXN01936,2025-01-28,Expense,Education,Spotify,11614.56,Debit Card
+TXN00700,2025-01-29,Expense,Transport,Zomato,3868.68,Credit Card
+TXN01470,2025-01-29,Expense,Shopping,Amazon,14746.57,Credit Card
+TXN01319,2025-01-29,Income,Freelance,Bank,21152.95,UPI
+TXN00667,2025-01-29,Income,Freelance,Investment Account,7627.1,Bank Transfer
+TXN01110,2025-01-30,Expense,Entertainment,BigBasket,4541.95,Bank Transfer
+TXN01421,2025-01-30,Expense,Groceries,Flipkart,4424.54,Credit Card
+TXN01673,2025-01-30,Expense,Healthcare,Uber,10174.96,UPI
+TXN01220,2025-01-30,Expense,Food,BookMyShow,6924.0,Debit Card
+TXN01306,2025-01-30,Expense,Education,DMart,14176.48,Cash
+TXN00899,2025-01-30,Expense,Other,Zomato,586.65,Cash
+TXN01482,2025-01-30,Expense,Travel,BigBasket,1842.0,Bank Transfer
+TXN00706,2025-01-30,Expense,Groceries,Zomato,3759.7,Bank Transfer
+TXN01850,2025-01-30,Expense,Bills,Amazon,4720.17,Debit Card
+TXN00750,2025-01-30,Expense,Healthcare,College,262.63,Cash
+TXN00760,2025-01-31,Income,Salary,Company,31801.62,Debit Card
+TXN01719,2025-01-31,Expense,Other,College,813.6,Debit Card
+TXN01911,2025-01-31,Expense,Healthcare,Zomato,1346.25,UPI
+TXN00620,2025-01-31,Expense,Other,Ola,2091.63,Cash
+TXN01090,2025-01-31,Expense,Transport,IRCTC,6093.58,Credit Card
+TXN00889,2025-01-31,Expense,Groceries,Zomato,103.43,Debit Card
+TXN00486,2025-02-01,Expense,Entertainment,Hospital,8219.81,Cash
+TXN00960,2025-02-02,Expense,Healthcare,Uber,232.21,Credit Card
+TXN00615,2025-02-02,Expense,Entertainment,Jio,13020.65,Bank Transfer
+TXN01331,2025-02-02,Expense,Entertainment,BigBasket,283.76,Cash
+TXN00457,2025-02-02,Expense,Other,Ola,1696.61,Bank Transfer
+TXN01436,2025-02-02,Income,Investment,Bank,54485.39,Debit Card
+TXN01226,2025-02-02,Income,Salary,Company,7518.17,Cash
+TXN01247,2025-02-03,Expense,Food,Spotify,11875.29,Bank Transfer
+TXN00873,2025-02-03,Expense,Shopping,BookMyShow,13624.96,Bank Transfer
+TXN01700,2025-02-03,Expense,Healthcare,Uber,366.02,UPI
+TXN01509,2025-02-03,Expense,Groceries,Netflix,1419.59,Bank Transfer
+TXN01644,2025-02-03,Expense,Food,Hospital,5385.37,UPI
+TXN01927,2025-02-04,Expense,Groceries,Swiggy,915.45,UPI
+TXN00608,2025-02-04,Expense,Other,Hospital,14265.92,Cash
+TXN00355,2025-02-04,Expense,Other,Uber,13088.55,Credit Card
+TXN01327,2025-02-04,Expense,Travel,Amazon,11429.39,Bank Transfer
+TXN01629,2025-02-04,Expense,Healthcare,Electricity Board,10563.6,Cash
+TXN01292,2025-02-04,Expense,Entertainment,Spotify,5452.0,UPI
+TXN00035,2025-02-05,Expense,Bills,Zomato,7696.17,Debit Card
+TXN01160,2025-02-05,Income,Freelance,Investment Account,37052.4,UPI
+TXN00696,2025-02-05,Expense,Healthcare,Zomato,4810.58,Cash
+TXN00650,2025-02-05,Expense,Travel,BigBasket,13592.27,Bank Transfer
+TXN01590,2025-02-05,Expense,Groceries,Myntra,1068.24,Cash
+TXN01352,2025-02-05,Expense,Bills,Netflix,9780.2,Cash
+TXN01082,2025-02-05,Expense,Bills,Myntra,14810.51,Cash
+TXN00161,2025-02-06,Expense,Transport,BigBasket,6743.48,Debit Card
+TXN01797,2025-02-06,Expense,Transport,Myntra,13048.3,Debit Card
+TXN00166,2025-02-06,Expense,Bills,Swiggy,4517.21,Credit Card
+TXN01758,2025-02-06,Expense,Travel,Netflix,12805.71,Credit Card
+TXN01832,2025-02-06,Expense,Education,DMart,11012.49,UPI
+TXN01088,2025-02-06,Expense,Bills,Uber,12120.16,Credit Card
+TXN00015,2025-02-06,Income,Investment,Company,63890.86,UPI
+TXN00455,2025-02-06,Expense,Transport,Hospital,9208.66,Credit Card
+TXN01432,2025-02-07,Expense,Other,Amazon,1996.11,UPI
+TXN01550,2025-02-07,Expense,Education,Jio,12857.21,UPI
+TXN00868,2025-02-07,Expense,Education,Jio,6066.9,Cash
+TXN01676,2025-02-07,Expense,Education,Spotify,4842.06,Debit Card
+TXN00216,2025-02-08,Expense,Food,Jio,10551.54,Cash
+TXN01022,2025-02-08,Expense,Other,IRCTC,1663.89,Cash
+TXN00748,2025-02-08,Expense,Travel,Flipkart,14579.19,Bank Transfer
+TXN00036,2025-02-08,Expense,Other,Spotify,4061.25,Debit Card
+TXN00312,2025-02-08,Expense,Shopping,DMart,6878.68,Debit Card
+TXN00963,2025-02-08,Expense,Bills,Amazon,9775.08,Credit Card
+TXN00710,2025-02-08,Expense,Entertainment,Spotify,14002.39,UPI
+TXN00817,2025-02-09,Expense,Healthcare,Airtel,905.55,Cash
+TXN01279,2025-02-09,Expense,Shopping,Hospital,411.7,Credit Card
+TXN01525,2025-02-09,Income,Investment,Bank,69911.04,Cash
+TXN00628,2025-02-09,Expense,Bills,Hospital,12972.46,Debit Card
+TXN01051,2025-02-10,Income,Freelance,Investment Account,73875.22,Credit Card
+TXN00779,2025-02-11,Income,Salary,Bank,39133.43,UPI
+TXN01095,2025-02-11,Expense,Other,IRCTC,319.76,Cash
+TXN01251,2025-02-11,Expense,Other,College,10593.92,Credit Card
+TXN00122,2025-02-11,Income,Freelance,Bank,33428.31,Debit Card
+TXN00529,2025-02-11,Expense,Groceries,Netflix,11264.5,Debit Card
+TXN00803,2025-02-11,Expense,Entertainment,Swiggy,13755.86,Credit Card
+TXN00481,2025-02-11,Income,Salary,Investment Account,72430.55,Bank Transfer
+TXN00714,2025-02-12,Expense,Shopping,BookMyShow,1617.3,Credit Card
+TXN00025,2025-02-12,Expense,Other,Swiggy,9059.28,Debit Card
+TXN01370,2025-02-12,Expense,Food,BookMyShow,5477.21,Credit Card
+TXN01223,2025-02-12,Expense,Healthcare,Netflix,11267.44,Credit Card
+TXN00451,2025-02-12,Expense,Groceries,BookMyShow,14971.94,Debit Card
+TXN00185,2025-02-12,Expense,Entertainment,Electricity Board,13237.91,Credit Card
+TXN01206,2025-02-12,Expense,Food,Hospital,33432.35,Credit Card
+TXN00554,2025-02-13,Expense,Other,IRCTC,13658.6,Debit Card
+TXN01413,2025-02-13,Expense,Healthcare,Jio,6579.4,UPI
+TXN01926,2025-02-13,Expense,Healthcare,Airtel,10187.45,Credit Card
+TXN00414,2025-02-13,Expense,Shopping,Myntra,1145.01,Cash
+TXN01201,2025-02-14,Expense,Healthcare,Netflix,12026.39,Credit Card
+TXN00658,2025-02-14,Expense,Bills,Airtel,2112.93,Debit Card
+TXN01280,2025-02-14,Expense,Entertainment,Amazon,11066.52,Cash
+TXN01242,2025-02-14,Expense,Food,IRCTC,10953.46,Credit Card
+TXN01576,2025-02-14,Expense,Entertainment,Zomato,3585.36,Debit Card
+TXN01315,2025-02-14,Expense,Healthcare,Myntra,11226.91,Credit Card
+TXN01373,2025-02-14,Expense,Entertainment,Flipkart,11720.9,Cash
+TXN00937,2025-02-14,Expense,Bills,Hospital,12398.54,Bank Transfer
+TXN00454,2025-02-14,Expense,Education,Flipkart,14129.74,Debit Card
+TXN01218,2025-02-14,Expense,Bills,Jio,2889.12,Cash
+TXN01633,2025-02-15,Expense,Healthcare,College,4626.01,Debit Card
+TXN00437,2025-02-15,Expense,Shopping,Electricity Board,2340.24,Debit Card
+TXN00523,2025-02-15,Expense,Education,Spotify,4780.85,Cash
+TXN00065,2025-02-15,Expense,Education,Ola,9653.77,Debit Card
+TXN00470,2025-02-15,Expense,Bills,BookMyShow,7233.27,Bank Transfer
+TXN00744,2025-02-15,Expense,Entertainment,Hospital,1410.6,Cash
+TXN01966,2025-02-15,Income,Salary,Client,74471.59,UPI
+TXN00876,2025-02-15,Income,Freelance,Investment Account,40048.93,Debit Card
+TXN01142,2025-02-15,Expense,Travel,IRCTC,3149.82,UPI
+TXN00629,2025-02-15,Income,Investment,Company,70349.51,Debit Card
+TXN01341,2025-02-16,Expense,Other,Myntra,2077.07,Credit Card
+TXN00268,2025-02-16,Expense,Other,Flipkart,3423.07,Cash
+TXN01849,2025-02-16,Income,Investment,Company,40397.12,Bank Transfer
+TXN00291,2025-02-16,Expense,Education,Netflix,8380.29,Cash
+TXN00202,2025-02-16,Expense,Bills,Spotify,1347.93,Debit Card
+TXN01487,2025-02-16,Expense,Shopping,Jio,5182.49,Credit Card
+TXN00106,2025-02-16,Expense,Travel,Ola,6079.29,Debit Card
+TXN00335,2025-02-17,Expense,Shopping,BigBasket,13939.54,Cash
+TXN01387,2025-02-17,Expense,Other,BigBasket,783.27,Credit Card
+TXN00458,2025-02-17,Expense,Education,College,11133.66,Bank Transfer
+TXN01467,2025-02-17,Expense,Education,Uber,1340.19,UPI
+TXN00140,2025-02-17,Expense,Shopping,BookMyShow,14350.76,Cash
+TXN00233,2025-02-17,Expense,Bills,Electricity Board,11511.98,Bank Transfer
+TXN00171,2025-02-17,Income,Freelance,Client,34590.97,Debit Card
+TXN01891,2025-02-17,Expense,Food,Flipkart,1643.22,Credit Card
+TXN01922,2025-02-18,Expense,Transport,Myntra,13303.71,Credit Card
+TXN01566,2025-02-18,Expense,Groceries,Flipkart,2368.73,Bank Transfer
+TXN00113,2025-02-18,Expense,Food,Swiggy,419.04,Bank Transfer
+TXN00199,2025-02-19,Expense,Education,Hospital,9069.13,Bank Transfer
+TXN00884,2025-02-19,Income,Investment,Company,65795.86,Bank Transfer
+TXN00688,2025-02-20,Income,Investment,Bank,52905.42,UPI
+TXN00881,2025-02-20,Expense,Other,BookMyShow,11983.2,Bank Transfer
+TXN01124,2025-02-20,Income,Freelance,Client,42905.71,Cash
+TXN00420,2025-02-21,Expense,Travel,Zomato,5697.17,Bank Transfer
+TXN01941,2025-02-21,Expense,Travel,Netflix,6809.44,Debit Card
+TXN00768,2025-02-21,Expense,Food,IRCTC,6502.32,Cash
+TXN01811,2025-02-21,Expense,Education,DMart,2332.96,Bank Transfer
+TXN01913,2025-02-21,Expense,Bills,DMart,10301.57,Credit Card
+TXN01254,2025-02-21,Expense,Bills,BookMyShow,2605.75,Cash
+TXN00226,2025-02-21,Income,Investment,Client,19988.64,UPI
+TXN01684,2025-02-21,Expense,Entertainment,Jio,5677.46,Cash
+TXN00139,2025-02-21,Expense,Food,Jio,10915.68,Credit Card
+TXN01183,2025-02-22,Expense,Shopping,College,11895.01,Cash
+TXN01964,2025-02-22,Expense,Bills,Netflix,13768.24,UPI
+TXN00419,2025-02-22,Expense,Other,DMart,5196.8,Debit Card
+TXN01440,2025-02-22,Expense,Entertainment,Zomato,322.4,Credit Card
+TXN01905,2025-02-22,Expense,Other,Electricity Board,14231.48,Bank Transfer
+TXN00408,2025-02-22,Expense,Travel,Flipkart,13363.7,UPI
+TXN00601,2025-02-22,Expense,Shopping,Amazon,14639.49,Debit Card
+TXN00923,2025-02-24,Expense,Food,College,13296.67,Cash
+TXN01316,2025-02-24,Expense,Bills,Electricity Board,12707.33,Bank Transfer
+TXN01447,2025-02-24,Expense,Groceries,Jio,554.18,Bank Transfer
+TXN01924,2025-02-24,Expense,Food,BigBasket,5961.32,Cash
+TXN00363,2025-02-24,Income,Freelance,Client,13320.45,Bank Transfer
+TXN01474,2025-02-24,Expense,Shopping,Myntra,9594.59,Cash
+TXN00517,2025-02-24,Expense,Bills,Zomato,12558.33,Cash
+TXN00258,2025-02-24,Expense,Bills,BigBasket,8211.08,Bank Transfer
+TXN00326,2025-02-24,Income,Investment,Bank,23008.29,Cash
+TXN00936,2025-02-24,Expense,Food,College,498.13,Debit Card
+TXN01101,2025-02-25,Expense,Transport,Myntra,766.88,Credit Card
+TXN01973,2025-02-25,Expense,Food,Airtel,11879.04,Credit Card
+TXN00975,2025-02-25,Expense,Other,Myntra,13587.8,Credit Card
+TXN00169,2025-02-25,Income,Freelance,Investment Account,28256.53,Credit Card
+TXN00695,2025-02-25,Expense,Other,Netflix,10361.39,UPI
+TXN01862,2025-02-25,Expense,Other,Netflix,1998.39,Cash
+TXN00891,2025-02-25,Expense,Travel,BigBasket,10907.37,Debit Card
+TXN00121,2025-02-25,Expense,Transport,Airtel,11000.7,UPI
+TXN00152,2025-02-25,Income,Investment,Investment Account,62656.95,Debit Card
+TXN01311,2025-02-25,Income,Investment,Company,75729.75,Debit Card
+TXN01598,2025-02-25,Expense,Bills,Zomato,11047.35,Credit Card
+TXN00520,2025-02-25,Expense,Groceries,Hospital,3901.52,Credit Card
+TXN00914,2025-02-26,Expense,Food,Amazon,2051.71,Cash
+TXN01145,2025-02-26,Expense,Transport,Zomato,7450.26,Cash
+TXN00970,2025-02-26,Expense,Entertainment,IRCTC,3772.8,Debit Card
+TXN01659,2025-02-26,Expense,Travel,Zomato,10518.35,Credit Card
+TXN00333,2025-02-26,Income,Freelance,Client,61583.49,Cash
+TXN01575,2025-02-26,Expense,Travel,College,10323.53,Cash
+TXN01216,2025-02-27,Expense,Travel,Zomato,7226.39,UPI
+TXN00854,2025-02-27,Expense,Travel,Amazon,8047.25,Credit Card
+TXN00775,2025-02-27,Expense,Travel,Spotify,322.59,Cash
+TXN00430,2025-02-27,Expense,Bills,Electricity Board,10812.99,Cash
+TXN01838,2025-02-27,Expense,Entertainment,BigBasket,9375.86,Cash
+TXN01215,2025-02-28,Income,Investment,Client,14875.03,Cash
+TXN00434,2025-02-28,Expense,Education,Myntra,14978.47,Debit Card
+TXN01710,2025-02-28,Income,Investment,Company,69298.92,Bank Transfer
+TXN00409,2025-02-28,Expense,Travel,Amazon,11803.28,Cash
+TXN01232,2025-03-01,Income,Investment,Company,64525.55,UPI
+TXN01007,2025-03-01,Expense,Transport,Swiggy,4535.05,Cash
+TXN00540,2025-03-01,Expense,Groceries,IRCTC,9908.95,Bank Transfer
+TXN00574,2025-03-02,Income,Salary,Client,69051.21,Credit Card
+TXN00638,2025-03-02,Expense,Travel,Spotify,8201.92,Debit Card
+TXN01016,2025-03-02,Expense,Bills,IRCTC,7878.22,Debit Card
+TXN00514,2025-03-02,Expense,Other,Myntra,8114.05,Cash
+TXN02000,2025-03-02,Expense,Food,Uber,6662.68,Cash
+TXN00054,2025-03-02,Income,Salary,Client,18415.29,UPI
+TXN00282,2025-03-02,Income,Salary,Investment Account,71750.81,UPI
+TXN00266,2025-03-02,Expense,Shopping,Uber,207.73,UPI
+TXN01686,2025-03-03,Expense,Food,Swiggy,5908.93,Bank Transfer
+TXN00997,2025-03-03,Expense,Groceries,Amazon,4757.48,Credit Card
+TXN01769,2025-03-03,Expense,Entertainment,Ola,2247.91,Bank Transfer
+TXN01612,2025-03-04,Expense,Groceries,Ola,7156.73,Bank Transfer
+TXN00102,2025-03-04,Expense,Travel,DMart,14911.18,Bank Transfer
+TXN01406,2025-03-04,Expense,Other,Zomato,52.84,Bank Transfer
+TXN00582,2025-03-05,Expense,Travel,BigBasket,2864.87,UPI
+TXN00393,2025-03-05,Expense,Entertainment,Uber,1666.49,Cash
+TXN00646,2025-03-05,Expense,Other,Swiggy,1994.09,Cash
+TXN00505,2025-03-05,Expense,Food,Airtel,8941.73,Credit Card
+TXN01253,2025-03-05,Expense,Groceries,Ola,11913.88,Cash
+TXN00077,2025-03-05,Expense,Travel,Spotify,7862.0,Cash
+TXN01321,2025-03-06,Expense,Travel,Airtel,12315.86,Cash
+TXN01562,2025-03-06,Expense,Entertainment,Flipkart,8307.64,Debit Card
+TXN01378,2025-03-06,Expense,Shopping,Electricity Board,6838.87,Credit Card
+TXN01763,2025-03-06,Expense,Other,Zomato,9200.98,Credit Card
+TXN00644,2025-03-06,Expense,Transport,Airtel,8089.72,UPI
+TXN00295,2025-03-07,Expense,Groceries,Flipkart,4220.64,Debit Card
+TXN00795,2025-03-07,Expense,Entertainment,Ola,4844.56,Debit Card
+TXN00843,2025-03-07,Expense,Other,Airtel,2411.82,Credit Card
+TXN00123,2025-03-07,Expense,Shopping,Flipkart,13645.54,Credit Card
+TXN00222,2025-03-07,Expense,Education,Amazon,3279.77,Bank Transfer
+TXN00958,2025-03-08,Expense,Entertainment,Electricity Board,3202.33,UPI
+TXN01448,2025-03-08,Expense,Food,BigBasket,7014.49,Debit Card
+TXN00592,2025-03-08,Expense,Entertainment,DMart,2028.99,Cash
+TXN00270,2025-03-08,Expense,Bills,BookMyShow,7099.19,Debit Card
+TXN01616,2025-03-08,Expense,Food,Uber,505.78,Credit Card
+TXN01554,2025-03-08,Expense,Education,Swiggy,204.73,Cash
+TXN01735,2025-03-09,Expense,Education,Myntra,6666.31,Debit Card
+TXN01729,2025-03-09,Expense,Groceries,IRCTC,10472.12,UPI
+TXN00697,2025-03-09,Expense,Education,Electricity Board,9557.26,Credit Card
+TXN00412,2025-03-09,Expense,Travel,College,12710.26,Bank Transfer
+TXN01831,2025-03-09,Expense,Entertainment,Electricity Board,10874.35,UPI
+TXN00189,2025-03-10,Expense,Bills,Flipkart,14889.75,Debit Card
+TXN00208,2025-03-10,Expense,Transport,Hospital,9074.9,Cash
+TXN01334,2025-03-10,Expense,Travel,Myntra,351.44,Cash
+TXN01381,2025-03-10,Expense,Education,College,12650.31,Cash
+TXN01485,2025-03-10,Expense,Travel,Flipkart,10126.07,Credit Card
+TXN00751,2025-03-10,Expense,Groceries,Spotify,13022.52,Credit Card
+TXN00808,2025-03-10,Expense,Other,Amazon,13445.43,Cash
+TXN00604,2025-03-11,Expense,Food,Netflix,7295.98,UPI
+TXN00533,2025-03-11,Expense,Bills,Electricity Board,12886.98,Cash
+TXN00909,2025-03-11,Expense,Healthcare,Swiggy,11552.59,UPI
+TXN01855,2025-03-11,Income,Investment,Company,10070.17,Bank Transfer
+TXN00518,2025-03-11,Expense,Travel,BookMyShow,3162.42,Cash
+TXN00032,2025-03-11,Expense,Shopping,Spotify,1685.76,Bank Transfer
+TXN01726,2025-03-11,Expense,Healthcare,Airtel,6675.36,Bank Transfer
+TXN01195,2025-03-11,Expense,Other,Flipkart,7132.45,Bank Transfer
+TXN00196,2025-03-11,Income,Salary,Bank,61258.09,UPI
+TXN01439,2025-03-12,Expense,Food,Zomato,3941.86,UPI
+TXN00212,2025-03-12,Expense,Other,Airtel,11075.89,Credit Card
+TXN01571,2025-03-13,Expense,Shopping,Uber,7319.28,Bank Transfer
+TXN00534,2025-03-13,Expense,Groceries,Swiggy,9635.48,Debit Card
+TXN01257,2025-03-13,Expense,Food,Uber,7995.87,Credit Card
+TXN00943,2025-03-13,Income,Salary,Investment Account,68719.72,Credit Card
+TXN01731,2025-03-13,Income,Salary,Investment Account,17918.03,Cash
+TXN00516,2025-03-13,Expense,Healthcare,Spotify,7836.0,Debit Card
+TXN00352,2025-03-13,Expense,Travel,BigBasket,13948.5,Credit Card
+TXN01581,2025-03-14,Expense,Entertainment,Jio,645.8,UPI
+TXN01620,2025-03-15,Expense,Travel,Jio,9754.26,Bank Transfer
+TXN00807,2025-03-15,Income,Investment,Bank,77037.52,UPI
+TXN01011,2025-03-15,Expense,Transport,Swiggy,3526.0,Cash
+TXN00429,2025-03-15,Income,Salary,Client,78025.22,UPI
+TXN00797,2025-03-15,Expense,Bills,College,7763.94,UPI
+TXN00939,2025-03-15,Expense,Transport,BigBasket,9117.87,Debit Card
+TXN01176,2025-03-16,Expense,Healthcare,Swiggy,5036.75,Credit Card
+TXN01323,2025-03-16,Expense,Shopping,Amazon,13991.66,Bank Transfer
+TXN00649,2025-03-16,Expense,Healthcare,BookMyShow,6579.48,Debit Card
+TXN00265,2025-03-16,Expense,Other,Uber,9915.39,Credit Card
+TXN00349,2025-03-17,Expense,Other,DMart,5503.19,Bank Transfer
+TXN00064,2025-03-17,Expense,Other,College,1026.22,Bank Transfer
+TXN01627,2025-03-17,Expense,Transport,Swiggy,14755.8,Bank Transfer
+TXN00294,2025-03-17,Expense,Travel,Netflix,6009.69,Debit Card
+TXN01568,2025-03-17,Expense,Other,Airtel,11473.1,UPI
+TXN00669,2025-03-17,Income,Investment,Company,28273.48,Bank Transfer
+TXN00087,2025-03-17,Expense,Groceries,Uber,4772.41,Debit Card
+TXN00209,2025-03-18,Income,Salary,Bank,13374.96,Credit Card
+TXN00611,2025-03-18,Expense,Education,College,8738.25,Cash
+TXN01837,2025-03-18,Income,Investment,Company,57022.82,Credit Card
+TXN00640,2025-03-18,Expense,Shopping,Hospital,7709.44,Debit Card
+TXN01989,2025-03-18,Expense,Travel,Netflix,1525.71,Cash
+TXN01369,2025-03-19,Income,Freelance,Investment Account,63423.76,UPI
+TXN00219,2025-03-19,Expense,Travel,IRCTC,8398.48,Bank Transfer
+TXN01820,2025-03-20,Expense,Transport,IRCTC,5594.03,Credit Card
+TXN00448,2025-03-20,Expense,Travel,Uber,12939.31,UPI
+TXN00480,2025-03-20,Expense,Bills,Zomato,8173.7,Cash
+TXN01692,2025-03-20,Expense,Transport,Amazon,8570.24,Credit Card
+TXN00247,2025-03-21,Expense,Transport,Swiggy,8013.18,Credit Card
+TXN01890,2025-03-21,Income,Salary,Bank,10704.99,Cash
+TXN01286,2025-03-21,Income,Freelance,Investment Account,41383.27,Bank Transfer
+TXN01429,2025-03-21,Expense,Shopping,DMart,11547.04,Credit Card
+TXN01500,2025-03-21,Expense,Groceries,Hospital,8453.98,Debit Card
+TXN01549,2025-03-21,Expense,Transport,BookMyShow,14098.0,Debit Card
+TXN00521,2025-03-21,Expense,Education,Hospital,9074.43,UPI
+TXN01407,2025-03-21,Expense,Healthcare,Airtel,1798.11,Cash
+TXN01222,2025-03-21,Income,Investment,Client,36047.64,Credit Card
+TXN01313,2025-03-22,Expense,Bills,Uber,12879.09,Cash
+TXN01863,2025-03-22,Expense,Travel,Spotify,5101.21,Bank Transfer
+TXN01746,2025-03-23,Expense,Groceries,Uber,3381.29,Debit Card
+TXN01685,2025-03-23,Income,Freelance,Client,41185.31,UPI
+TXN01367,2025-03-23,Expense,Shopping,Spotify,7650.42,Cash
+TXN00383,2025-03-24,Expense,Transport,Electricity Board,2521.32,UPI
+TXN00932,2025-03-24,Expense,Transport,Jio,3403.74,Debit Card
+TXN01293,2025-03-24,Expense,Transport,Flipkart,11213.92,Bank Transfer
+TXN01583,2025-03-25,Expense,Other,Amazon,7515.22,Debit Card
+TXN01955,2025-03-25,Expense,Education,Amazon,11330.83,Debit Card
+TXN01144,2025-03-25,Expense,Entertainment,BookMyShow,6851.95,Cash
+TXN01693,2025-03-25,Expense,Groceries,Amazon,8897.63,Debit Card
+TXN00709,2025-03-25,Expense,Transport,IRCTC,12170.16,Bank Transfer
+TXN01479,2025-03-25,Expense,Other,Swiggy,6698.51,Credit Card
+TXN01307,2025-03-25,Expense,Travel,Zomato,12660.19,Cash
+TXN00499,2025-03-26,Expense,Travel,IRCTC,3562.64,Cash
+TXN00392,2025-03-26,Expense,Education,BookMyShow,14334.65,Cash
+TXN01893,2025-03-26,Expense,Food,BookMyShow,12894.71,Debit Card
+TXN01611,2025-03-26,Expense,Education,Airtel,1756.57,UPI
+TXN00890,2025-03-26,Expense,Shopping,Spotify,2348.24,UPI
+TXN00188,2025-03-26,Expense,Groceries,Netflix,6293.44,UPI
+TXN01767,2025-03-27,Expense,Shopping,Zomato,10891.32,Debit Card
+TXN00313,2025-03-27,Expense,Food,DMart,12186.26,UPI
+TXN00525,2025-03-27,Expense,Healthcare,DMart,8846.11,Credit Card
+TXN00536,2025-03-27,Expense,Shopping,Spotify,5649.44,UPI
+TXN01653,2025-03-27,Expense,Groceries,BookMyShow,11102.94,Credit Card
+TXN00230,2025-03-27,Expense,Transport,BookMyShow,522.36,Debit Card
+TXN00023,2025-03-28,Expense,Bills,Hospital,3036.36,Cash
+TXN01564,2025-03-28,Expense,Travel,Amazon,935.38,UPI
+TXN01754,2025-03-28,Expense,Bills,Spotify,3973.12,Debit Card
+TXN01318,2025-03-28,Income,Investment,Bank,56152.63,Bank Transfer
+TXN00729,2025-03-28,Expense,Other,Amazon,8190.45,UPI
+TXN01463,2025-03-29,Income,Freelance,Client,39116.55,Credit Card
+TXN00910,2025-03-29,Expense,Other,Flipkart,8348.79,Credit Card
+TXN01638,2025-03-29,Expense,Other,Spotify,10218.95,Credit Card
+TXN01365,2025-03-29,Expense,Healthcare,Netflix,14032.96,Bank Transfer
+TXN01207,2025-03-29,Expense,Education,Hospital,6881.65,Cash
+TXN01591,2025-03-29,Expense,Bills,Flipkart,1425.74,Credit Card
+TXN01052,2025-03-29,Expense,Other,Zomato,13783.43,Cash
+TXN00721,2025-03-29,Expense,Transport,Amazon,8267.92,UPI
+TXN01161,2025-03-30,Expense,Education,Hospital,1232.63,Debit Card
+TXN01761,2025-03-30,Income,Salary,Investment Account,8828.79,Bank Transfer
+TXN00332,2025-03-30,Expense,Travel,Uber,8434.49,Bank Transfer
+TXN01782,2025-03-30,Expense,Groceries,BigBasket,14492.81,Debit Card
+TXN00788,2025-03-30,Expense,Education,College,3633.9,Credit Card
+TXN01548,2025-03-30,Expense,Education,Electricity Board,11211.72,Debit Card
+TXN01519,2025-03-30,Expense,Entertainment,Myntra,6455.57,UPI
+TXN00105,2025-03-30,Expense,Entertainment,Ola,9269.79,Debit Card
+TXN00297,2025-03-30,Expense,Other,DMart,11947.6,Cash
+TXN00653,2025-03-31,Expense,Shopping,Swiggy,8449.23,Cash
+TXN00666,2025-03-31,Expense,Healthcare,Jio,58025.49,Credit Card
+TXN00376,2025-03-31,Expense,Bills,Airtel,12536.96,Credit Card
+TXN01252,2025-04-01,Expense,Transport,Myntra,6508.44,UPI
+TXN00337,2025-04-01,Income,Investment,Bank,53105.51,Cash
+TXN01325,2025-04-01,Expense,Education,DMart,13877.59,UPI
+TXN01995,2025-04-01,Expense,Entertainment,DMart,12046.44,UPI
+TXN01998,2025-04-02,Expense,Healthcare,Ola,7871.52,Credit Card
+TXN00567,2025-04-02,Income,Salary,Investment Account,37914.53,UPI
+TXN00146,2025-04-02,Expense,Groceries,IRCTC,5722.69,Debit Card
+TXN00473,2025-04-02,Expense,Travel,Flipkart,11426.16,Debit Card
+TXN00647,2025-04-02,Expense,Healthcare,Flipkart,4721.55,Cash
+TXN01263,2025-04-03,Expense,Transport,Swiggy,12076.49,UPI
+TXN00825,2025-04-03,Expense,Healthcare,BigBasket,10473.81,UPI
+TXN01240,2025-04-03,Expense,Healthcare,BigBasket,973.35,UPI
+TXN00897,2025-04-03,Expense,Groceries,Electricity Board,5651.82,Credit Card
+TXN00701,2025-04-03,Expense,Transport,Netflix,381.3,UPI
+TXN00390,2025-04-03,Expense,Other,Jio,4128.37,UPI
+TXN01845,2025-04-03,Expense,Other,Myntra,9204.63,Credit Card
+TXN01116,2025-04-03,Expense,Education,Jio,12204.88,Cash
+TXN01829,2025-04-03,Expense,Groceries,College,12749.2,UPI
+TXN01701,2025-04-04,Expense,Other,Swiggy,10376.05,Credit Card
+TXN00692,2025-04-04,Expense,Other,Myntra,12338.52,Debit Card
+TXN00086,2025-04-04,Expense,Transport,Electricity Board,10338.33,UPI
+TXN00934,2025-04-04,Expense,Entertainment,Swiggy,8387.66,Cash
+TXN01115,2025-04-04,Income,Freelance,Client,76394.06,Credit Card
+TXN01535,2025-04-04,Expense,Transport,Hospital,3880.69,Cash
+TXN01396,2025-04-05,Income,Investment,Company,13765.56,Cash
+TXN01075,2025-04-05,Income,Investment,Company,29778.67,Debit Card
+TXN01852,2025-04-05,Expense,Healthcare,BookMyShow,341.05,Bank Transfer
+TXN00029,2025-04-05,Expense,Food,BookMyShow,1009.38,UPI
+TXN00785,2025-04-05,Income,Freelance,Investment Account,8903.55,Credit Card
+TXN00324,2025-04-06,Income,Investment,Investment Account,56137.6,Cash
+TXN00741,2025-04-06,Expense,Other,BigBasket,13296.76,UPI
+TXN00830,2025-04-07,Expense,Travel,Spotify,5114.75,Credit Card
+TXN01100,2025-04-07,Expense,Transport,Spotify,13691.84,Bank Transfer
+TXN01931,2025-04-07,Expense,Education,DMart,2374.25,UPI
+TXN01034,2025-04-08,Expense,Travel,Electricity Board,8473.97,Cash
+TXN00631,2025-04-08,Expense,Healthcare,Swiggy,9526.33,Credit Card
+TXN00238,2025-04-08,Expense,Bills,BigBasket,10286.97,Debit Card
+TXN01166,2025-04-08,Expense,Food,College,3882.44,Bank Transfer
+TXN01392,2025-04-08,Expense,Food,Ola,6526.64,Credit Card
+TXN01395,2025-04-08,Expense,Entertainment,Spotify,11877.59,UPI
+TXN00356,2025-04-08,Expense,Transport,IRCTC,7257.92,Debit Card
+TXN00944,2025-04-09,Expense,Healthcare,Myntra,7105.57,UPI
+TXN00371,2025-04-09,Expense,Bills,BigBasket,4652.96,Credit Card
+TXN01780,2025-04-09,Expense,Bills,College,14911.04,Bank Transfer
+TXN01458,2025-04-09,Expense,Healthcare,Ola,8187.93,Credit Card
+TXN01029,2025-04-10,Expense,Groceries,Uber,3933.09,Cash
+TXN00790,2025-04-10,Expense,Healthcare,Myntra,3125.4,Credit Card
+TXN00614,2025-04-10,Expense,Entertainment,Airtel,13311.99,Cash
+TXN01167,2025-04-10,Expense,Transport,BigBasket,9979.19,Debit Card
+TXN00727,2025-04-10,Expense,Transport,Hospital,11826.05,Cash
+TXN01217,2025-04-10,Income,Investment,Investment Account,20400.41,Credit Card
+TXN00373,2025-04-11,Expense,Food,BookMyShow,276.78,UPI
+TXN01935,2025-04-11,Expense,Education,Amazon,9729.15,UPI
+TXN01944,2025-04-11,Expense,Travel,Myntra,6678.44,UPI
+TXN01671,2025-04-12,Expense,Other,Airtel,8463.8,Debit Card
+TXN00861,2025-04-12,Income,Salary,Client,40293.71,UPI
+TXN00277,2025-04-12,Income,Salary,Investment Account,65333.12,Debit Card
+TXN01717,2025-04-12,Expense,Education,Zomato,3218.1,Bank Transfer
+TXN01787,2025-04-12,Income,Freelance,Bank,17320.64,Credit Card
+TXN01796,2025-04-12,Expense,Transport,Flipkart,13012.77,Credit Card
+TXN01894,2025-04-12,Expense,Groceries,Zomato,1638.95,UPI
+TXN00129,2025-04-12,Expense,Entertainment,Swiggy,1572.11,Debit Card
+TXN01103,2025-04-13,Expense,Transport,Hospital,8697.49,Credit Card
+TXN00495,2025-04-13,Expense,Other,College,11231.64,Bank Transfer
+TXN01823,2025-04-13,Expense,Groceries,BookMyShow,7263.03,Bank Transfer
+TXN01764,2025-04-13,Expense,Groceries,Netflix,12093.09,Cash
+TXN01984,2025-04-14,Expense,Shopping,DMart,8057.66,Credit Card
+TXN01702,2025-04-14,Expense,Entertainment,BookMyShow,12099.89,Debit Card
+TXN00306,2025-04-14,Expense,Healthcare,Airtel,9104.65,Bank Transfer
+TXN01221,2025-04-15,Expense,Groceries,BookMyShow,42375.38,Cash
+TXN01560,2025-04-15,Expense,Travel,Amazon,2836.24,UPI
+TXN00490,2025-04-15,Expense,Transport,Electricity Board,10686.0,Bank Transfer
+TXN01451,2025-04-16,Expense,Other,Myntra,5766.12,Bank Transfer
+TXN00314,2025-04-16,Income,Investment,Investment Account,23877.72,Cash
+TXN00511,2025-04-16,Income,Salary,Investment Account,73407.02,UPI
+TXN01861,2025-04-16,Expense,Other,Ola,6297.47,UPI
+TXN00799,2025-04-16,Expense,Healthcare,College,7720.98,Debit Card
+TXN00651,2025-04-16,Expense,Bills,Ola,8017.31,Bank Transfer
+TXN01551,2025-04-17,Income,Investment,Investment Account,68601.57,Cash
+TXN00737,2025-04-17,Expense,Shopping,IRCTC,11047.14,UPI
+TXN01122,2025-04-17,Expense,Entertainment,Flipkart,12277.85,Bank Transfer
+TXN01762,2025-04-17,Expense,Education,Jio,11498.39,UPI
+TXN00704,2025-04-18,Expense,Travel,BookMyShow,3522.98,Bank Transfer
+TXN01274,2025-04-18,Expense,Entertainment,DMart,13730.93,Credit Card
+TXN01604,2025-04-18,Expense,Travel,Flipkart,7928.67,Debit Card
+TXN01816,2025-04-18,Expense,Shopping,Spotify,401.62,UPI
+TXN00342,2025-04-18,Expense,Bills,Myntra,10214.22,Debit Card
+TXN01959,2025-04-18,Expense,Bills,Flipkart,12779.08,UPI
+TXN01112,2025-04-19,Expense,Travel,IRCTC,13704.88,Credit Card
+TXN01960,2025-04-19,Income,Freelance,Company,55528.13,Credit Card
+TXN01844,2025-04-19,Expense,Education,Uber,9565.31,UPI
+TXN00228,2025-04-20,Income,Freelance,Investment Account,25004.78,UPI
+TXN01193,2025-04-20,Expense,Transport,IRCTC,12182.58,UPI
+TXN00073,2025-04-20,Expense,Transport,IRCTC,1884.72,Cash
+TXN01233,2025-04-21,Expense,Education,Amazon,14968.55,Credit Card
+TXN01742,2025-04-21,Expense,Shopping,Airtel,472.59,Debit Card
+TXN01983,2025-04-21,Expense,Entertainment,BookMyShow,3226.62,Credit Card
+TXN00019,2025-04-21,Expense,Shopping,Spotify,13708.66,Debit Card
+TXN00322,2025-04-21,Expense,Bills,Myntra,12852.73,UPI
+TXN00285,2025-04-21,Expense,Travel,Netflix,12904.98,Credit Card
+TXN01807,2025-04-21,Expense,Other,Swiggy,10545.16,Debit Card
+TXN00789,2025-04-21,Expense,Other,Ola,10579.33,Credit Card
+TXN00262,2025-04-22,Expense,Other,Ola,3185.92,Cash
+TXN00080,2025-04-22,Income,Investment,Bank,5375.7,UPI
+TXN00673,2025-04-22,Income,Salary,Bank,40936.47,Debit Card
+TXN01557,2025-04-22,Expense,Healthcare,Hospital,6829.72,UPI
+TXN01582,2025-04-22,Expense,Entertainment,BigBasket,4138.14,Credit Card
+TXN00338,2025-04-22,Expense,Other,DMart,12358.71,Cash
+TXN01057,2025-04-23,Expense,Transport,BigBasket,13866.04,Debit Card
+TXN00783,2025-04-23,Income,Salary,Client,38499.02,Debit Card
+TXN00661,2025-04-23,Expense,Bills,Ola,6049.45,Debit Card
+TXN01117,2025-04-23,Expense,Other,College,11782.55,Cash
+TXN00172,2025-04-23,Expense,Travel,IRCTC,3438.5,Debit Card
+TXN01898,2025-04-23,Expense,Groceries,Myntra,920.93,UPI
+TXN00893,2025-04-23,Expense,Travel,Myntra,12302.11,Cash
+TXN01538,2025-04-23,Expense,Entertainment,Myntra,9439.31,Credit Card
+TXN01014,2025-04-24,Expense,Shopping,Myntra,9027.0,Bank Transfer
+TXN01886,2025-04-24,Expense,Transport,Swiggy,11095.15,Bank Transfer
+TXN00907,2025-04-24,Expense,Entertainment,Jio,10223.05,Credit Card
+TXN01903,2025-04-25,Expense,Travel,Hospital,4991.66,Cash
+TXN00796,2025-04-25,Expense,Healthcare,Jio,2918.95,Cash
+TXN00814,2025-04-25,Expense,Healthcare,Spotify,13564.0,Bank Transfer
+TXN01464,2025-04-25,Expense,Education,Zomato,87368.69,UPI
+TXN01602,2025-04-26,Expense,Bills,Spotify,14754.84,UPI
+TXN00103,2025-04-26,Expense,Food,Flipkart,7825.93,Cash
+TXN01848,2025-04-26,Expense,Transport,DMart,9050.86,Bank Transfer
+TXN00398,2025-04-26,Income,Freelance,Client,38431.83,Credit Card
+TXN01190,2025-04-26,Expense,Entertainment,Myntra,2614.17,Cash
+TXN00577,2025-04-26,Expense,Groceries,College,11203.98,Debit Card
+TXN00538,2025-04-27,Expense,Transport,IRCTC,7544.92,Credit Card
+TXN00343,2025-04-27,Expense,Education,Zomato,7221.2,UPI
+TXN00126,2025-04-28,Expense,Healthcare,BookMyShow,14431.02,Cash
+TXN00888,2025-04-28,Expense,Bills,Swiggy,3910.35,Bank Transfer
+TXN01213,2025-04-28,Expense,Travel,Flipkart,7160.39,UPI
+TXN01534,2025-04-28,Expense,Entertainment,BigBasket,6405.94,Debit Card
+TXN01059,2025-04-29,Expense,Transport,Hospital,1208.73,Bank Transfer
+TXN01760,2025-04-29,Expense,Transport,Uber,3199.28,UPI
+TXN00298,2025-04-29,Expense,Bills,Ola,5576.58,Debit Card
+TXN01637,2025-04-29,Expense,Entertainment,Amazon,1865.57,Credit Card
+TXN01507,2025-04-29,Expense,Bills,Electricity Board,169.26,UPI
+TXN01943,2025-04-29,Expense,Healthcare,Airtel,9673.63,Bank Transfer
+TXN01227,2025-04-30,Expense,Healthcare,Amazon,5436.26,Cash
+TXN00471,2025-04-30,Income,Investment,Bank,73277.62,Bank Transfer
+TXN01878,2025-04-30,Expense,Transport,BigBasket,8804.31,Cash
+TXN00204,2025-04-30,Expense,Transport,Myntra,847.24,Credit Card
+TXN00619,2025-04-30,Expense,Entertainment,Flipkart,7144.56,Debit Card
+TXN01394,2025-05-01,Expense,Travel,BigBasket,10225.25,Bank Transfer
+TXN01202,2025-05-01,Expense,Shopping,Jio,4778.21,UPI
+TXN01287,2025-05-01,Expense,Food,Swiggy,526.32,Debit Card
+TXN00348,2025-05-01,Expense,Bills,Swiggy,13956.35,Credit Card
+TXN00462,2025-05-01,Expense,Transport,Zomato,8702.19,Credit Card
+TXN00436,2025-05-01,Expense,Healthcare,Myntra,8092.67,Debit Card
+TXN00246,2025-05-02,Expense,Other,Spotify,13446.27,Credit Card
+TXN01667,2025-05-02,Expense,Travel,Ola,8775.03,Bank Transfer
+TXN01342,2025-05-02,Expense,Shopping,Spotify,2663.57,Credit Card
+TXN00168,2025-05-02,Expense,Healthcare,Spotify,2683.93,Bank Transfer
+TXN01972,2025-05-02,Expense,Shopping,Amazon,10190.31,Credit Card
+TXN01385,2025-05-02,Income,Salary,Bank,26954.97,UPI
+TXN00552,2025-05-02,Income,Freelance,Bank,77006.08,Credit Card
+TXN00164,2025-05-02,Expense,Food,Flipkart,5925.72,UPI
+TXN01159,2025-05-03,Income,Investment,Investment Account,11680.73,Cash
+TXN01194,2025-05-04,Expense,Healthcare,Netflix,9365.33,Cash
+TXN01757,2025-05-04,Expense,Bills,Myntra,14640.74,Debit Card
+TXN01597,2025-05-04,Expense,Shopping,Uber,14433.21,Credit Card
+TXN01299,2025-05-04,Expense,Healthcare,Amazon,6473.34,Cash
+TXN00227,2025-05-04,Expense,Travel,Electricity Board,4200.31,UPI
+TXN00278,2025-05-04,Expense,Transport,Hospital,11780.86,UPI
+TXN00234,2025-05-05,Expense,Travel,Uber,3513.6,Debit Card
+TXN00992,2025-05-05,Expense,Food,Zomato,6527.38,Credit Card
+TXN00844,2025-05-05,Income,Freelance,Investment Account,61910.6,Debit Card
+TXN00402,2025-05-05,Expense,Food,BigBasket,8476.3,Bank Transfer
+TXN00733,2025-05-05,Income,Investment,Client,66704.75,Bank Transfer
+TXN00901,2025-05-06,Expense,Food,BigBasket,9880.02,Cash
+TXN00096,2025-05-06,Expense,Other,Jio,66.43,Credit Card
+TXN01114,2025-05-06,Expense,Groceries,Uber,10251.04,Cash
+TXN00368,2025-05-06,Income,Salary,Client,28591.55,UPI
+TXN00678,2025-05-06,Expense,Transport,BookMyShow,2668.74,Cash
+TXN00231,2025-05-07,Income,Freelance,Company,64889.02,Debit Card
+TXN00571,2025-05-07,Expense,Groceries,BookMyShow,8790.58,UPI
+TXN01019,2025-05-07,Income,Freelance,Company,48589.33,Credit Card
+TXN01017,2025-05-08,Expense,Other,Amazon,9940.42,Bank Transfer
+TXN01162,2025-05-08,Expense,Education,Spotify,1517.01,Debit Card
+TXN01853,2025-05-08,Expense,Other,Amazon,8217.58,Debit Card
+TXN00971,2025-05-08,Expense,Bills,Amazon,4851.81,Credit Card
+TXN00004,2025-05-08,Expense,Groceries,Flipkart,2079.51,Credit Card
+TXN01896,2025-05-09,Expense,Healthcare,Jio,11536.03,Bank Transfer
+TXN00215,2025-05-09,Expense,Education,Zomato,10165.23,Cash
+TXN01377,2025-05-09,Expense,Food,Hospital,5721.36,Credit Card
+TXN00459,2025-05-09,Expense,Bills,Electricity Board,5343.12,Credit Card
+TXN00254,2025-05-09,Expense,Other,Spotify,13171.21,Credit Card
+TXN00184,2025-05-10,Expense,Food,Netflix,10990.47,UPI
+TXN01269,2025-05-10,Expense,Food,Spotify,802.24,Debit Card
+TXN00862,2025-05-10,Expense,Bills,DMart,783.22,Cash
+TXN00016,2025-05-10,Expense,Education,Jio,12739.47,Cash
+TXN01827,2025-05-11,Expense,Travel,Flipkart,9263.87,Credit Card
+TXN01023,2025-05-11,Expense,Transport,Amazon,5813.85,UPI
+TXN00206,2025-05-11,Expense,Transport,Ola,11691.65,Bank Transfer
+TXN01623,2025-05-11,Expense,Groceries,Spotify,155.25,Credit Card
+TXN00353,2025-05-11,Expense,Shopping,Spotify,12848.26,UPI
+TXN00456,2025-05-11,Income,Salary,Company,6386.83,Credit Card
+TXN00630,2025-05-11,Expense,Transport,Netflix,2875.67,Credit Card
+TXN00488,2025-05-11,Expense,Groceries,Uber,14482.99,UPI
+TXN00024,2025-05-12,Income,Salary,Company,70144.7,Debit Card
+TXN00305,2025-05-12,Income,Freelance,Bank,63994.15,Bank Transfer
+TXN01678,2025-05-12,Income,Salary,Bank,61847.66,UPI
+TXN01209,2025-05-12,Expense,Shopping,Flipkart,4200.34,Cash
+TXN00453,2025-05-13,Expense,Entertainment,BigBasket,890.62,Cash
+TXN00252,2025-05-13,Income,Salary,Client,13606.05,UPI
+TXN01595,2025-05-13,Income,Investment,Company,51508.04,Cash
+TXN00613,2025-05-13,Expense,Transport,Flipkart,2812.31,Cash
+TXN00718,2025-05-14,Expense,Entertainment,DMart,9091.06,Cash
+TXN00468,2025-05-14,Expense,Entertainment,Amazon,7312.58,Debit Card
+TXN00902,2025-05-14,Expense,Shopping,Spotify,11616.44,Bank Transfer
+TXN00624,2025-05-15,Income,Salary,Investment Account,79783.76,Cash
+TXN01491,2025-05-15,Expense,Other,BookMyShow,4144.94,Debit Card
+TXN00742,2025-05-15,Income,Freelance,Client,10168.21,Cash
+TXN00240,2025-05-15,Expense,Bills,Jio,13338.32,Cash
+TXN01962,2025-05-15,Expense,Entertainment,Netflix,11884.5,Bank Transfer
+TXN00260,2025-05-16,Expense,Transport,College,542.34,Bank Transfer
+TXN01118,2025-05-16,Expense,Travel,Jio,7543.29,UPI
+TXN01151,2025-05-16,Expense,Entertainment,Uber,113.89,Cash
+TXN01028,2025-05-16,Expense,Healthcare,Zomato,12711.73,Cash
+TXN00243,2025-05-16,Income,Investment,Bank,40648.62,Debit Card
+TXN01481,2025-05-17,Expense,Education,BookMyShow,9778.46,Credit Card
+TXN01910,2025-05-18,Expense,Groceries,College,5640.26,Debit Card
+TXN01354,2025-05-18,Expense,Shopping,Spotify,12935.79,Cash
+TXN00895,2025-05-18,Income,Salary,Bank,41854.93,Bank Transfer
+TXN01677,2025-05-18,Expense,Entertainment,Airtel,9514.75,Debit Card
+TXN00919,2025-05-18,Expense,Other,BigBasket,4372.19,Debit Card
+TXN00091,2025-05-18,Expense,Transport,Hospital,1957.41,UPI
+TXN01126,2025-05-19,Income,Investment,Company,54215.02,UPI
+TXN01494,2025-05-19,Expense,Transport,Flipkart,2479.32,Cash
+TXN00075,2025-05-19,Income,Investment,Bank,24322.07,Bank Transfer
+TXN00053,2025-05-19,Expense,Healthcare,Swiggy,7303.16,Debit Card
+TXN00413,2025-05-19,Expense,Healthcare,Flipkart,8877.0,Debit Card
+TXN01443,2025-05-19,Expense,Groceries,Flipkart,3848.79,Cash
+TXN01967,2025-05-19,Expense,Groceries,BookMyShow,3629.21,Credit Card
+TXN00006,2025-05-19,Expense,Entertainment,Spotify,12205.56,Debit Card
+TXN00810,2025-05-20,Income,Freelance,Bank,32689.12,Credit Card
+TXN00618,2025-05-20,Expense,Other,Hospital,12358.44,Credit Card
+TXN01877,2025-05-20,Expense,Groceries,BigBasket,6292.68,Credit Card
+TXN01527,2025-05-20,Expense,Healthcare,Netflix,3534.48,Cash
+TXN01567,2025-05-21,Expense,Transport,Uber,9803.29,Debit Card
+TXN01688,2025-05-21,Income,Investment,Investment Account,9198.28,Debit Card
+TXN01721,2025-05-22,Expense,Groceries,Flipkart,9793.57,Credit Card
+TXN01869,2025-05-22,Expense,Transport,Netflix,13176.93,Debit Card
+TXN00555,2025-05-22,Expense,Education,BigBasket,8779.55,Cash
+TXN01839,2025-05-22,Expense,Shopping,Netflix,10404.2,Debit Card
+TXN00802,2025-05-23,Income,Salary,Bank,47414.48,Cash
+TXN01452,2025-05-23,Expense,Education,Airtel,115.79,UPI
+TXN01912,2025-05-23,Expense,Bills,Flipkart,9212.66,UPI
+TXN00151,2025-05-23,Expense,Entertainment,BigBasket,7440.48,Bank Transfer
+TXN01134,2025-05-23,Income,Salary,Bank,61809.25,Bank Transfer
+TXN00055,2025-05-24,Expense,Shopping,IRCTC,14024.65,Credit Card
+TXN01624,2025-05-24,Expense,Shopping,BigBasket,13589.75,Credit Card
+TXN00155,2025-05-24,Expense,Shopping,Flipkart,2067.27,Cash
+TXN01732,2025-05-24,Expense,Entertainment,Swiggy,7417.02,Bank Transfer
+TXN00446,2025-05-25,Expense,Transport,IRCTC,11748.88,Credit Card
+TXN00062,2025-05-25,Expense,Food,BookMyShow,269.58,Credit Card
+TXN00132,2025-05-25,Expense,Travel,Uber,7566.49,Bank Transfer
+TXN00339,2025-05-25,Income,Freelance,Client,21602.48,Credit Card
+TXN01483,2025-05-25,Expense,Education,College,2865.0,Bank Transfer
+TXN00921,2025-05-25,Expense,Healthcare,Flipkart,1939.26,Debit Card
+TXN00066,2025-05-26,Expense,Groceries,Netflix,4476.34,Bank Transfer
+TXN00550,2025-05-26,Income,Freelance,Client,13679.92,Debit Card
+TXN00809,2025-05-26,Expense,Entertainment,Hospital,7857.38,Bank Transfer
+TXN01355,2025-05-26,Income,Salary,Company,8133.1,Cash
+TXN01704,2025-05-27,Income,Investment,Investment Account,26275.86,Bank Transfer
+TXN00487,2025-05-27,Expense,Bills,IRCTC,14644.54,Bank Transfer
+TXN00107,2025-05-27,Expense,Healthcare,Airtel,1066.68,Cash
+TXN00940,2025-05-27,Expense,Food,Hospital,10411.93,Cash
+TXN00002,2025-05-27,Expense,Other,Airtel,453.91,Credit Card
+TXN00639,2025-05-28,Expense,Shopping,Uber,11005.73,Credit Card
+TXN01178,2025-05-28,Expense,Entertainment,DMart,5218.48,Credit Card
+TXN01333,2025-05-28,Expense,Healthcare,DMart,9408.97,Debit Card
+TXN00440,2025-05-28,Expense,Bills,DMart,14719.85,Cash
+TXN00040,2025-05-29,Expense,Other,Swiggy,12247.23,Cash
+TXN01785,2025-05-29,Income,Investment,Investment Account,23193.15,Bank Transfer
+TXN00248,2025-05-29,Expense,Shopping,Myntra,11106.15,Credit Card
+TXN00720,2025-05-30,Expense,Entertainment,Spotify,10658.04,UPI
+TXN01661,2025-05-30,Expense,Transport,Netflix,14423.11,Cash
+TXN01993,2025-05-30,Income,Investment,Bank,43412.47,UPI
+TXN00986,2025-05-30,Expense,Travel,Electricity Board,4504.1,Bank Transfer
+TXN01241,2025-05-30,Expense,Transport,IRCTC,5054.9,UPI
+TXN00860,2025-05-30,Income,Investment,Bank,53379.77,Bank Transfer
+TXN01024,2025-05-30,Expense,Transport,Flipkart,10707.53,Debit Card
+TXN01048,2025-05-31,Expense,Groceries,Ola,12368.0,UPI
+TXN00983,2025-05-31,Expense,Education,IRCTC,8780.13,Debit Card
+TXN00287,2025-05-31,Income,Salary,Company,46051.7,Debit Card
+TXN00635,2025-05-31,Expense,Other,Uber,8338.43,Credit Card
+TXN01892,2025-05-31,Expense,Education,IRCTC,10616.57,Bank Transfer
+TXN01652,2025-05-31,Expense,Shopping,Zomato,5319.81,Debit Card
+TXN01267,2025-06-01,Expense,Education,Myntra,10811.42,Bank Transfer
+TXN01328,2025-06-01,Expense,Other,Airtel,6658.49,Credit Card
+TXN01822,2025-06-01,Income,Salary,Client,28897.4,Credit Card
+TXN01442,2025-06-01,Expense,Education,Ola,14379.99,UPI
+TXN00365,2025-06-01,Expense,Education,BookMyShow,6580.95,Cash
+TXN00030,2025-06-01,Expense,Food,Hospital,9804.9,UPI
+TXN01880,2025-06-01,Income,Freelance,Investment Account,55395.42,Bank Transfer
+TXN00195,2025-06-02,Expense,Transport,College,781.29,Cash
+TXN01694,2025-06-02,Expense,Transport,Airtel,9788.63,Bank Transfer
+TXN00027,2025-06-03,Expense,Bills,Ola,5024.45,Cash
+TXN01727,2025-06-03,Expense,Healthcare,Flipkart,13046.08,Credit Card
+TXN00549,2025-06-04,Expense,Groceries,Uber,11424.82,Bank Transfer
+TXN00167,2025-06-04,Expense,Bills,Ola,1994.6,Debit Card
+TXN00119,2025-06-04,Expense,Bills,IRCTC,14240.98,Bank Transfer
+TXN00559,2025-06-04,Expense,Shopping,Myntra,13287.15,Debit Card
+TXN01002,2025-06-04,Expense,Education,Swiggy,8831.98,UPI
+TXN01046,2025-06-04,Expense,Healthcare,Flipkart,8117.52,Bank Transfer
+TXN00056,2025-06-04,Income,Salary,Company,27718.11,Credit Card
+TXN01858,2025-06-05,Income,Freelance,Company,58001.77,UPI
+TXN00509,2025-06-06,Expense,Groceries,Jio,10848.52,UPI
+TXN01261,2025-06-06,Expense,Healthcare,Hospital,570.97,Cash
+TXN00848,2025-06-06,Expense,Entertainment,Flipkart,5052.62,UPI
+TXN00317,2025-06-06,Expense,Food,Zomato,14386.37,Credit Card
+TXN01530,2025-06-06,Income,Salary,Client,42624.99,UPI
+TXN00181,2025-06-06,Expense,Bills,Ola,6720.98,Debit Card
+TXN00941,2025-06-06,Expense,Entertainment,Jio,5422.1,UPI
+TXN01009,2025-06-07,Expense,Travel,Airtel,14026.45,UPI
+TXN00792,2025-06-07,Expense,Entertainment,Amazon,14922.89,Credit Card
+TXN01072,2025-06-07,Expense,Bills,Netflix,8876.24,Bank Transfer
+TXN01067,2025-06-07,Expense,Travel,BookMyShow,5541.08,Bank Transfer
+TXN00194,2025-06-07,Expense,Entertainment,BigBasket,11046.11,UPI
+TXN01372,2025-06-07,Income,Freelance,Investment Account,41850.85,Credit Card
+TXN01672,2025-06-07,Expense,Entertainment,BookMyShow,757.43,UPI
+TXN01645,2025-06-07,Expense,Other,Netflix,10569.09,Bank Transfer
+TXN01515,2025-06-08,Expense,Other,Jio,5452.25,UPI
+TXN00856,2025-06-08,Expense,Other,BigBasket,3828.9,UPI
+TXN01510,2025-06-08,Income,Freelance,Investment Account,26450.62,Cash
+TXN00599,2025-06-08,Expense,Entertainment,Amazon,8723.97,Cash
+TXN01775,2025-06-08,Expense,Other,Spotify,2196.0,Debit Card
+TXN01187,2025-06-08,Expense,Travel,BigBasket,4475.21,Debit Card
+TXN01544,2025-06-08,Income,Investment,Company,6145.8,Debit Card
+TXN01035,2025-06-08,Expense,Transport,Airtel,11413.85,Credit Card
+TXN01379,2025-06-08,Expense,Shopping,Swiggy,7167.01,UPI
+TXN01802,2025-06-08,Expense,Food,Spotify,3617.84,Debit Card
+TXN01371,2025-06-08,Expense,Bills,Zomato,11036.88,Bank Transfer
+TXN01149,2025-06-09,Expense,Travel,Netflix,11667.86,Debit Card
+TXN01205,2025-06-09,Expense,Entertainment,Netflix,2015.8,Credit Card
+TXN01728,2025-06-09,Expense,Transport,Ola,6996.76,UPI
+TXN00596,2025-06-09,Expense,Other,Hospital,8684.39,UPI
+TXN00134,2025-06-09,Expense,Travel,College,2494.48,Credit Card
+TXN01524,2025-06-09,Expense,Other,College,5052.11,Cash
+TXN01471,2025-06-09,Income,Salary,Client,9769.79,UPI
+TXN01050,2025-06-10,Expense,Education,Flipkart,12632.54,UPI
+TXN00598,2025-06-10,Expense,Shopping,BigBasket,775.0,UPI
+TXN01594,2025-06-10,Expense,Travel,Spotify,10512.24,Bank Transfer
+TXN01631,2025-06-10,Expense,Transport,Electricity Board,12583.38,Cash
+TXN00988,2025-06-10,Expense,Travel,Netflix,11046.3,Credit Card
+TXN01772,2025-06-10,Expense,Entertainment,Jio,10726.3,Debit Card
+TXN01138,2025-06-10,Expense,Other,Swiggy,9312.09,Credit Card
+TXN00241,2025-06-11,Expense,Transport,BigBasket,4641.09,Bank Transfer
+TXN01332,2025-06-11,Income,Freelance,Investment Account,53578.14,Debit Card
+TXN01461,2025-06-11,Expense,Bills,Zomato,4779.24,UPI
+TXN00847,2025-06-11,Income,Salary,Bank,49542.65,UPI
+TXN00546,2025-06-11,Expense,Transport,Spotify,5731.4,Debit Card
+TXN00757,2025-06-11,Expense,Entertainment,Ola,13952.67,Credit Card
+TXN01186,2025-06-11,Expense,Food,Myntra,5994.38,Bank Transfer
+TXN00950,2025-06-11,Expense,Groceries,Ola,13574.34,Credit Card
+TXN01771,2025-06-11,Expense,Food,IRCTC,4247.2,Cash
+TXN00191,2025-06-12,Expense,Travel,DMart,11127.72,Credit Card
+TXN00588,2025-06-12,Expense,Shopping,Uber,9419.49,Credit Card
+TXN00163,2025-06-12,Expense,Travel,Jio,2223.4,Credit Card
+TXN00424,2025-06-12,Expense,Transport,Uber,13035.34,Bank Transfer
+TXN01895,2025-06-12,Expense,Groceries,Zomato,6152.13,Credit Card
+TXN00159,2025-06-12,Expense,Transport,Myntra,1861.53,Cash
+TXN01514,2025-06-12,Income,Investment,Investment Account,53457.04,Cash
+TXN01586,2025-06-12,Expense,Other,Hospital,12092.41,Debit Card
+TXN00034,2025-06-13,Expense,Groceries,DMart,5611.9,Cash
+TXN00905,2025-06-13,Expense,Bills,Ola,11940.77,Credit Card
+TXN01140,2025-06-14,Expense,Transport,Myntra,3355.69,UPI
+TXN00361,2025-06-14,Expense,Travel,Myntra,6259.88,Bank Transfer
+TXN01343,2025-06-14,Expense,Groceries,Amazon,12875.04,UPI
+TXN01783,2025-06-15,Expense,Education,IRCTC,9822.07,Debit Card
+TXN00431,2025-06-15,Expense,Shopping,Flipkart,9202.44,Bank Transfer
+TXN01992,2025-06-15,Expense,Healthcare,Airtel,12881.94,UPI
+TXN00838,2025-06-15,Expense,Food,BigBasket,6681.47,Bank Transfer
+TXN01083,2025-06-15,Expense,Groceries,BookMyShow,3836.65,UPI
+TXN01531,2025-06-16,Expense,Education,Hospital,1245.88,Cash
+TXN00535,2025-06-16,Expense,Education,Ola,12371.17,Debit Card
+TXN01219,2025-06-16,Expense,Other,Ola,6092.24,Credit Card
+TXN01237,2025-06-16,Expense,Bills,Hospital,5456.07,Debit Card
+TXN01617,2025-06-16,Expense,Other,Netflix,5273.34,Credit Card
+TXN00515,2025-06-17,Expense,Entertainment,BigBasket,9715.7,Credit Card
+TXN00193,2025-06-17,Expense,Bills,Electricity Board,1344.91,UPI
+TXN01990,2025-06-17,Expense,Healthcare,Amazon,8336.15,UPI
+TXN00622,2025-06-17,Expense,Entertainment,Zomato,14867.26,UPI
+TXN00236,2025-06-17,Expense,Healthcare,Swiggy,14388.28,Bank Transfer
+TXN01359,2025-06-18,Expense,Shopping,Amazon,13049.55,Cash
+TXN00863,2025-06-18,Expense,Shopping,Swiggy,5465.48,Credit Card
+TXN01488,2025-06-18,Expense,Entertainment,Flipkart,14277.83,Cash
+TXN00003,2025-06-18,Expense,Transport,Zomato,10949.14,Debit Card
+TXN01778,2025-06-18,Expense,Education,College,9289.66,Cash
+TXN00007,2025-06-18,Expense,Entertainment,Swiggy,4789.34,Bank Transfer
+TXN01486,2025-06-18,Income,Investment,Bank,62587.52,Credit Card
+TXN01553,2025-06-18,Expense,Groceries,Flipkart,7064.63,Bank Transfer
+TXN00229,2025-06-18,Expense,Healthcare,BigBasket,8548.31,Bank Transfer
+TXN00900,2025-06-18,Expense,Education,BigBasket,8564.9,UPI
+TXN00366,2025-06-19,Expense,Transport,Netflix,3105.95,Bank Transfer
+TXN00800,2025-06-19,Expense,Groceries,BookMyShow,60301.79,Credit Card
+TXN01997,2025-06-20,Expense,Bills,Flipkart,7061.79,Credit Card
+TXN00745,2025-06-20,Expense,Food,Zomato,2477.83,UPI
+TXN00041,2025-06-20,Expense,Groceries,Electricity Board,12775.71,UPI
+TXN00018,2025-06-20,Expense,Bills,Airtel,1507.68,Cash
+TXN01388,2025-06-20,Expense,Entertainment,Airtel,2769.82,UPI
+TXN01786,2025-06-20,Expense,Groceries,Electricity Board,10485.05,Cash
+TXN00969,2025-06-20,Expense,Groceries,BigBasket,5132.84,Cash
+TXN00493,2025-06-20,Expense,Groceries,Flipkart,1296.54,Credit Card
+TXN01743,2025-06-21,Expense,Transport,Amazon,12392.79,Cash
+TXN00687,2025-06-21,Expense,Bills,Ola,7249.14,Cash
+TXN00051,2025-06-21,Expense,Education,Electricity Board,4170.05,Cash
+TXN01674,2025-06-21,Income,Salary,Company,47458.97,Bank Transfer
+TXN01991,2025-06-21,Expense,Bills,Swiggy,2726.23,Credit Card
+TXN00360,2025-06-21,Expense,Other,Swiggy,9539.5,Debit Card
+TXN00304,2025-06-21,Income,Investment,Bank,12635.32,Debit Card
+TXN00108,2025-06-22,Expense,Food,IRCTC,4206.78,Cash
+TXN00401,2025-06-22,Expense,Travel,Hospital,9709.03,Cash
+TXN00951,2025-06-22,Expense,Food,Airtel,2370.38,UPI
+TXN01430,2025-06-22,Income,Investment,Client,67438.54,Credit Card
+TXN01236,2025-06-22,Expense,Healthcare,Zomato,6537.52,Debit Card
+TXN01505,2025-06-22,Income,Freelance,Client,47416.42,Credit Card
+TXN00762,2025-06-22,Expense,Food,Swiggy,5762.02,Debit Card
+TXN00085,2025-06-22,Expense,Healthcare,DMart,13521.86,Bank Transfer
+TXN00898,2025-06-23,Expense,Entertainment,College,4209.56,Bank Transfer
+TXN01055,2025-06-23,Expense,Other,College,2909.48,Credit Card
+TXN00427,2025-06-23,Expense,Other,DMart,13363.21,Cash
+TXN00656,2025-06-23,Expense,Entertainment,Amazon,11082.11,Credit Card
+TXN01465,2025-06-23,Expense,Transport,Jio,8289.49,Bank Transfer
+TXN00578,2025-06-23,Expense,Shopping,Flipkart,11742.78,Credit Card
+TXN00539,2025-06-23,Income,Freelance,Company,65777.5,Cash
+TXN00406,2025-06-24,Expense,Healthcare,College,2949.69,UPI
+TXN00670,2025-06-24,Expense,Groceries,Uber,3539.45,Bank Transfer
+TXN01593,2025-06-24,Expense,Shopping,DMart,6561.79,Credit Card
+TXN01033,2025-06-25,Expense,Transport,Swiggy,7072.68,Credit Card
+TXN00558,2025-06-25,Expense,Entertainment,Amazon,2761.11,Credit Card
+TXN01480,2025-06-25,Expense,Healthcare,DMart,3987.61,Cash
+TXN00659,2025-06-25,Expense,Shopping,Zomato,2934.99,Credit Card
+TXN00542,2025-06-25,Expense,Shopping,Zomato,7625.9,Debit Card
+TXN01647,2025-06-26,Expense,Healthcare,IRCTC,10178.72,UPI
+TXN01879,2025-06-26,Expense,Food,Netflix,1013.09,Bank Transfer
+TXN00428,2025-06-26,Income,Investment,Client,49465.81,Credit Card
+TXN00492,2025-06-26,Expense,Food,BookMyShow,12363.43,Credit Card
+TXN01713,2025-06-26,Expense,Transport,Hospital,8270.44,Cash
+TXN00124,2025-06-26,Expense,Groceries,Swiggy,4552.15,Debit Card
+TXN01739,2025-06-26,Expense,Groceries,Flipkart,14085.82,Bank Transfer
+TXN01197,2025-06-26,Expense,Healthcare,DMart,5931.12,Cash
+TXN01044,2025-06-27,Expense,Entertainment,BookMyShow,2508.96,Bank Transfer
+TXN01930,2025-06-27,Expense,Healthcare,Uber,12713.71,Cash
+TXN00594,2025-06-27,Expense,Groceries,Swiggy,5076.0,Bank Transfer
+TXN01919,2025-06-27,Expense,Education,DMart,10813.29,UPI
+TXN00583,2025-06-28,Expense,Food,Hospital,3493.76,Credit Card
+TXN00831,2025-06-28,Expense,Transport,Spotify,3499.15,Bank Transfer
+TXN00586,2025-06-28,Expense,Shopping,Myntra,10145.99,Cash
+TXN01121,2025-06-28,Expense,Food,BookMyShow,8448.68,Credit Card
+TXN00422,2025-06-28,Expense,Other,Ola,12053.09,Cash
+TXN01308,2025-06-28,Expense,Education,Swiggy,6648.68,Bank Transfer
+TXN01417,2025-06-28,Income,Investment,Client,66476.4,UPI
+TXN01755,2025-06-28,Expense,Travel,Swiggy,8628.54,Debit Card
+TXN01256,2025-06-28,Expense,Healthcare,BigBasket,954.91,Debit Card
+TXN00698,2025-06-28,Expense,Travel,IRCTC,14190.11,Debit Card
+TXN00930,2025-06-28,Expense,Education,Hospital,9033.74,UPI
+TXN00444,2025-06-29,Expense,Groceries,Ola,10186.38,Credit Card
+TXN00244,2025-06-29,Expense,Bills,Ola,7865.05,Credit Card
+TXN00276,2025-06-29,Expense,Groceries,Flipkart,10354.02,Debit Card
+TXN01792,2025-06-29,Expense,Bills,Spotify,7148.58,Bank Transfer
+TXN01276,2025-06-30,Expense,Shopping,BigBasket,1975.51,Debit Card
+TXN00537,2025-06-30,Expense,Transport,IRCTC,14030.02,Cash
+TXN00980,2025-07-01,Expense,Food,Myntra,11602.21,Credit Card
+TXN00504,2025-07-01,Expense,Education,Amazon,9769.22,Credit Card
+TXN00097,2025-07-01,Expense,Travel,BookMyShow,9779.3,Cash
+TXN00965,2025-07-02,Expense,Other,College,10534.09,Cash
+TXN00176,2025-07-02,Expense,Education,Spotify,6079.7,Debit Card
+TXN01777,2025-07-02,Expense,Shopping,BigBasket,9255.27,Cash
+TXN00625,2025-07-02,Income,Salary,Investment Account,54490.64,Debit Card
+TXN01368,2025-07-02,Expense,Education,Swiggy,9423.61,Cash
+TXN00460,2025-07-02,Income,Salary,Bank,13203.83,Cash
+TXN00726,2025-07-02,Expense,Food,Amazon,2718.19,Debit Card
+TXN00879,2025-07-02,Expense,Other,Uber,8117.73,Cash
+TXN00088,2025-07-02,Expense,Shopping,Flipkart,3297.42,Cash
+TXN01275,2025-07-03,Expense,Food,BookMyShow,4162.44,Bank Transfer
+TXN01170,2025-07-03,Expense,Food,Amazon,14283.19,Cash
+TXN00093,2025-07-03,Expense,Healthcare,Hospital,8532.16,Credit Card
+TXN01639,2025-07-03,Expense,Shopping,Electricity Board,8588.92,Credit Card
+TXN01000,2025-07-03,Expense,Groceries,IRCTC,10760.58,Cash
+TXN00543,2025-07-03,Expense,Other,Spotify,4670.2,Credit Card
+TXN00767,2025-07-03,Income,Freelance,Client,73986.88,Cash
+TXN00160,2025-07-04,Expense,Food,Ola,4913.33,Debit Card
+TXN01092,2025-07-04,Expense,Healthcare,Hospital,302.75,Credit Card
+TXN00553,2025-07-04,Expense,Healthcare,BigBasket,10773.34,Cash
+TXN00095,2025-07-04,Income,Freelance,Bank,22958.39,UPI
+TXN00723,2025-07-04,Expense,Education,DMart,3691.01,UPI
+TXN00626,2025-07-04,Expense,Groceries,Netflix,14572.7,Cash
+TXN01825,2025-07-04,Expense,Entertainment,Electricity Board,12347.04,Bank Transfer
+TXN00603,2025-07-05,Expense,Groceries,Amazon,70798.83,Credit Card
+TXN01932,2025-07-05,Expense,Shopping,Spotify,3614.43,Debit Card
+TXN00057,2025-07-05,Expense,Transport,Amazon,2314.84,Debit Card
+TXN00469,2025-07-05,Expense,Education,Jio,13372.43,UPI
+TXN01708,2025-07-05,Expense,Food,College,12883.05,Cash
+TXN01489,2025-07-05,Expense,Education,Electricity Board,2459.17,UPI
+TXN01928,2025-07-05,Expense,Food,Netflix,5298.16,Debit Card
+TXN00924,2025-07-05,Expense,Entertainment,BigBasket,10361.99,Bank Transfer
+TXN00528,2025-07-06,Expense,Transport,Electricity Board,35970.33,Credit Card
+TXN01093,2025-07-06,Expense,Entertainment,DMart,10082.74,Credit Card
+TXN01393,2025-07-06,Expense,Food,BigBasket,3720.45,UPI
+TXN01389,2025-07-06,Income,Salary,Bank,7120.22,Debit Card
+TXN00981,2025-07-06,Expense,Other,Jio,5841.66,Cash
+TXN00999,2025-07-06,Expense,Entertainment,BookMyShow,11227.36,Credit Card
+TXN01097,2025-07-07,Expense,Groceries,Zomato,7899.72,UPI
+TXN01636,2025-07-07,Expense,Travel,BookMyShow,2154.24,Debit Card
+TXN01872,2025-07-07,Expense,Healthcare,Netflix,10252.91,UPI
+TXN01380,2025-07-07,Expense,Travel,Airtel,9275.51,Cash
+TXN01353,2025-07-07,Expense,Entertainment,Swiggy,8101.85,Bank Transfer
+TXN01091,2025-07-07,Expense,Education,Flipkart,11639.64,Bank Transfer
+TXN00580,2025-07-07,Expense,Other,College,1475.83,Bank Transfer
+TXN01135,2025-07-08,Expense,Entertainment,Amazon,5009.16,UPI
+TXN01904,2025-07-08,Expense,Entertainment,BookMyShow,11238.39,Credit Card
+TXN00805,2025-07-08,Expense,Travel,Uber,13535.61,Debit Card
+TXN01397,2025-07-08,Income,Salary,Client,70741.3,UPI
+TXN01572,2025-07-09,Expense,Education,Ola,7120.35,Bank Transfer
+TXN01528,2025-07-09,Expense,Education,Myntra,5680.74,Credit Card
+TXN01635,2025-07-09,Expense,Shopping,Spotify,5591.01,Credit Card
+TXN01310,2025-07-09,Expense,Shopping,Myntra,8683.01,Debit Card
+TXN00878,2025-07-10,Expense,Healthcare,Ola,5976.45,Cash
+TXN00131,2025-07-10,Expense,Education,BookMyShow,12877.56,Cash
+TXN01344,2025-07-10,Expense,Transport,Ola,10211.7,Debit Card
+TXN01260,2025-07-10,Income,Salary,Company,41059.83,Cash
+TXN01196,2025-07-11,Expense,Healthcare,Electricity Board,7956.97,UPI
+TXN00033,2025-07-11,Expense,Transport,College,386.83,Debit Card
+TXN01537,2025-07-11,Expense,Shopping,Spotify,5283.08,Credit Card
+TXN00527,2025-07-11,Expense,Shopping,Jio,1172.57,Cash
+TXN01864,2025-07-11,Expense,Groceries,Jio,5612.66,Debit Card
+TXN00616,2025-07-11,Expense,Groceries,BookMyShow,14908.46,Bank Transfer
+TXN00865,2025-07-12,Expense,Shopping,BookMyShow,12871.31,Bank Transfer
+TXN00740,2025-07-12,Expense,Food,BigBasket,12514.73,Bank Transfer
+TXN00819,2025-07-12,Expense,Travel,College,7080.4,Credit Card
+TXN00827,2025-07-13,Expense,Bills,BookMyShow,8505.52,UPI
+TXN01703,2025-07-13,Expense,Transport,Netflix,14785.68,Bank Transfer
+TXN00634,2025-07-13,Expense,Education,Netflix,4295.44,Credit Card
+TXN01469,2025-07-13,Expense,Groceries,Swiggy,6311.85,Credit Card
+TXN00828,2025-07-13,Expense,Transport,College,14098.75,Bank Transfer
+TXN01750,2025-07-14,Expense,Groceries,Hospital,6940.35,Bank Transfer
+TXN01630,2025-07-14,Expense,Healthcare,Jio,13249.53,Debit Card
+TXN01457,2025-07-15,Expense,Bills,Amazon,12801.68,Bank Transfer
+TXN00990,2025-07-15,Expense,Transport,Ola,14077.15,UPI
+TXN01008,2025-07-15,Expense,Travel,Electricity Board,9414.28,Bank Transfer
+TXN00976,2025-07-15,Expense,Transport,BookMyShow,6449.28,Credit Card
+TXN00340,2025-07-15,Expense,Travel,Uber,14113.28,UPI
+TXN00512,2025-07-16,Expense,Shopping,Electricity Board,1955.02,Bank Transfer
+TXN00926,2025-07-16,Expense,Groceries,Swiggy,6901.78,Credit Card
+TXN01968,2025-07-16,Income,Investment,Investment Account,36806.84,Cash
+TXN01606,2025-07-16,Expense,Bills,BigBasket,13623.66,Debit Card
+TXN00074,2025-07-16,Expense,Healthcare,Uber,6460.09,Bank Transfer
+TXN00526,2025-07-16,Expense,Healthcare,Airtel,71.3,Credit Card
+TXN01897,2025-07-16,Expense,Healthcare,Electricity Board,13824.88,Bank Transfer
+TXN00133,2025-07-17,Expense,Other,Flipkart,14705.87,Cash
+TXN01865,2025-07-17,Expense,Bills,IRCTC,2384.57,Credit Card
+TXN00882,2025-07-17,Expense,Food,Ola,6889.6,UPI
+TXN00301,2025-07-17,Expense,Other,IRCTC,5094.83,Bank Transfer
+TXN01414,2025-07-18,Expense,Groceries,Ola,44536.05,UPI
+TXN01696,2025-07-18,Expense,Healthcare,Hospital,2218.29,UPI
+TXN01113,2025-07-18,Income,Freelance,Investment Account,48953.81,Credit Card
+TXN01516,2025-07-18,Expense,Bills,Jio,9339.33,UPI
+TXN01360,2025-07-19,Expense,Bills,Flipkart,11386.14,Debit Card
+TXN00845,2025-07-19,Expense,Shopping,Hospital,6461.32,Bank Transfer
+TXN01096,2025-07-19,Expense,Education,IRCTC,1777.65,Bank Transfer
+TXN00067,2025-07-19,Income,Freelance,Bank,27782.72,Cash
+TXN00109,2025-07-19,Income,Freelance,Company,6858.4,Bank Transfer
+TXN00877,2025-07-19,Expense,Entertainment,Zomato,10980.69,Bank Transfer
+TXN00175,2025-07-20,Expense,Shopping,College,6795.43,Debit Card
+TXN01542,2025-07-20,Expense,Other,Flipkart,9158.26,Debit Card
+TXN00719,2025-07-20,Expense,Education,Jio,6276.59,Credit Card
+TXN01143,2025-07-20,Expense,Shopping,Electricity Board,108.46,Debit Card
+TXN01646,2025-07-20,Expense,Bills,Netflix,282.28,Debit Card
+TXN00707,2025-07-20,Expense,Bills,Ola,9825.24,Bank Transfer
+TXN01766,2025-07-21,Expense,Food,IRCTC,154.77,UPI
+TXN00633,2025-07-21,Expense,Food,Spotify,13284.28,Bank Transfer
+TXN00708,2025-07-21,Expense,Bills,Uber,8266.6,UPI
+TXN00441,2025-07-22,Expense,Travel,Uber,12044.08,Debit Card
+TXN01450,2025-07-22,Expense,Food,Zomato,871.94,Credit Card
+TXN00250,2025-07-22,Expense,Education,Flipkart,7593.77,Cash
+TXN00098,2025-07-22,Expense,Education,Ola,467.55,Credit Card
+TXN00099,2025-07-22,Expense,Transport,DMart,8105.1,Debit Card
+TXN01188,2025-07-23,Expense,Entertainment,BigBasket,14247.04,UPI
+TXN01128,2025-07-23,Expense,Travel,Jio,5326.31,Bank Transfer
+TXN01799,2025-07-23,Expense,Other,Swiggy,2026.56,UPI
+TXN01561,2025-07-23,Expense,Food,Hospital,12743.62,Cash
+TXN00506,2025-07-23,Expense,Transport,BookMyShow,5729.58,Credit Card
+TXN00242,2025-07-23,Income,Salary,Client,52135.58,Credit Card
+TXN01438,2025-07-23,Expense,Travel,Myntra,5326.27,Bank Transfer
+TXN00178,2025-07-23,Expense,Transport,Flipkart,10802.39,Bank Transfer
+TXN01859,2025-07-23,Expense,Other,BigBasket,9299.41,UPI
+TXN01779,2025-07-23,Expense,Shopping,Flipkart,9627.46,Credit Card
+TXN00702,2025-07-24,Income,Freelance,Client,32120.9,Bank Transfer
+TXN00761,2025-07-24,Expense,Groceries,DMart,8935.43,Credit Card
+TXN00275,2025-07-24,Expense,Healthcare,College,7890.6,Credit Card
+TXN00979,2025-07-24,Expense,Education,Jio,4280.01,Cash
+TXN01042,2025-07-24,Expense,Shopping,Myntra,9368.66,Bank Transfer
+TXN01078,2025-07-24,Expense,Travel,Jio,9520.73,Cash
+TXN00734,2025-07-24,Expense,Bills,BigBasket,14198.28,Bank Transfer
+TXN01089,2025-07-24,Expense,Travel,Airtel,115.09,Cash
+TXN00569,2025-07-24,Expense,Transport,Amazon,10717.99,Cash
+TXN01889,2025-07-25,Expense,Groceries,Spotify,10896.08,Debit Card
+TXN00251,2025-07-25,Expense,Bills,Ola,11862.49,Debit Card
+TXN00050,2025-07-25,Expense,Healthcare,Myntra,3453.98,Bank Transfer
+TXN01127,2025-07-25,Income,Investment,Investment Account,49427.98,Credit Card
+TXN01204,2025-07-25,Income,Freelance,Bank,20052.26,Debit Card
+TXN00685,2025-07-25,Expense,Healthcare,Myntra,9662.83,Cash
+TXN00746,2025-07-25,Income,Investment,Client,50997.47,Cash
+TXN00606,2025-07-25,Expense,Healthcare,Hospital,2446.23,Cash
+TXN00684,2025-07-25,Expense,Entertainment,BigBasket,6525.93,UPI
+TXN01956,2025-07-25,Expense,Travel,Swiggy,8077.19,Debit Card
+TXN00020,2025-07-25,Expense,Groceries,Flipkart,4775.41,Cash
+TXN01770,2025-07-26,Expense,Education,Myntra,1547.22,Credit Card
+TXN00832,2025-07-26,Expense,Shopping,Spotify,13223.54,Credit Card
+TXN00005,2025-07-26,Expense,Healthcare,Swiggy,11291.55,Cash
+TXN00114,2025-07-26,Expense,Transport,Zomato,8983.27,UPI
+TXN01986,2025-07-26,Expense,Other,DMart,5967.21,Bank Transfer
+TXN00372,2025-07-26,Expense,Other,Flipkart,7819.53,Credit Card
+TXN01235,2025-07-26,Expense,Other,Uber,3312.0,UPI
+TXN00060,2025-07-26,Expense,Food,Flipkart,1979.51,Bank Transfer
+TXN01401,2025-07-26,Expense,Entertainment,Amazon,6241.91,Cash
+TXN01475,2025-07-26,Expense,Travel,Electricity Board,455.97,Bank Transfer
+TXN01978,2025-07-27,Expense,Travel,Amazon,1993.98,Debit Card
+TXN00447,2025-07-27,Expense,Travel,Myntra,13104.05,Bank Transfer
+TXN00602,2025-07-28,Expense,Groceries,College,7102.28,Bank Transfer
+TXN01695,2025-07-28,Income,Investment,Company,21818.8,Bank Transfer
+TXN01001,2025-07-28,Expense,Groceries,BigBasket,2106.95,Credit Card
+TXN00377,2025-07-28,Income,Investment,Investment Account,22840.41,Debit Card
+TXN01462,2025-07-29,Expense,Transport,IRCTC,4234.84,Debit Card
+TXN00938,2025-07-29,Income,Freelance,Investment Account,78274.0,UPI
+TXN00974,2025-07-29,Expense,Transport,Zomato,9000.22,Debit Card
+TXN01490,2025-07-29,Income,Salary,Client,44986.71,Cash
+TXN00245,2025-07-30,Expense,Food,Ola,2563.8,Cash
+TXN01012,2025-07-30,Expense,Groceries,BookMyShow,6309.11,Debit Card
+TXN01081,2025-07-30,Expense,Transport,Spotify,13829.28,Bank Transfer
+TXN00125,2025-07-30,Expense,Entertainment,IRCTC,9700.67,Credit Card
+TXN01988,2025-07-30,Expense,Bills,Uber,5919.9,Bank Transfer
+TXN00162,2025-07-31,Expense,Transport,Spotify,522.04,Cash
+TXN00787,2025-07-31,Expense,Other,Flipkart,13306.37,UPI
+TXN01851,2025-07-31,Expense,Groceries,DMart,13511.57,Credit Card
+TXN01347,2025-07-31,Expense,Food,Jio,1811.1,Bank Transfer
+TXN00597,2025-07-31,Expense,Shopping,Myntra,12046.41,UPI
+TXN01031,2025-07-31,Expense,Education,Flipkart,12118.82,Debit Card
+TXN01902,2025-07-31,Income,Freelance,Investment Account,75028.49,Credit Card
+TXN01295,2025-08-01,Expense,Education,Hospital,14421.58,Credit Card
+TXN01680,2025-08-01,Income,Salary,Bank,8996.8,Bank Transfer
+TXN01664,2025-08-01,Expense,Other,Zomato,8638.51,Bank Transfer
+TXN01697,2025-08-01,Expense,Entertainment,Jio,3437.83,Credit Card
+TXN00385,2025-08-01,Expense,Healthcare,Amazon,3297.82,Cash
+TXN01558,2025-08-01,Expense,Groceries,Electricity Board,13755.17,Cash
+TXN01601,2025-08-01,Expense,Other,Myntra,14401.24,Credit Card
+TXN00070,2025-08-02,Expense,Healthcare,Uber,5944.33,Bank Transfer
+TXN00648,2025-08-02,Expense,Bills,College,7586.92,UPI
+TXN00047,2025-08-02,Income,Salary,Investment Account,7110.24,UPI
+TXN00388,2025-08-03,Expense,Bills,IRCTC,8659.36,Bank Transfer
+TXN00211,2025-08-03,Expense,Education,BigBasket,9892.33,Debit Card
+TXN00964,2025-08-03,Expense,Entertainment,DMart,4210.42,UPI
+TXN00589,2025-08-03,Expense,Travel,Flipkart,11349.37,Debit Card
+TXN00310,2025-08-03,Income,Investment,Company,74701.41,Credit Card
+TXN00946,2025-08-04,Expense,Transport,Airtel,5261.06,UPI
+TXN01618,2025-08-04,Expense,Travel,Myntra,6139.6,Cash
+TXN00283,2025-08-04,Expense,Other,Flipkart,10738.79,Debit Card
+TXN00883,2025-08-04,Expense,Travel,Electricity Board,8334.2,Credit Card
+TXN01689,2025-08-04,Expense,Bills,Flipkart,9075.12,Cash
+TXN01707,2025-08-05,Expense,Healthcare,Myntra,9334.14,Debit Card
+TXN00220,2025-08-05,Expense,Bills,Flipkart,9009.54,Cash
+TXN01615,2025-08-05,Expense,Entertainment,Hospital,4854.92,Credit Card
+TXN01651,2025-08-05,Expense,Education,Uber,1886.47,UPI
+TXN00672,2025-08-05,Income,Investment,Investment Account,14895.26,Credit Card
+TXN01588,2025-08-05,Expense,Healthcare,BigBasket,3817.36,Cash
+TXN01824,2025-08-05,Income,Investment,Investment Account,11688.41,Debit Card
+TXN01958,2025-08-05,Expense,Groceries,BookMyShow,12403.67,Bank Transfer
+TXN00320,2025-08-06,Expense,Transport,Spotify,10879.07,Credit Card
+TXN00144,2025-08-06,Expense,Travel,Amazon,10840.75,Cash
+TXN00691,2025-08-06,Expense,Transport,Airtel,611.48,Credit Card
+TXN01999,2025-08-06,Expense,Travel,DMart,11015.7,UPI
+TXN00738,2025-08-06,Expense,Other,Flipkart,3228.98,Bank Transfer
+TXN00664,2025-08-07,Expense,Groceries,IRCTC,98874.58,Debit Card
+TXN00849,2025-08-07,Expense,Food,Netflix,11732.61,Bank Transfer
+TXN00956,2025-08-07,Expense,Healthcare,Ola,7704.81,UPI
+TXN01130,2025-08-07,Expense,Travel,BookMyShow,1960.94,UPI
+TXN01753,2025-08-07,Expense,Food,Amazon,14412.11,Cash
+TXN01705,2025-08-07,Expense,Groceries,IRCTC,12784.58,UPI
+TXN01084,2025-08-07,Expense,Shopping,Myntra,2703.09,Bank Transfer
+TXN00439,2025-08-08,Expense,Other,Zomato,12828.77,Cash
+TXN01230,2025-08-08,Expense,Healthcare,Ola,766.78,Cash
+TXN00037,2025-08-09,Expense,Shopping,Spotify,11173.75,Bank Transfer
+TXN01198,2025-08-09,Expense,Healthcare,College,10383.46,Debit Card
+TXN01119,2025-08-09,Expense,Entertainment,Electricity Board,90598.26,Cash
+TXN01867,2025-08-09,Income,Salary,Bank,28242.93,Debit Card
+TXN01906,2025-08-09,Expense,Bills,Swiggy,11173.68,UPI
+TXN01715,2025-08-09,Expense,Shopping,Uber,1245.85,Credit Card
+TXN01018,2025-08-09,Expense,Transport,Ola,6893.67,Debit Card
+TXN01499,2025-08-09,Expense,Other,BigBasket,3107.88,UPI
+TXN00570,2025-08-09,Expense,Shopping,Amazon,1292.5,Bank Transfer
+TXN01350,2025-08-09,Expense,Transport,Zomato,1478.59,Cash
+TXN00786,2025-08-10,Expense,Groceries,Amazon,4103.7,Credit Card
+TXN01163,2025-08-11,Expense,Travel,Airtel,9884.01,UPI
+TXN00663,2025-08-11,Expense,Groceries,Myntra,5246.65,UPI
+TXN00482,2025-08-11,Expense,Groceries,Electricity Board,14106.24,Debit Card
+TXN00475,2025-08-11,Income,Freelance,Client,64768.04,Cash
+TXN00147,2025-08-11,Expense,Shopping,College,4831.51,Cash
+TXN00364,2025-08-11,Expense,Food,Spotify,3275.96,Cash
+TXN00636,2025-08-11,Expense,Bills,Netflix,11121.96,UPI
+TXN00076,2025-08-12,Expense,Education,Jio,1927.83,Cash
+TXN01788,2025-08-12,Expense,Transport,Uber,5332.27,Bank Transfer
+TXN00841,2025-08-12,Expense,Entertainment,Spotify,2839.99,Debit Card
+TXN01174,2025-08-12,Income,Freelance,Bank,27501.54,Cash
+TXN01556,2025-08-12,Expense,Food,Ola,4034.71,Bank Transfer
+TXN00387,2025-08-12,Expense,Other,Amazon,8237.7,Debit Card
+TXN00880,2025-08-12,Expense,Shopping,IRCTC,5658.88,Bank Transfer
+TXN00391,2025-08-12,Expense,Education,Airtel,3351.61,Credit Card
+TXN01937,2025-08-12,Expense,Travel,Netflix,9268.14,Debit Card
+TXN00396,2025-08-12,Expense,Travel,Electricity Board,6273.41,Cash
+TXN01909,2025-08-13,Expense,Transport,Swiggy,790.37,Credit Card
+TXN00325,2025-08-13,Expense,Bills,Spotify,4364.86,Bank Transfer
+TXN00977,2025-08-13,Expense,Food,Zomato,8160.14,Debit Card
+TXN01812,2025-08-13,Expense,Transport,Flipkart,10481.34,Cash
+TXN01225,2025-08-13,Expense,Food,Amazon,3319.11,Bank Transfer
+TXN01587,2025-08-13,Expense,Groceries,Swiggy,8139.71,Credit Card
+TXN00239,2025-08-14,Expense,Shopping,Amazon,2729.54,Credit Card
+TXN00014,2025-08-14,Income,Salary,Client,24658.05,Bank Transfer
+TXN00566,2025-08-14,Income,Salary,Company,28657.97,Debit Card
+TXN00818,2025-08-14,Expense,Education,Zomato,6575.62,Debit Card
+TXN00694,2025-08-14,Expense,Food,Zomato,7085.37,Bank Transfer
+TXN00565,2025-08-14,Expense,Shopping,Jio,8174.36,Cash
+TXN01946,2025-08-14,Expense,Transport,Spotify,12621.98,Debit Card
+TXN00705,2025-08-14,Expense,Food,Netflix,464.85,Debit Card
+TXN00061,2025-08-14,Expense,Healthcare,Airtel,12614.31,Bank Transfer
+TXN00922,2025-08-14,Expense,Food,BookMyShow,3771.44,UPI
+TXN00267,2025-08-15,Expense,Food,Swiggy,4824.18,Cash
+TXN00749,2025-08-15,Expense,Shopping,Hospital,3055.08,Debit Card
+TXN01569,2025-08-15,Expense,Healthcare,Uber,13117.63,Debit Card
+TXN01238,2025-08-15,Expense,Healthcare,Uber,13619.03,Debit Card
+TXN00722,2025-08-15,Expense,Education,Airtel,6579.77,Credit Card
+TXN01104,2025-08-15,Expense,Shopping,Flipkart,5635.27,UPI
+TXN01301,2025-08-16,Expense,Travel,Airtel,20897.73,Debit Card
+TXN01428,2025-08-16,Expense,Bills,Ola,6814.63,Cash
+TXN00224,2025-08-16,Expense,Bills,Spotify,7469.64,Credit Card
+TXN00931,2025-08-16,Expense,Healthcare,College,10144.1,UPI
+TXN01418,2025-08-16,Expense,Bills,Netflix,8414.34,Debit Card
+TXN01840,2025-08-16,Expense,Groceries,Netflix,14604.01,Debit Card
+TXN01860,2025-08-17,Expense,Groceries,BigBasket,10418.37,Bank Transfer
+TXN01945,2025-08-17,Expense,Transport,Flipkart,4424.99,Debit Card
+TXN01147,2025-08-18,Expense,Entertainment,BigBasket,7920.36,UPI
+TXN01363,2025-08-18,Expense,Other,BookMyShow,14004.37,UPI
+TXN01940,2025-08-18,Expense,Entertainment,Hospital,9573.28,Credit Card
+TXN00590,2025-08-18,Expense,Other,Swiggy,5557.95,Credit Card
+TXN01061,2025-08-18,Income,Investment,Company,54558.58,Credit Card
+TXN01317,2025-08-18,Expense,Bills,Amazon,1396.06,Bank Transfer
+TXN01520,2025-08-19,Expense,Healthcare,Ola,7728.06,Cash
+TXN01298,2025-08-19,Expense,Healthcare,Airtel,3095.79,Debit Card
+TXN00949,2025-08-19,Expense,Transport,Uber,2491.31,Credit Card
+TXN00154,2025-08-19,Expense,Healthcare,Spotify,5891.51,Credit Card
+TXN01573,2025-08-19,Expense,Groceries,Amazon,10779.09,Debit Card
+TXN00717,2025-08-19,Expense,Shopping,Swiggy,1813.28,Bank Transfer
+TXN01888,2025-08-20,Expense,Groceries,Spotify,7882.98,UPI
+TXN01231,2025-08-20,Expense,Travel,Myntra,6234.89,Bank Transfer
+TXN00632,2025-08-20,Expense,Travel,IRCTC,730.42,Debit Card
+TXN01065,2025-08-20,Expense,Education,College,174.54,UPI
+TXN00341,2025-08-20,Expense,Groceries,Netflix,4291.97,Debit Card
+TXN01366,2025-08-20,Income,Salary,Bank,15309.48,Debit Card
+TXN01037,2025-08-20,Expense,Travel,College,8740.86,Credit Card
+TXN00573,2025-08-20,Expense,Entertainment,Swiggy,14322.58,Cash
+TXN00008,2025-08-20,Expense,Other,Spotify,3788.26,UPI
+TXN00774,2025-08-21,Expense,Other,Swiggy,1699.48,UPI
+TXN00403,2025-08-21,Expense,Healthcare,College,5083.9,Credit Card
+TXN00445,2025-08-21,Expense,Travel,Flipkart,6630.83,UPI
+TXN01521,2025-08-21,Expense,Transport,Electricity Board,14586.44,Bank Transfer
+TXN00257,2025-08-21,Expense,Food,Electricity Board,7800.86,Cash
+TXN00867,2025-08-21,Expense,Entertainment,Jio,9399.54,Cash
+TXN00272,2025-08-22,Expense,Bills,BookMyShow,686.07,UPI
+TXN00872,2025-08-22,Income,Freelance,Bank,11009.79,UPI
+TXN00763,2025-08-22,Expense,Other,College,8476.76,Cash
+TXN00576,2025-08-22,Expense,Groceries,IRCTC,10192.6,Cash
+TXN01133,2025-08-23,Expense,Food,Jio,6294.67,Debit Card
+TXN01039,2025-08-23,Expense,Entertainment,DMart,12435.22,Cash
+TXN01364,2025-08-23,Expense,Travel,Uber,12913.32,Credit Card
+TXN00138,2025-08-23,Expense,Shopping,Netflix,6815.16,UPI
+TXN01923,2025-08-23,Income,Freelance,Client,30334.6,UPI
+TXN01356,2025-08-23,Expense,Shopping,College,7779.27,Credit Card
+TXN00500,2025-08-24,Income,Freelance,Client,70225.82,Credit Card
+TXN01649,2025-08-24,Income,Investment,Client,64641.42,Bank Transfer
+TXN01203,2025-08-24,Expense,Food,IRCTC,3630.87,Cash
+TXN01660,2025-08-24,Expense,Transport,Myntra,3372.88,Debit Card
+TXN00345,2025-08-24,Expense,Bills,Spotify,6718.18,Credit Card
+TXN00759,2025-08-24,Expense,Transport,Spotify,2465.16,Debit Card
+TXN00561,2025-08-25,Income,Freelance,Client,52300.83,Bank Transfer
+TXN00101,2025-08-25,Income,Salary,Client,13831.4,Credit Card
+TXN00575,2025-08-25,Expense,Shopping,Electricity Board,11149.07,Debit Card
+TXN01449,2025-08-25,Expense,Transport,Ola,6836.86,UPI
+TXN01826,2025-08-25,Expense,Bills,Airtel,3156.68,UPI
+TXN01468,2025-08-25,Expense,Shopping,BigBasket,3183.86,Credit Card
+TXN00149,2025-08-25,Expense,Entertainment,Netflix,4794.55,Credit Card
+TXN01003,2025-08-25,Expense,Entertainment,Amazon,12721.46,UPI
+TXN00237,2025-08-25,Expense,Healthcare,Zomato,11441.57,UPI
+TXN00379,2025-08-25,Expense,Transport,DMart,2351.0,Bank Transfer
+TXN01508,2025-08-26,Expense,Entertainment,BookMyShow,2710.32,Bank Transfer
+TXN01819,2025-08-26,Expense,Food,Netflix,7219.01,Credit Card
+TXN00793,2025-08-26,Expense,Healthcare,BigBasket,6434.91,Cash
+TXN00562,2025-08-26,Expense,Groceries,Electricity Board,9726.8,Debit Card
+TXN00770,2025-08-26,Expense,Food,Netflix,2059.34,Cash
+TXN00344,2025-08-26,Expense,Other,College,7913.52,Cash
+TXN00811,2025-08-27,Income,Investment,Bank,44514.0,Bank Transfer
+TXN01506,2025-08-27,Income,Freelance,Bank,21122.01,Bank Transfer
+TXN01094,2025-08-27,Expense,Bills,DMart,690.08,Bank Transfer
+TXN00435,2025-08-27,Expense,Other,Netflix,1960.8,UPI
+TXN01600,2025-08-27,Expense,Travel,Zomato,11305.29,Bank Transfer
+TXN00945,2025-08-28,Expense,Groceries,College,4997.77,Bank Transfer
+TXN00046,2025-08-28,Expense,Healthcare,BookMyShow,2318.48,UPI
+TXN01156,2025-08-28,Expense,Food,Airtel,1944.67,Bank Transfer
+TXN00395,2025-08-28,Expense,Entertainment,Ola,4883.19,UPI
+TXN01171,2025-08-29,Income,Freelance,Bank,18123.85,Cash
+TXN00347,2025-08-29,Expense,Healthcare,Spotify,9067.89,Credit Card
+TXN00316,2025-08-29,Income,Investment,Client,36333.29,Credit Card
+TXN00503,2025-08-29,Income,Freelance,Bank,25091.14,UPI
+TXN00545,2025-08-29,Income,Investment,Client,61877.16,Cash
+TXN01455,2025-08-29,Expense,Bills,Zomato,13218.45,UPI
+TXN00382,2025-08-29,Expense,Bills,Swiggy,7709.71,Credit Card
+TXN00917,2025-08-29,Expense,Other,Spotify,9632.7,Credit Card
+TXN00942,2025-08-30,Expense,Healthcare,Swiggy,2917.08,Bank Transfer
+TXN01129,2025-08-30,Expense,Healthcare,Hospital,10419.92,Credit Card
+TXN00308,2025-08-30,Income,Freelance,Investment Account,27290.9,Cash
+TXN01994,2025-08-30,Expense,Transport,Flipkart,112.07,Debit Card
+TXN00467,2025-08-30,Expense,Travel,Spotify,7759.36,UPI
+TXN00781,2025-08-31,Expense,Entertainment,Hospital,12744.41,Debit Card
+TXN01362,2025-08-31,Expense,Groceries,Myntra,865.33,Credit Card
+TXN00681,2025-08-31,Income,Investment,Company,22553.59,Debit Card
+TXN00302,2025-08-31,Income,Salary,Investment Account,32935.27,Bank Transfer
+TXN00703,2025-08-31,Expense,Bills,Jio,13978.62,UPI
+TXN01125,2025-08-31,Expense,Entertainment,Electricity Board,13408.94,Bank Transfer
+TXN00836,2025-08-31,Expense,Bills,Zomato,14845.31,Debit Card
+TXN00947,2025-08-31,Expense,Shopping,College,10413.16,Credit Card
+TXN01006,2025-09-01,Expense,Travel,Amazon,12209.52,Debit Card
+TXN01559,2025-09-01,Expense,Groceries,Uber,14658.35,Cash
+TXN01132,2025-09-01,Expense,Food,Uber,12777.81,Cash
+TXN01599,2025-09-01,Income,Investment,Company,59934.24,Cash
+TXN01062,2025-09-02,Expense,Education,Swiggy,11058.01,Credit Card
+TXN01179,2025-09-02,Expense,Education,Flipkart,8144.63,Credit Card
+TXN00148,2025-09-03,Income,Salary,Bank,11466.35,Cash
+TXN01335,2025-09-03,Expense,Groceries,Uber,14694.43,Bank Transfer
+TXN00713,2025-09-04,Expense,Shopping,Netflix,186.85,Bank Transfer
+TXN01433,2025-09-04,Expense,Shopping,Electricity Board,2231.89,UPI
+TXN00887,2025-09-04,Expense,Groceries,Hospital,8222.08,Credit Card
+TXN00612,2025-09-04,Expense,Travel,Uber,1965.79,Cash
+TXN01445,2025-09-04,Expense,Travel,Ola,13463.83,Debit Card
+TXN00995,2025-09-04,Expense,Food,Spotify,12896.76,Debit Card
+TXN01234,2025-09-04,Expense,Groceries,Uber,83.29,Cash
+TXN00522,2025-09-04,Expense,Shopping,Spotify,8947.95,Bank Transfer
+TXN01330,2025-09-05,Expense,Education,Spotify,8297.46,Bank Transfer
+TXN01748,2025-09-05,Expense,Entertainment,BookMyShow,3101.31,UPI
+TXN00743,2025-09-05,Expense,Education,Swiggy,937.7,UPI
+TXN00676,2025-09-05,Expense,Transport,BookMyShow,1057.29,Bank Transfer
+TXN00165,2025-09-05,Expense,Healthcare,College,7499.21,Bank Transfer
+TXN00315,2025-09-05,Expense,Education,Amazon,14232.86,UPI
+TXN00728,2025-09-05,Expense,Bills,DMart,8737.67,Cash
+TXN00261,2025-09-05,Expense,Entertainment,Zomato,7669.84,Credit Card
+TXN01662,2025-09-06,Expense,Shopping,Uber,10933.97,Cash
+TXN00730,2025-09-06,Income,Salary,Investment Account,27313.69,Debit Card
+TXN01087,2025-09-06,Expense,Healthcare,BookMyShow,13982.87,UPI
+TXN01015,2025-09-07,Expense,Shopping,Ola,12947.83,UPI
+TXN00675,2025-09-07,Expense,Food,Swiggy,8781.75,UPI
+TXN00801,2025-09-07,Income,Investment,Company,23993.02,Debit Card
+TXN00249,2025-09-07,Expense,Transport,Zomato,5739.08,Credit Card
+TXN01064,2025-09-07,Expense,Entertainment,Myntra,9354.42,Bank Transfer
+TXN00766,2025-09-07,Expense,Bills,Amazon,11445.14,Bank Transfer
+TXN01784,2025-09-07,Expense,Transport,Spotify,13706.05,Cash
+TXN01622,2025-09-07,Expense,Transport,BookMyShow,14477.05,Cash
+TXN00928,2025-09-07,Expense,Groceries,DMart,909.26,Cash
+TXN00850,2025-09-07,Expense,Entertainment,IRCTC,13550.06,Credit Card
+TXN00299,2025-09-07,Income,Investment,Company,14550.57,UPI
+TXN00157,2025-09-07,Expense,Travel,BookMyShow,12471.12,UPI
+TXN01200,2025-09-08,Expense,Travel,College,10714.35,Cash
+TXN00466,2025-09-08,Income,Investment,Company,10254.18,UPI
+TXN01939,2025-09-08,Income,Investment,Client,16562.79,Credit Card
+TXN01679,2025-09-09,Income,Salary,Investment Account,12115.88,Debit Card
+TXN01887,2025-09-09,Expense,Healthcare,Zomato,4820.38,Bank Transfer
+TXN00407,2025-09-09,Expense,Groceries,Jio,1712.55,Debit Card
+TXN01504,2025-09-09,Expense,Food,College,12708.91,Bank Transfer
+TXN00078,2025-09-09,Expense,Shopping,Airtel,7640.47,Cash
+TXN00929,2025-09-10,Expense,Groceries,BigBasket,6329.58,UPI
+TXN01305,2025-09-10,Expense,Education,Hospital,4723.34,UPI
+TXN00660,2025-09-10,Expense,Groceries,Airtel,3176.04,Credit Card
+TXN00752,2025-09-10,Expense,Healthcare,Hospital,5363.72,Bank Transfer
+TXN00966,2025-09-10,Expense,Other,DMart,38029.99,Credit Card
+TXN00716,2025-09-10,Expense,Shopping,BookMyShow,6150.5,Cash
+TXN00256,2025-09-10,Expense,Entertainment,Uber,2231.26,UPI
+TXN00476,2025-09-10,Expense,Food,IRCTC,2378.92,Debit Card
+TXN01740,2025-09-10,Expense,Bills,Flipkart,7591.2,Debit Card
+TXN00432,2025-09-10,Expense,Shopping,Netflix,14017.23,Bank Transfer
+TXN01691,2025-09-10,Expense,Bills,Flipkart,4873.63,UPI
+TXN00433,2025-09-11,Expense,Shopping,IRCTC,7882.88,Credit Card
+TXN01106,2025-09-11,Income,Salary,Investment Account,41887.43,UPI
+TXN01795,2025-09-11,Expense,Other,Hospital,14716.06,Cash
+TXN01592,2025-09-11,Expense,Healthcare,BookMyShow,5307.4,UPI
+TXN00135,2025-09-12,Expense,Entertainment,Amazon,2467.93,Debit Card
+TXN01045,2025-09-12,Expense,Entertainment,BookMyShow,2380.93,Credit Card
+TXN01950,2025-09-12,Expense,Travel,Amazon,1063.85,Debit Card
+TXN01405,2025-09-12,Expense,Other,Airtel,14639.81,Cash
+TXN01358,2025-09-12,Expense,Entertainment,Uber,11569.12,Cash
+TXN01268,2025-09-13,Income,Investment,Bank,21892.87,Debit Card
+TXN01979,2025-09-13,Expense,Healthcare,Ola,4328.56,Bank Transfer
+TXN01803,2025-09-13,Expense,Bills,Ola,9059.27,Bank Transfer
+TXN00913,2025-09-13,Expense,Bills,Hospital,9614.37,UPI
+TXN00916,2025-09-13,Expense,Travel,BigBasket,12048.31,UPI
+TXN00925,2025-09-13,Expense,Transport,Hospital,12491.83,Debit Card
+TXN01744,2025-09-13,Expense,Other,Swiggy,12302.21,Debit Card
+TXN00477,2025-09-14,Expense,Food,Ola,7890.64,Bank Transfer
+TXN01873,2025-09-14,Expense,Transport,Uber,9629.6,Credit Card
+TXN00389,2025-09-14,Expense,Shopping,College,5809.39,Debit Card
+TXN00442,2025-09-14,Expense,Bills,Netflix,6851.48,Credit Card
+TXN01552,2025-09-14,Expense,Entertainment,Airtel,14099.31,Bank Transfer
+TXN01285,2025-09-14,Income,Salary,Company,22109.97,UPI
+TXN00082,2025-09-15,Expense,Entertainment,IRCTC,6653.71,Credit Card
+TXN01336,2025-09-15,Expense,Food,College,13433.76,Debit Card
+TXN01914,2025-09-15,Expense,Groceries,Myntra,7189.47,Bank Transfer
+TXN00327,2025-09-15,Expense,Food,Amazon,5560.81,UPI
+TXN00072,2025-09-16,Income,Salary,Bank,12204.67,UPI
+TXN00954,2025-09-16,Expense,Other,Hospital,3553.83,Bank Transfer
+TXN00920,2025-09-16,Expense,Bills,BookMyShow,5449.68,Debit Card
+TXN01141,2025-09-17,Expense,Food,Flipkart,14474.34,Credit Card
+TXN01277,2025-09-17,Income,Salary,Bank,53998.8,UPI
+TXN01173,2025-09-17,Expense,Shopping,Jio,13921.04,Cash
+TXN01281,2025-09-17,Expense,Entertainment,Uber,12037.32,UPI
+TXN01512,2025-09-17,Income,Freelance,Investment Account,42935.55,Debit Card
+TXN01296,2025-09-17,Expense,Travel,Uber,3882.08,UPI
+TXN01153,2025-09-18,Expense,Transport,Jio,13111.88,Debit Card
+TXN01546,2025-09-18,Expense,Other,Hospital,3575.75,Debit Card
+TXN00491,2025-09-19,Expense,Food,Airtel,2134.13,Debit Card
+TXN00755,2025-09-19,Expense,Shopping,Jio,9329.99,Cash
+TXN01870,2025-09-19,Expense,Food,Uber,5013.83,Bank Transfer
+TXN00874,2025-09-19,Expense,Education,Electricity Board,4487.74,Cash
+TXN00274,2025-09-19,Expense,Entertainment,Jio,5649.16,Cash
+TXN00369,2025-09-19,Expense,Travel,BigBasket,4595.37,UPI
+TXN01690,2025-09-19,Income,Salary,Bank,42709.6,Debit Card
+TXN00137,2025-09-20,Expense,Other,Jio,7892.67,Credit Card
+TXN00485,2025-09-20,Expense,Education,Jio,13386.4,UPI
+TXN01709,2025-09-20,Income,Salary,Company,49727.85,UPI
+TXN01345,2025-09-20,Expense,Food,Swiggy,6399.33,UPI
+TXN01303,2025-09-20,Expense,Education,Netflix,10842.24,Bank Transfer
+TXN01681,2025-09-20,Expense,Food,Ola,14203.56,Cash
+TXN01030,2025-09-20,Expense,Entertainment,Swiggy,1523.4,Credit Card
+TXN00319,2025-09-21,Expense,Other,Electricity Board,5345.69,Cash
+TXN00668,2025-09-21,Expense,Other,Spotify,9306.45,Credit Card
+TXN01255,2025-09-21,Expense,Food,DMart,747.41,Debit Card
+TXN01974,2025-09-21,Expense,Other,Myntra,9104.24,UPI
+TXN01473,2025-09-21,Expense,Entertainment,Ola,7388.1,Bank Transfer
+TXN01579,2025-09-21,Expense,Shopping,BigBasket,9229.13,Bank Transfer
+TXN00190,2025-09-21,Expense,Education,Ola,1082.76,Debit Card
+TXN01184,2025-09-21,Expense,Bills,BookMyShow,12521.46,UPI
+TXN00417,2025-09-21,Expense,Transport,Ola,2681.49,Credit Card
+TXN00541,2025-09-21,Expense,Education,Swiggy,848.14,Credit Card
+TXN00351,2025-09-22,Income,Freelance,Company,45896.63,Cash
+TXN01669,2025-09-22,Expense,Other,Netflix,2539.0,Cash
+TXN00853,2025-09-22,Expense,Food,Uber,9171.47,Bank Transfer
+TXN01431,2025-09-22,Expense,Travel,Ola,549.47,Debit Card
+TXN00089,2025-09-23,Income,Salary,Client,18421.24,Credit Card
+TXN00834,2025-09-24,Income,Freelance,Bank,45722.21,Cash
+TXN01063,2025-09-24,Expense,Travel,Jio,2037.12,Cash
+TXN01053,2025-09-24,Expense,Other,Flipkart,3974.21,Cash
+TXN01883,2025-09-24,Expense,Shopping,BigBasket,13004.48,Bank Transfer
+TXN00989,2025-09-25,Expense,Groceries,BigBasket,12171.81,Debit Card
+TXN00474,2025-09-25,Expense,Transport,Swiggy,10197.42,Credit Card
+TXN01086,2025-09-25,Expense,Groceries,Ola,691.65,Debit Card
+TXN00829,2025-09-25,Expense,Entertainment,BookMyShow,8114.14,UPI
+TXN01980,2025-09-25,Expense,Entertainment,IRCTC,4294.24,Credit Card
+TXN01049,2025-09-25,Expense,Bills,Ola,7410.27,Cash
+TXN00012,2025-09-25,Income,Freelance,Client,51976.86,Cash
+TXN00607,2025-09-25,Expense,Education,Netflix,4462.49,UPI
+TXN01866,2025-09-25,Expense,Shopping,Amazon,12872.72,Cash
+TXN00263,2025-09-25,Expense,Bills,Netflix,12022.68,Debit Card
+TXN01340,2025-09-25,Expense,Education,BookMyShow,12260.6,Credit Card
+TXN01503,2025-09-26,Expense,Education,BigBasket,2893.2,UPI
+TXN01773,2025-09-26,Income,Freelance,Company,29012.38,Bank Transfer
+TXN00953,2025-09-26,Expense,Transport,Hospital,10038.1,Debit Card
+TXN01036,2025-09-26,Expense,Healthcare,Electricity Board,14712.74,Credit Card
+TXN01026,2025-09-26,Expense,Education,BookMyShow,364.01,Debit Card
+TXN00449,2025-09-26,Expense,Healthcare,College,10794.44,Debit Card
+TXN01745,2025-09-26,Expense,Food,Zomato,78849.76,Cash
+TXN01982,2025-09-26,Expense,Travel,Spotify,364.54,Credit Card
+TXN01536,2025-09-26,Expense,Other,Ola,4108.29,Credit Card
+TXN01541,2025-09-26,Expense,Travel,Uber,2714.55,Debit Card
+TXN01079,2025-09-27,Expense,Groceries,Netflix,13953.5,UPI
+TXN00732,2025-09-27,Expense,Groceries,Jio,14276.39,Cash
+TXN01921,2025-09-27,Income,Freelance,Investment Account,36847.87,Bank Transfer
+TXN00655,2025-09-28,Expense,Shopping,Netflix,8485.46,Cash
+TXN01248,2025-09-28,Income,Freelance,Bank,78827.07,UPI
+TXN01139,2025-09-28,Income,Investment,Client,77464.22,Debit Card
+TXN01532,2025-09-28,Expense,Transport,Electricity Board,4653.6,UPI
+TXN00145,2025-09-28,Expense,Shopping,Netflix,12358.14,Bank Transfer
+TXN00617,2025-09-28,Expense,Food,BookMyShow,5027.79,Debit Card
+TXN01102,2025-09-29,Expense,Shopping,Ola,13801.57,Cash
+TXN00038,2025-09-29,Expense,Healthcare,Jio,3916.48,Cash
+TXN01361,2025-09-29,Expense,Education,Uber,12084.28,Credit Card
+TXN01191,2025-09-30,Expense,Groceries,Jio,13699.25,Debit Card
+TXN01578,2025-09-30,Expense,Bills,Amazon,2336.59,Credit Card
+TXN01270,2025-09-30,Expense,Healthcare,Netflix,11566.7,Cash
+TXN01290,2025-09-30,Expense,Entertainment,IRCTC,12831.77,UPI
+TXN01670,2025-09-30,Expense,Healthcare,BigBasket,2652.68,Bank Transfer
+TXN01158,2025-09-30,Expense,Healthcare,BigBasket,13016.18,Credit Card
+TXN01749,2025-09-30,Expense,Education,Hospital,5137.33,Cash
+TXN01918,2025-10-01,Expense,Food,Spotify,183.76,Bank Transfer
+TXN00544,2025-10-01,Expense,Travel,Swiggy,3776.93,Debit Card
+TXN01020,2025-10-01,Expense,Travel,Zomato,1390.12,UPI
+TXN01420,2025-10-01,Expense,Food,Electricity Board,284.28,Cash
+TXN01456,2025-10-01,Income,Investment,Investment Account,48786.27,Debit Card
+TXN01282,2025-10-02,Expense,Shopping,Netflix,2211.64,Credit Card
+TXN00461,2025-10-02,Expense,Bills,BookMyShow,1059.69,Bank Transfer
+TXN00421,2025-10-02,Income,Investment,Investment Account,62038.39,UPI
+TXN01882,2025-10-02,Income,Freelance,Investment Account,47804.48,UPI
+TXN00112,2025-10-03,Expense,Food,Hospital,14425.07,Cash
+TXN01416,2025-10-03,Expense,Education,Jio,12849.53,Credit Card
+TXN00296,2025-10-03,Expense,Groceries,Zomato,4093.34,UPI
+TXN01172,2025-10-03,Expense,Food,BookMyShow,2585.86,Cash
+TXN00022,2025-10-04,Expense,Shopping,Airtel,12450.89,Credit Card
+TXN00472,2025-10-04,Expense,Groceries,Swiggy,8675.74,Cash
+TXN01971,2025-10-04,Expense,Travel,Electricity Board,6668.37,UPI
+TXN00690,2025-10-04,Income,Freelance,Investment Account,72758.04,UPI
+TXN00507,2025-10-04,Income,Freelance,Investment Account,70479.66,Credit Card
+TXN01875,2025-10-04,Expense,Healthcare,BookMyShow,10910.92,UPI
+TXN01806,2025-10-04,Expense,Bills,Netflix,28540.0,Credit Card
+TXN00689,2025-10-04,Expense,Education,Netflix,13907.77,Debit Card
+TXN01384,2025-10-04,Expense,Transport,DMart,11371.89,Credit Card
+TXN01608,2025-10-04,Expense,Travel,IRCTC,8135.21,UPI
+TXN01404,2025-10-04,Expense,Education,Hospital,10407.85,UPI
+TXN00400,2025-10-05,Income,Freelance,Company,57572.91,UPI
+TXN00833,2025-10-05,Expense,Healthcare,Electricity Board,11208.61,Debit Card
+TXN01801,2025-10-05,Expense,Groceries,Swiggy,793.9,UPI
+TXN00754,2025-10-05,Expense,Entertainment,Myntra,10514.72,Debit Card
+TXN01271,2025-10-05,Income,Freelance,Company,52750.58,Cash
+TXN01752,2025-10-05,Expense,Education,Uber,8612.49,UPI
+TXN01164,2025-10-06,Expense,Bills,Jio,8673.61,Debit Card
+TXN01957,2025-10-06,Expense,Groceries,Spotify,1714.38,Credit Card
+TXN00885,2025-10-06,Expense,Education,Swiggy,11582.75,Bank Transfer
+TXN01908,2025-10-06,Expense,Healthcare,Jio,3849.76,Credit Card
+TXN01857,2025-10-06,Expense,Bills,Uber,14288.65,UPI
+TXN01610,2025-10-06,Expense,Transport,Swiggy,12600.6,Credit Card
+TXN01239,2025-10-06,Expense,Transport,Flipkart,3407.69,Bank Transfer
+TXN00290,2025-10-07,Expense,Entertainment,Airtel,3190.23,UPI
+TXN00585,2025-10-07,Expense,Entertainment,Jio,1183.11,Credit Card
+TXN01005,2025-10-07,Expense,Bills,Ola,839.26,Cash
+TXN01246,2025-10-07,Expense,Food,Swiggy,1153.18,Bank Transfer
+TXN01148,2025-10-07,Expense,Other,Flipkart,13115.96,Debit Card
+TXN01948,2025-10-07,Income,Investment,Client,37983.37,Debit Card
+TXN00826,2025-10-07,Expense,Healthcare,Amazon,13856.98,Bank Transfer
+TXN01977,2025-10-07,Expense,Healthcare,Spotify,4474.48,Bank Transfer
+TXN00904,2025-10-08,Expense,Food,Hospital,11849.12,UPI
+TXN01933,2025-10-08,Expense,Bills,Myntra,10737.59,UPI
+TXN01961,2025-10-08,Expense,Shopping,Zomato,8847.69,Cash
+TXN00142,2025-10-08,Expense,Education,IRCTC,11433.04,UPI
+TXN00094,2025-10-08,Expense,Travel,IRCTC,2674.93,Cash
+TXN00069,2025-10-08,Expense,Healthcare,Netflix,13075.12,Cash
+TXN00839,2025-10-08,Expense,Healthcare,Airtel,11135.42,Credit Card
+TXN00042,2025-10-09,Expense,Other,Zomato,13996.13,UPI
+TXN00375,2025-10-09,Expense,Education,BookMyShow,7285.24,Cash
+TXN00386,2025-10-09,Expense,Transport,Jio,1095.55,Bank Transfer
+TXN01605,2025-10-09,Expense,Groceries,BigBasket,14889.1,Credit Card
+TXN00984,2025-10-09,Expense,Healthcare,Jio,7245.08,Bank Transfer
+TXN01424,2025-10-09,Expense,Education,Myntra,8577.09,Cash
+TXN01272,2025-10-09,Expense,Transport,Ola,4518.1,Cash
+TXN00217,2025-10-09,Expense,Other,Uber,11644.38,Bank Transfer
+TXN01415,2025-10-10,Expense,Groceries,Hospital,7026.37,Credit Card
+TXN01665,2025-10-10,Expense,Groceries,Flipkart,9733.57,Debit Card
+TXN01781,2025-10-10,Expense,Groceries,Uber,12086.77,Debit Card
+TXN01212,2025-10-10,Expense,Groceries,Uber,13918.74,Debit Card
+TXN00009,2025-10-10,Expense,Healthcare,DMart,2848.16,Bank Transfer
+TXN00735,2025-10-11,Expense,Healthcare,Uber,11446.1,Credit Card
+TXN00010,2025-10-11,Expense,Travel,Uber,14539.48,UPI
+TXN01545,2025-10-11,Expense,Groceries,Ola,9525.61,Credit Card
+TXN01408,2025-10-11,Expense,Education,DMart,2422.79,Bank Transfer
+TXN01054,2025-10-11,Expense,Groceries,DMart,961.28,Bank Transfer
+TXN00892,2025-10-12,Expense,Entertainment,College,13300.2,Bank Transfer
+TXN01013,2025-10-12,Expense,Entertainment,Zomato,895.9,Cash
+TXN00049,2025-10-12,Income,Investment,Bank,66784.26,Debit Card
+TXN00158,2025-10-12,Expense,Healthcare,Jio,2391.37,Cash
+TXN00996,2025-10-12,Expense,Groceries,Myntra,9775.31,Debit Card
+TXN01874,2025-10-12,Expense,Healthcare,Spotify,11721.77,Credit Card
+TXN00912,2025-10-12,Expense,Education,Flipkart,426.74,Bank Transfer
+TXN00111,2025-10-12,Expense,Travel,Hospital,4116.76,Credit Card
+TXN00627,2025-10-12,Expense,Healthcare,Zomato,206.94,Cash
+TXN00170,2025-10-12,Expense,Travel,Netflix,8973.28,Cash
+TXN01460,2025-10-13,Expense,Healthcare,Netflix,11984.21,Debit Card
+TXN01472,2025-10-13,Expense,Food,Hospital,7522.08,Cash
+TXN00497,2025-10-13,Expense,Bills,Myntra,4287.01,Credit Card
+TXN01108,2025-10-14,Income,Salary,Company,36206.05,Bank Transfer
+TXN00484,2025-10-14,Expense,Healthcare,Electricity Board,2966.99,Bank Transfer
+TXN01809,2025-10-15,Expense,Shopping,Airtel,758.46,Debit Card
+TXN01626,2025-10-15,Expense,Food,IRCTC,7685.58,Bank Transfer
+TXN01818,2025-10-15,Expense,Groceries,Electricity Board,1291.78,Cash
+TXN01326,2025-10-15,Expense,Travel,Swiggy,1007.74,Cash
+TXN01798,2025-10-15,Expense,Bills,College,2421.94,Bank Transfer
+TXN00177,2025-10-15,Expense,Healthcare,Zomato,10274.33,Cash
+TXN00150,2025-10-16,Income,Freelance,Bank,27904.88,Cash
+TXN01513,2025-10-16,Expense,Travel,Spotify,7166.79,Debit Card
+TXN01459,2025-10-16,Expense,Travel,Ola,2867.02,Bank Transfer
+TXN00280,2025-10-16,Income,Salary,Investment Account,30720.04,Bank Transfer
+TXN01250,2025-10-16,Expense,Food,Swiggy,7552.75,Credit Card
+TXN00120,2025-10-17,Expense,Bills,College,4105.66,Debit Card
+TXN01523,2025-10-17,Expense,Shopping,Ola,7883.31,Credit Card
+TXN00083,2025-10-18,Expense,Entertainment,Hospital,8989.44,Bank Transfer
+TXN01357,2025-10-18,Expense,Groceries,Hospital,14001.42,Cash
+TXN01654,2025-10-18,Expense,Shopping,BookMyShow,8589.11,Debit Card
+TXN00358,2025-10-18,Expense,Transport,Uber,3555.06,Cash
+TXN01382,2025-10-18,Expense,Transport,DMart,9451.73,Bank Transfer
+TXN00039,2025-10-18,Expense,Food,Myntra,11469.99,UPI
+TXN00328,2025-10-19,Expense,Other,BigBasket,13823.82,Cash
+TXN01043,2025-10-19,Expense,Education,Amazon,8934.57,Cash
+TXN01756,2025-10-19,Expense,Healthcare,Jio,5105.62,Cash
+TXN01596,2025-10-19,Income,Freelance,Bank,77777.06,Bank Transfer
+TXN00180,2025-10-19,Expense,Entertainment,DMart,11309.33,Cash
+TXN00128,2025-10-19,Expense,Groceries,Electricity Board,2784.13,UPI
+TXN01808,2025-10-19,Expense,Travel,Flipkart,7876.87,UPI
+TXN01441,2025-10-19,Expense,Education,Airtel,6553.06,Bank Transfer
+TXN01168,2025-10-20,Expense,Education,Swiggy,1510.09,UPI
+TXN00584,2025-10-20,Income,Salary,Investment Account,12907.82,UPI
+TXN00563,2025-10-20,Expense,Entertainment,Jio,3623.35,Cash
+TXN00426,2025-10-20,Expense,Groceries,IRCTC,2456.61,Credit Card
+TXN00823,2025-10-20,Income,Investment,Client,8017.01,Cash
+TXN00600,2025-10-20,Expense,Bills,Amazon,3769.31,Bank Transfer
+TXN00052,2025-10-20,Expense,Shopping,Hospital,6226.92,Cash
+TXN01720,2025-10-20,Income,Salary,Client,61071.24,Cash
+TXN01929,2025-10-20,Expense,Entertainment,DMart,6917.14,Bank Transfer
+TXN00179,2025-10-21,Expense,Education,Swiggy,13144.34,Cash
+TXN01952,2025-10-21,Expense,Travel,College,3515.18,UPI
+TXN01400,2025-10-21,Expense,Other,College,2701.05,Credit Card
+TXN01828,2025-10-21,Expense,Healthcare,College,7962.05,Credit Card
+TXN01915,2025-10-22,Expense,Groceries,College,13563.41,UPI
+TXN00273,2025-10-22,Expense,Education,Myntra,13795.01,Cash
+TXN01934,2025-10-22,Income,Investment,Investment Account,73629.75,UPI
+TXN00489,2025-10-22,Expense,Education,IRCTC,11802.46,Bank Transfer
+TXN00682,2025-10-22,Expense,Food,Amazon,10713.59,Bank Transfer
+TXN01574,2025-10-23,Expense,Travel,Uber,11703.82,Debit Card
+TXN01836,2025-10-23,Expense,Transport,Netflix,22845.31,UPI
+TXN01511,2025-10-23,Expense,Shopping,BookMyShow,8679.41,Debit Card
+TXN00026,2025-10-24,Expense,Entertainment,Airtel,5465.22,UPI
+TXN00683,2025-10-24,Income,Freelance,Bank,56088.97,Debit Card
+TXN01747,2025-10-24,Expense,Entertainment,Myntra,1526.8,Bank Transfer
+TXN00465,2025-10-24,Expense,Bills,BookMyShow,11745.78,Cash
+TXN00609,2025-10-24,Income,Salary,Investment Account,69994.79,Bank Transfer
+TXN00068,2025-10-25,Income,Investment,Bank,25133.88,Cash
+TXN01337,2025-10-25,Expense,Groceries,Electricity Board,13053.79,Credit Card
+TXN00357,2025-10-25,Expense,Healthcare,BookMyShow,6254.06,Debit Card
+TXN00806,2025-10-25,Expense,Food,IRCTC,9320.88,Debit Card
+TXN01970,2025-10-25,Expense,Food,Netflix,11722.78,Credit Card
+TXN00300,2025-10-25,Expense,Bills,DMart,4986.17,Debit Card
+TXN01027,2025-10-25,Expense,Bills,Jio,6574.74,Debit Card
+TXN00463,2025-10-25,Income,Salary,Investment Account,46002.52,UPI
+TXN00213,2025-10-25,Expense,Food,Amazon,12079.16,UPI
+TXN00374,2025-10-26,Income,Salary,Company,23755.22,Cash
+TXN00318,2025-10-26,Expense,Transport,Electricity Board,4277.67,UPI
+TXN01539,2025-10-26,Expense,Groceries,Zomato,83752.08,Credit Card
+TXN00279,2025-10-26,Expense,Transport,Hospital,2173.4,Bank Transfer
+TXN01177,2025-10-27,Expense,Entertainment,Myntra,2759.63,Credit Card
+TXN01643,2025-10-27,Expense,Healthcare,Spotify,45371.98,Credit Card
+TXN01265,2025-10-27,Expense,Education,Hospital,7685.14,Debit Card
+TXN00886,2025-10-27,Expense,Healthcare,BookMyShow,339.61,Bank Transfer
+TXN01722,2025-10-27,Expense,Transport,Swiggy,3077.37,Cash
+TXN01791,2025-10-28,Expense,Healthcare,Myntra,14372.58,UPI
+TXN00851,2025-10-28,Expense,Travel,Zomato,14770.08,Credit Card
+TXN00307,2025-10-28,Income,Freelance,Client,76848.51,Debit Card
+TXN00756,2025-10-28,Expense,Transport,IRCTC,13129.3,UPI
+TXN01398,2025-10-28,Income,Freelance,Bank,39380.16,Bank Transfer
+TXN01492,2025-10-28,Income,Salary,Investment Account,32387.15,Debit Card
+TXN01985,2025-10-28,Expense,Bills,Swiggy,7610.73,Credit Card
+TXN01656,2025-10-28,Expense,Transport,Myntra,1801.15,Debit Card
+TXN01021,2025-10-28,Expense,Entertainment,College,8103.68,Credit Card
+TXN01607,2025-10-28,Expense,Education,DMart,4064.33,Credit Card
+TXN00610,2025-10-28,Expense,Shopping,Electricity Board,12039.05,UPI
+TXN01109,2025-10-29,Income,Salary,Bank,37353.68,UPI
+TXN00443,2025-10-29,Expense,Education,Electricity Board,3970.87,Debit Card
+TXN01453,2025-10-29,Expense,Shopping,Airtel,12948.34,Credit Card
+TXN01916,2025-10-30,Expense,Shopping,IRCTC,188.0,UPI
+TXN01625,2025-10-31,Expense,Healthcare,Uber,23507.71,Cash
+TXN01165,2025-10-31,Expense,Bills,BigBasket,4267.41,Cash
+TXN00998,2025-10-31,Expense,Healthcare,Netflix,10448.69,UPI
+TXN00739,2025-10-31,Expense,Transport,Spotify,693.02,Cash
+TXN01790,2025-11-01,Expense,Education,Amazon,10372.54,UPI
+TXN01712,2025-11-01,Expense,Bills,DMart,4372.22,Cash
+TXN01698,2025-11-01,Expense,Transport,Amazon,13860.07,Cash
+TXN01386,2025-11-01,Expense,Groceries,Electricity Board,10145.02,Cash
+TXN01339,2025-11-01,Expense,Education,Hospital,10383.26,Debit Card
+TXN01312,2025-11-01,Expense,Education,Swiggy,1824.87,UPI
+TXN01953,2025-11-01,Expense,Bills,DMart,12160.39,Debit Card
+TXN01346,2025-11-01,Income,Salary,Client,13595.6,UPI
+TXN00438,2025-11-01,Expense,Shopping,Flipkart,3527.02,UPI
+TXN00642,2025-11-01,Income,Freelance,Bank,79140.63,Cash
+TXN00532,2025-11-01,Expense,Education,Spotify,4587.5,Cash
+TXN00271,2025-11-01,Expense,Transport,Myntra,12080.78,Cash
+TXN00115,2025-11-02,Expense,Groceries,Amazon,48529.86,UPI
+TXN01131,2025-11-02,Expense,Healthcare,Netflix,3173.64,UPI
+TXN01854,2025-11-02,Expense,Travel,IRCTC,4945.71,Debit Card
+TXN00519,2025-11-02,Expense,Bills,Uber,8531.2,Cash
+TXN00397,2025-11-02,Expense,Food,BookMyShow,5446.88,Cash
+TXN01609,2025-11-03,Expense,Travel,Flipkart,4382.17,Credit Card
+TXN01706,2025-11-03,Expense,Other,Ola,4471.9,Credit Card
+TXN01965,2025-11-03,Expense,Healthcare,Jio,10343.74,Cash
+TXN01383,2025-11-03,Expense,Food,IRCTC,6107.59,Cash
+TXN01150,2025-11-03,Expense,Healthcare,Hospital,12342.51,Debit Card
+TXN00330,2025-11-03,Expense,Bills,Zomato,11794.93,Debit Card
+TXN00141,2025-11-04,Expense,Transport,DMart,840.31,UPI
+TXN00058,2025-11-04,Expense,Healthcare,Uber,5031.23,Credit Card
+TXN01563,2025-11-04,Income,Freelance,Bank,22290.06,UPI
+TXN00350,2025-11-04,Expense,Education,Uber,13249.7,UPI
+TXN01111,2025-11-04,Expense,Healthcare,Swiggy,7028.25,Cash
+TXN01419,2025-11-05,Expense,Travel,BigBasket,12709.84,Bank Transfer
+TXN01493,2025-11-05,Expense,Transport,Electricity Board,10958.67,Debit Card
+TXN00985,2025-11-06,Expense,Education,Electricity Board,7631.2,Debit Card
+TXN00864,2025-11-06,Income,Salary,Investment Account,27158.86,Cash
+TXN00822,2025-11-06,Expense,Shopping,Flipkart,1733.9,Credit Card
+TXN01444,2025-11-06,Expense,Groceries,Jio,7556.93,Cash
+TXN01628,2025-11-06,Expense,Transport,Swiggy,5205.54,Bank Transfer
+TXN00993,2025-11-07,Expense,Food,College,8609.3,UPI
+TXN01211,2025-11-07,Expense,Bills,BigBasket,7535.46,Debit Card
+TXN00464,2025-11-07,Expense,Transport,Hospital,8480.13,UPI
+TXN00452,2025-11-07,Expense,Bills,Hospital,13412.59,Cash
+TXN00346,2025-11-07,Income,Investment,Investment Account,68466.53,Cash
+TXN01768,2025-11-07,Income,Salary,Client,61163.73,Credit Card
+TXN00354,2025-11-08,Expense,Transport,Hospital,13722.42,Debit Card
+TXN01309,2025-11-08,Expense,Other,Ola,11712.22,Credit Card
+TXN00652,2025-11-08,Expense,Entertainment,Airtel,6174.79,Debit Card
+TXN01085,2025-11-08,Expense,Bills,Hospital,8055.46,Debit Card
+TXN01655,2025-11-09,Expense,Shopping,Swiggy,10020.11,Bank Transfer
+TXN01899,2025-11-09,Expense,Shopping,Zomato,10574.95,Debit Card
+TXN01540,2025-11-10,Expense,Travel,Netflix,9737.49,Debit Card
+TXN00367,2025-11-10,Expense,Food,BigBasket,9878.96,Credit Card
+TXN00896,2025-11-11,Expense,Groceries,Myntra,11675.11,UPI
+TXN00394,2025-11-11,Expense,Other,Electricity Board,2085.34,Debit Card
+TXN01632,2025-11-12,Expense,Other,BigBasket,5478.02,Credit Card
+TXN01411,2025-11-13,Income,Freelance,Investment Account,47665.89,UPI
+TXN01185,2025-11-13,Expense,Food,BookMyShow,1726.43,Bank Transfer
+TXN01821,2025-11-13,Expense,Bills,Jio,3547.06,UPI
+TXN01533,2025-11-13,Income,Investment,Bank,74097.98,Cash
+TXN01244,2025-11-13,Expense,Transport,Swiggy,11443.26,Credit Card
+TXN01737,2025-11-13,Expense,Food,Airtel,13085.29,Cash
+TXN01759,2025-11-14,Expense,Healthcare,Zomato,9541.27,Credit Card
+TXN01047,2025-11-14,Expense,Other,DMart,6521.94,Credit Card
+TXN01224,2025-11-14,Income,Freelance,Client,62715.17,UPI
+TXN01800,2025-11-14,Expense,Healthcare,Airtel,12305.2,Debit Card
+TXN01555,2025-11-14,Income,Salary,Bank,26943.9,Cash
+TXN00765,2025-11-14,Expense,Shopping,Jio,2438.44,Credit Card
+TXN00090,2025-11-14,Income,Investment,Investment Account,61378.53,UPI
+TXN00820,2025-11-15,Expense,Healthcare,Electricity Board,11070.12,Bank Transfer
+TXN00643,2025-11-15,Expense,Bills,Ola,3506.23,Cash
+TXN00118,2025-11-15,Expense,Shopping,Netflix,2471.34,Debit Card
+TXN00858,2025-11-15,Expense,Education,BigBasket,179.5,Debit Card
+TXN01278,2025-11-15,Expense,Shopping,BookMyShow,1245.79,Cash
+TXN00933,2025-11-15,Expense,Bills,BigBasket,8966.47,Debit Card
+TXN00957,2025-11-16,Income,Salary,Bank,26902.68,Cash
+TXN00153,2025-11-16,Expense,Healthcare,Netflix,8825.14,Cash
+TXN01155,2025-11-16,Expense,Healthcare,Ola,4163.69,Bank Transfer
+TXN01374,2025-11-16,Expense,Food,Netflix,8697.28,Debit Card
+TXN00136,2025-11-16,Expense,Bills,IRCTC,2064.59,UPI
+TXN00127,2025-11-16,Expense,Entertainment,IRCTC,4149.72,Debit Card
+TXN00197,2025-11-16,Expense,Bills,Zomato,14011.56,Cash
+TXN01810,2025-11-16,Expense,Bills,Swiggy,5243.02,Debit Card
+TXN00623,2025-11-17,Expense,Bills,Netflix,13370.47,Cash
+TXN00641,2025-11-17,Expense,Bills,Jio,14090.95,UPI
+TXN00842,2025-11-17,Expense,Travel,Zomato,677.2,UPI
+TXN00846,2025-11-18,Income,Investment,Company,54958.33,UPI
+TXN01423,2025-11-18,Income,Investment,Client,42925.11,UPI
+TXN00530,2025-11-18,Expense,Entertainment,Netflix,5783.62,Cash
+TXN01954,2025-11-19,Expense,Food,Zomato,8008.41,Credit Card
+TXN01123,2025-11-19,Expense,Groceries,IRCTC,14249.59,Cash
+TXN00323,2025-11-19,Expense,Entertainment,Electricity Board,3861.17,Cash
+TXN00423,2025-11-19,Expense,Bills,IRCTC,12135.67,Debit Card
+TXN01813,2025-11-20,Expense,Food,Flipkart,7847.97,Credit Card
+TXN01833,2025-11-20,Expense,Food,Flipkart,7552.52,Credit Card
+TXN01842,2025-11-20,Expense,Healthcare,BigBasket,5353.97,Bank Transfer
+TXN01157,2025-11-20,Expense,Shopping,Flipkart,1392.31,Bank Transfer
+TXN01885,2025-11-21,Expense,Education,Netflix,13341.12,Credit Card
+TXN01040,2025-11-21,Income,Salary,Company,12285.32,Bank Transfer
+TXN00724,2025-11-21,Income,Salary,Company,11164.78,Cash
+TXN01300,2025-11-21,Income,Investment,Client,55419.83,Debit Card
+TXN01258,2025-11-22,Income,Salary,Company,76433.25,Debit Card
+TXN01259,2025-11-23,Expense,Transport,IRCTC,10191.6,Bank Transfer
+TXN01349,2025-11-23,Expense,Shopping,Electricity Board,6907.01,Credit Card
+TXN01987,2025-11-23,Income,Investment,Company,53326.09,Credit Card
+TXN01733,2025-11-23,Expense,Travel,Airtel,13475.43,Cash
+TXN00370,2025-11-23,Expense,Travel,Spotify,7811.05,Bank Transfer
+TXN00715,2025-11-24,Expense,Education,Hospital,4236.57,Cash
+TXN00987,2025-11-24,Expense,Entertainment,Amazon,12828.54,Bank Transfer
+TXN00496,2025-11-24,Expense,Healthcare,Hospital,3410.73,Debit Card
+TXN00381,2025-11-24,Expense,Travel,Airtel,4650.97,Bank Transfer
+TXN01032,2025-11-24,Expense,Entertainment,Netflix,3301.11,Credit Card
+TXN01304,2025-11-24,Expense,Healthcare,Netflix,12967.55,Credit Card
+TXN00044,2025-11-25,Expense,Travel,Spotify,8776.05,Credit Card
+TXN01175,2025-11-25,Expense,Bills,Swiggy,10716.81,Bank Transfer
+TXN00780,2025-11-25,Expense,Groceries,Airtel,14907.98,UPI
+TXN01070,2025-11-25,Expense,Entertainment,Spotify,674.77,Credit Card
+TXN00048,2025-11-25,Expense,Food,Swiggy,1744.15,Debit Card
+TXN01881,2025-11-25,Income,Freelance,Investment Account,46174.29,Debit Card
+TXN01501,2025-11-25,Income,Investment,Client,65545.31,Debit Card
+TXN00253,2025-11-25,Expense,Education,Ola,3524.35,Debit Card
+TXN01776,2025-11-25,Income,Investment,Investment Account,6719.08,Credit Card
+TXN00494,2025-11-25,Expense,Bills,Uber,10302.91,Debit Card
+TXN00289,2025-11-26,Expense,Education,Swiggy,5949.82,Bank Transfer
+TXN00292,2025-11-26,Income,Investment,Client,62018.41,Debit Card
+TXN01351,2025-11-27,Income,Salary,Investment Account,7070.43,Credit Card
+TXN01834,2025-11-27,Income,Freelance,Bank,43627.16,Cash
+TXN00156,2025-11-27,Expense,Entertainment,Jio,12040.4,UPI
+TXN00309,2025-11-27,Expense,Healthcare,Swiggy,1369.6,Debit Card
+TXN01262,2025-11-27,Expense,Transport,Swiggy,11192.33,Debit Card
+TXN01069,2025-11-27,Expense,Food,IRCTC,1613.12,Bank Transfer
+TXN01437,2025-11-28,Income,Freelance,Company,54352.47,UPI
+TXN00906,2025-11-28,Expense,Groceries,Netflix,6112.73,UPI
+TXN00968,2025-11-28,Income,Freelance,Bank,69370.22,Debit Card
+TXN00547,2025-11-28,Expense,Food,Netflix,5478.77,Cash
+TXN00581,2025-11-28,Expense,Other,College,4225.41,Credit Card
+TXN00081,2025-11-29,Expense,Food,IRCTC,11968.39,Cash
+TXN00855,2025-11-29,Income,Salary,Investment Account,46764.98,UPI
+TXN01815,2025-11-29,Expense,Transport,Spotify,2491.14,Debit Card
+TXN00852,2025-11-29,Expense,Healthcare,BookMyShow,843.46,Debit Card
+TXN01547,2025-11-29,Expense,Entertainment,Flipkart,8373.88,Debit Card
+TXN01699,2025-11-30,Expense,Entertainment,Swiggy,11478.56,Debit Card
+TXN01614,2025-11-30,Expense,Transport,College,9614.77,Bank Transfer
+TXN00259,2025-11-30,Expense,Education,Electricity Board,5874.05,Cash
+TXN00071,2025-11-30,Expense,Groceries,Zomato,7059.11,Debit Card
+TXN00418,2025-11-30,Expense,Healthcare,BookMyShow,332.97,UPI
+TXN01621,2025-11-30,Expense,Entertainment,Swiggy,3188.89,UPI
+TXN01189,2025-11-30,Expense,Food,Zomato,3348.14,Cash
+TXN00686,2025-11-30,Expense,Shopping,Ola,8635.35,UPI
+TXN01066,2025-11-30,Expense,Healthcare,BookMyShow,1813.3,Cash
+TXN00782,2025-11-30,Expense,Travel,Myntra,2890.69,Cash
+TXN01496,2025-12-01,Expense,Education,Spotify,2017.82,Debit Card
+TXN01969,2025-12-01,Expense,Transport,Airtel,8362.13,UPI
+TXN01478,2025-12-01,Expense,Transport,Airtel,77409.56,Bank Transfer
+TXN01871,2025-12-01,Expense,Transport,Amazon,859.61,Credit Card
+TXN00837,2025-12-01,Expense,Healthcare,Uber,10414.18,Cash
+TXN00303,2025-12-02,Expense,Bills,College,509.73,Credit Card
+TXN01640,2025-12-02,Expense,Education,Uber,3817.98,Cash
+TXN01071,2025-12-02,Expense,Entertainment,Amazon,4083.73,Cash
+TXN01565,2025-12-02,Expense,Food,Airtel,8586.26,UPI
+TXN01497,2025-12-02,Expense,Other,Uber,26602.73,Bank Transfer
+TXN00201,2025-12-02,Expense,Healthcare,Amazon,7796.64,Cash
+TXN01648,2025-12-03,Expense,Entertainment,Flipkart,9283.18,Credit Card
+TXN01814,2025-12-03,Income,Freelance,Client,63294.24,Credit Card
+TXN00384,2025-12-03,Expense,Transport,Zomato,1196.87,Bank Transfer
+TXN01522,2025-12-03,Expense,Transport,BigBasket,10761.76,Credit Card
+TXN00935,2025-12-04,Expense,Shopping,Myntra,14455.84,Debit Card
+TXN01291,2025-12-04,Expense,Transport,BigBasket,8371.09,Debit Card
+TXN01585,2025-12-05,Expense,Shopping,Swiggy,1814.46,Cash
+TXN00028,2025-12-05,Expense,Bills,Swiggy,7901.94,Cash
+TXN00380,2025-12-05,Expense,Groceries,Amazon,8842.55,UPI
+TXN01425,2025-12-05,Income,Investment,Bank,67144.9,Bank Transfer
+TXN01038,2025-12-05,Expense,Shopping,Zomato,2924.77,Debit Card
+TXN00043,2025-12-05,Income,Salary,Client,79460.47,UPI
+TXN00824,2025-12-05,Expense,Shopping,Airtel,8220.45,Credit Card
+TXN00415,2025-12-05,Income,Freelance,Investment Account,77236.63,Credit Card
+TXN00269,2025-12-05,Expense,Groceries,Zomato,10897.6,Cash
+TXN01789,2025-12-06,Income,Investment,Client,72445.35,Bank Transfer
+TXN00662,2025-12-06,Expense,Education,Hospital,12137.61,Credit Card
+TXN01376,2025-12-06,Expense,Other,Jio,4277.79,UPI
+TXN01495,2025-12-06,Income,Salary,Client,18907.86,Bank Transfer
+TXN01136,2025-12-06,Expense,Entertainment,Spotify,2709.62,Debit Card
+TXN00483,2025-12-06,Expense,Entertainment,IRCTC,14141.71,Debit Card
+TXN00063,2025-12-06,Expense,Transport,DMart,2248.67,UPI
+TXN01399,2025-12-06,Income,Investment,Company,49397.75,Bank Transfer
+TXN00679,2025-12-06,Expense,Food,Jio,1100.54,Cash
+TXN00568,2025-12-06,Expense,Shopping,Uber,3082.31,Bank Transfer
+TXN01076,2025-12-07,Expense,Healthcare,IRCTC,12473.61,Debit Card
+TXN01099,2025-12-07,Expense,Groceries,Airtel,4870.33,Credit Card
+TXN00143,2025-12-07,Expense,Shopping,DMart,3550.13,Bank Transfer
+TXN00816,2025-12-07,Expense,Shopping,Hospital,8076.52,Debit Card
+TXN00173,2025-12-08,Expense,Bills,IRCTC,11667.39,Bank Transfer
+TXN00579,2025-12-08,Expense,Entertainment,Flipkart,8571.81,Bank Transfer
+TXN00235,2025-12-08,Expense,Bills,College,1279.64,UPI
+TXN01210,2025-12-08,Income,Freelance,Investment Account,11174.26,Bank Transfer
+TXN01284,2025-12-08,Expense,Transport,Ola,14717.2,Debit Card
+TXN01725,2025-12-08,Expense,Travel,Spotify,6447.43,Credit Card
+TXN00560,2025-12-08,Expense,Groceries,Jio,13824.29,Debit Card
+TXN00777,2025-12-08,Expense,Transport,DMart,12863.56,UPI
+TXN01741,2025-12-08,Expense,Bills,Flipkart,12588.12,Credit Card
+TXN00991,2025-12-09,Expense,Groceries,College,10024.19,Cash
+TXN00513,2025-12-09,Expense,Travel,DMart,7746.28,Credit Card
+TXN01925,2025-12-09,Expense,Transport,Swiggy,10990.24,Debit Card
+TXN00017,2025-12-09,Income,Freelance,Company,13501.42,Cash
+TXN00311,2025-12-09,Expense,Entertainment,BigBasket,11182.68,Cash
+TXN00531,2025-12-09,Income,Investment,Client,50707.8,Bank Transfer
+TXN00255,2025-12-10,Expense,Transport,Myntra,14997.99,UPI
+TXN00205,2025-12-10,Expense,Healthcare,DMart,11138.07,Credit Card
+TXN01214,2025-12-10,Expense,Other,College,2726.72,Cash
+TXN01229,2025-12-10,Expense,Transport,Electricity Board,4274.9,UPI
+TXN00869,2025-12-11,Income,Freelance,Company,52909.33,Bank Transfer
+TXN00508,2025-12-11,Expense,Transport,Netflix,9451.43,UPI
+TXN01580,2025-12-11,Expense,Healthcare,Swiggy,12918.63,Credit Card
+TXN01338,2025-12-12,Expense,Bills,Netflix,1970.45,Credit Card
+TXN00794,2025-12-13,Expense,Bills,Hospital,13951.97,Credit Card
+TXN00284,2025-12-13,Expense,Bills,BookMyShow,11923.86,Cash
+TXN01793,2025-12-13,Income,Investment,Client,44336.96,Debit Card
+TXN01410,2025-12-13,Income,Investment,Client,30500.27,UPI
+TXN01951,2025-12-13,Expense,Entertainment,Flipkart,12497.46,Debit Card
+TXN00952,2025-12-13,Expense,Bills,Jio,81166.7,Cash
+TXN01294,2025-12-14,Expense,Healthcare,Uber,13964.72,Cash
+TXN00605,2025-12-14,Expense,Entertainment,BookMyShow,13612.74,Cash
+TXN01264,2025-12-14,Expense,Shopping,Netflix,3508.06,Credit Card
+TXN00186,2025-12-14,Income,Freelance,Company,6781.0,Cash
+TXN01169,2025-12-14,Expense,Food,Electricity Board,10183.43,Bank Transfer
+TXN00281,2025-12-15,Expense,Shopping,BigBasket,1789.32,UPI
+TXN00758,2025-12-15,Expense,Groceries,Ola,11157.02,Bank Transfer
+TXN01658,2025-12-15,Expense,Education,Swiggy,12383.1,Bank Transfer
+TXN00450,2025-12-15,Expense,Education,Uber,12423.81,Debit Card
+TXN00079,2025-12-15,Income,Investment,Investment Account,63673.65,Debit Card
+TXN00812,2025-12-15,Income,Freelance,Bank,33958.91,Debit Card
+TXN00232,2025-12-15,Expense,Transport,DMart,10575.65,Credit Card
+TXN00288,2025-12-15,Expense,Other,Electricity Board,4698.3,Cash
+TXN00866,2025-12-15,Expense,Other,Hospital,5607.87,Debit Card
+TXN00771,2025-12-16,Expense,Shopping,Hospital,6766.03,Credit Card
+TXN00712,2025-12-16,Expense,Healthcare,Electricity Board,14699.61,Credit Card
+TXN01154,2025-12-16,Expense,Travel,College,14502.33,Credit Card
+TXN01868,2025-12-16,Income,Salary,Company,66251.62,UPI
+TXN01266,2025-12-17,Expense,Other,Uber,6756.44,Cash
+TXN01302,2025-12-17,Expense,Food,Amazon,9088.33,Debit Card
+TXN01584,2025-12-17,Expense,Travel,Hospital,14261.59,Debit Card
+TXN00548,2025-12-17,Expense,Travel,BigBasket,3656.36,UPI
+TXN01025,2025-12-17,Expense,Healthcare,Amazon,10236.7,Bank Transfer
+TXN01577,2025-12-17,Expense,Transport,IRCTC,2883.33,Debit Card
+TXN01718,2025-12-17,Expense,Shopping,DMart,2700.93,Cash
+TXN00399,2025-12-17,Expense,Other,Netflix,5373.34,Bank Transfer
+TXN01297,2025-12-17,Expense,Entertainment,Flipkart,4921.06,Credit Card
+TXN00411,2025-12-18,Income,Freelance,Bank,61099.74,Debit Card
+TXN00593,2025-12-18,Expense,Shopping,Airtel,237.01,Cash
+TXN01273,2025-12-18,Expense,Other,Electricity Board,1572.07,Cash
+TXN00498,2025-12-18,Expense,Travel,Amazon,6941.35,Debit Card
+TXN01056,2025-12-18,Income,Freelance,Client,5475.01,Bank Transfer
+TXN00840,2025-12-18,Expense,Transport,Hospital,13093.01,Credit Card
+TXN00671,2025-12-19,Expense,Education,BookMyShow,10717.25,Cash
+TXN01484,2025-12-19,Income,Salary,Bank,26292.05,UPI
+TXN00978,2025-12-19,Expense,Entertainment,Amazon,6465.28,Debit Card
+TXN01322,2025-12-19,Expense,Transport,Electricity Board,14319.33,Bank Transfer
+TXN01634,2025-12-20,Expense,Healthcare,DMart,327.61,Bank Transfer
+TXN01666,2025-12-20,Expense,Travel,DMart,5639.26,Debit Card
+TXN01004,2025-12-20,Expense,Education,Electricity Board,9688.69,Cash
+TXN01841,2025-12-20,Expense,Shopping,Amazon,13313.96,UPI
+TXN00100,2025-12-20,Income,Salary,Client,32311.98,Debit Card
+TXN01529,2025-12-20,Expense,Groceries,Ola,4734.7,Cash
+TXN01730,2025-12-21,Expense,Entertainment,Netflix,4874.97,Debit Card
+TXN01920,2025-12-21,Expense,Food,Myntra,8004.66,Credit Card
+TXN01843,2025-12-22,Expense,Education,Myntra,6617.51,Bank Transfer
+TXN00321,2025-12-22,Expense,Other,Netflix,2101.07,Debit Card
+TXN00772,2025-12-22,Expense,Groceries,Swiggy,14219.6,Cash
+TXN01804,2025-12-22,Expense,Other,Airtel,8836.6,UPI
+TXN01041,2025-12-22,Expense,Groceries,Electricity Board,52458.74,Credit Card
+TXN01324,2025-12-22,Expense,Travel,BigBasket,7819.17,UPI
+TXN01402,2025-12-23,Expense,Shopping,Swiggy,7016.05,Cash
+TXN01283,2025-12-23,Expense,Food,Amazon,1976.16,Credit Card
+TXN00982,2025-12-23,Income,Freelance,Bank,67920.51,Credit Card
+TXN00778,2025-12-23,Expense,Entertainment,Swiggy,9883.51,UPI
+TXN00551,2025-12-23,Expense,Shopping,DMart,830.3,UPI
+TXN00753,2025-12-23,Expense,Travel,DMart,12648.6,Cash
+TXN01454,2025-12-23,Expense,Food,Spotify,5124.57,Credit Card
+TXN00773,2025-12-24,Expense,Entertainment,IRCTC,7135.32,Credit Card
+TXN01010,2025-12-24,Expense,Entertainment,Swiggy,8278.7,Debit Card
+TXN01570,2025-12-24,Expense,Groceries,Amazon,12625.69,Bank Transfer
+TXN00961,2025-12-24,Expense,Food,Netflix,3027.1,UPI
+TXN01208,2025-12-24,Expense,Bills,College,8100.5,UPI
+TXN00293,2025-12-24,Expense,Other,Myntra,6411.9,Bank Transfer
+TXN01249,2025-12-24,Expense,Bills,Spotify,14429.91,Cash
+TXN00405,2025-12-24,Expense,Groceries,Electricity Board,12055.25,Debit Card
+TXN01724,2025-12-25,Expense,Other,Myntra,8820.25,Bank Transfer
+TXN01900,2025-12-25,Expense,Bills,Myntra,13259.35,Cash
+TXN01830,2025-12-26,Expense,Education,Hospital,6941.58,Bank Transfer
+TXN00207,2025-12-26,Expense,Food,Jio,13657.66,Credit Card
+TXN01107,2025-12-26,Expense,Transport,Flipkart,11922.22,Cash
+TXN00564,2025-12-26,Expense,Food,Swiggy,2602.11,Credit Card
+TXN01619,2025-12-26,Income,Freelance,Company,5795.53,Credit Card
+TXN00218,2025-12-27,Expense,Education,Swiggy,14361.38,Bank Transfer
+TXN01403,2025-12-27,Expense,Groceries,Airtel,77312.67,Debit Card
+TXN01668,2025-12-27,Expense,Shopping,Ola,9111.73,UPI
+TXN01963,2025-12-27,Expense,Education,Electricity Board,8769.54,Cash
+TXN01243,2025-12-28,Expense,Education,BigBasket,9958.64,UPI
+TXN00182,2025-12-28,Income,Salary,Bank,10364.76,Bank Transfer
+TXN00927,2025-12-28,Expense,Bills,DMart,28552.91,Credit Card
+TXN00221,2025-12-28,Expense,Education,BookMyShow,561.04,Cash
+TXN01714,2025-12-28,Expense,Shopping,Electricity Board,2285.11,Cash
+TXN01288,2025-12-28,Expense,Groceries,College,7760.88,Bank Transfer
+TXN01329,2025-12-29,Expense,Entertainment,Amazon,98806.95,Debit Card
+TXN01498,2025-12-29,Expense,Groceries,DMart,9219.37,Bank Transfer
+TXN00198,2025-12-29,Expense,Education,College,6910.86,Debit Card
+TXN01314,2025-12-29,Expense,Education,Jio,14047.36,Bank Transfer
+TXN01077,2025-12-29,Expense,Bills,Electricity Board,1220.79,Bank Transfer
+TXN00200,2025-12-30,Expense,Education,Jio,8956.01,Bank Transfer
+TXN01716,2025-12-30,Expense,Transport,Netflix,11160.6,Bank Transfer
+TXN01152,2025-12-30,Expense,Healthcare,Amazon,2244.26,Bank Transfer
+TXN00764,2025-12-30,Expense,Shopping,Netflix,14094.12,Cash
+TXN01774,2025-12-30,Income,Investment,Investment Account,61833.22,Debit Card
+TXN00524,2025-12-30,Expense,Groceries,IRCTC,6442.07,Debit Card
+TXN00994,2025-12-30,Expense,Groceries,Jio,2351.99,Debit Card
+TXN01723,2025-12-30,Expense,Healthcare,College,14477.62,Debit Card
+TXN01641,2025-12-30,Expense,Transport,Myntra,11012.0,Debit Card
+TXN01901,2025-12-31,Expense,Other,Airtel,4590.36,Cash
+TXN00776,2025-12-31,Income,Freelance,Company,74292.88,Debit Card
+TXN00725,2025-12-31,Expense,Education,IRCTC,6206.6,UPI
+TXN01835,2025-12-31,Expense,Shopping,IRCTC,12957.64,Credit Card
+TXN01751,2025-12-31,Expense,Groceries,College,11647.78,UPI
+TXN00915,2025-12-31,Expense,Other,IRCTC,803.17,Debit Card
+TXN01613,2026-01-01,Expense,Healthcare,DMart,11751.77,Cash
+TXN00174,2026-01-01,Expense,Transport,Swiggy,8160.82,Debit Card
+TXN01199,2026-01-01,Expense,Shopping,Uber,2558.5,Debit Card
+TXN00011,2026-01-01,Expense,Entertainment,Airtel,13111.23,Cash
+TXN01947,2026-01-01,Expense,Food,Ola,10325.51,Cash
+TXN01589,2026-01-01,Expense,Groceries,Amazon,10884.1,Credit Card

@@ -1,0 +1,47 @@
+date,transaction_id,type,category,merchant,amount,reason
+2025-01-22,TXN01080,Large Transaction,Freelance,Company,78589.85,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-01-24,TXN01949,Large Transaction,Freelance,Company,79159.85,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-03-15,TXN00429,Large Transaction,Salary,Client,78025.22,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-04-25,TXN01464,Large Transaction,Education,Zomato,87368.69,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-05-15,TXN00624,Large Transaction,Salary,Investment Account,79783.76,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-07-29,TXN00938,Large Transaction,Freelance,Investment Account,78274.0,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-08-07,TXN00664,Large Transaction,Groceries,IRCTC,98874.58,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-08-09,TXN01119,Large Transaction,Entertainment,Electricity Board,90598.26,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-09-26,TXN01745,Large Transaction,Food,Zomato,78849.76,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-09-28,TXN01248,Large Transaction,Freelance,Bank,78827.07,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-09-28,TXN01139,Large Transaction,Investment,Client,77464.22,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-10-19,TXN01596,Large Transaction,Freelance,Bank,77777.06,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-10-26,TXN01539,Large Transaction,Groceries,Zomato,83752.08,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-11-01,TXN00642,Large Transaction,Freelance,Bank,79140.63,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-12-01,TXN01478,Large Transaction,Transport,Airtel,77409.56,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-12-05,TXN00043,Large Transaction,Salary,Client,79460.47,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-12-05,TXN00415,Large Transaction,Freelance,Investment Account,77236.63,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-12-13,TXN00952,Large Transaction,Bills,Jio,81166.7,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-12-27,TXN01403,Large Transaction,Groceries,Airtel,77312.67,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-12-29,TXN01329,Large Transaction,Entertainment,Amazon,98806.95,"Transaction is above the 99th percentile (₹77,039.51)"
+2025-01-03,TXN00967,Category Anomaly,Other,Jio,45573.98,Amount is more than 3× the category average
+2025-01-10,TXN01663,Category Anomaly,Travel,Amazon,65783.54,Amount is more than 3× the category average
+2025-01-22,TXN00336,Category Anomaly,Healthcare,Zomato,66627.12,Amount is more than 3× the category average
+2025-02-12,TXN01206,Category Anomaly,Food,Hospital,33432.35,Amount is more than 3× the category average
+2025-03-31,TXN00666,Category Anomaly,Healthcare,Jio,58025.49,Amount is more than 3× the category average
+2025-04-15,TXN01221,Category Anomaly,Groceries,BookMyShow,42375.38,Amount is more than 3× the category average
+2025-04-25,TXN01464,Category Anomaly,Education,Zomato,87368.69,Amount is more than 3× the category average
+2025-06-19,TXN00800,Category Anomaly,Groceries,BookMyShow,60301.79,Amount is more than 3× the category average
+2025-07-05,TXN00603,Category Anomaly,Groceries,Amazon,70798.83,Amount is more than 3× the category average
+2025-07-06,TXN00528,Category Anomaly,Transport,Electricity Board,35970.33,Amount is more than 3× the category average
+2025-07-18,TXN01414,Category Anomaly,Groceries,Ola,44536.05,Amount is more than 3× the category average
+2025-08-07,TXN00664,Category Anomaly,Groceries,IRCTC,98874.58,Amount is more than 3× the category average
+2025-08-09,TXN01119,Category Anomaly,Entertainment,Electricity Board,90598.26,Amount is more than 3× the category average
+2025-09-10,TXN00966,Category Anomaly,Other,DMart,38029.99,Amount is more than 3× the category average
+2025-09-26,TXN01745,Category Anomaly,Food,Zomato,78849.76,Amount is more than 3× the category average
+2025-10-04,TXN01806,Category Anomaly,Bills,Netflix,28540.0,Amount is more than 3× the category average
+2025-10-26,TXN01539,Category Anomaly,Groceries,Zomato,83752.08,Amount is more than 3× the category average
+2025-10-27,TXN01643,Category Anomaly,Healthcare,Spotify,45371.98,Amount is more than 3× the category average
+2025-11-02,TXN00115,Category Anomaly,Groceries,Amazon,48529.86,Amount is more than 3× the category average
+2025-12-01,TXN01478,Category Anomaly,Transport,Airtel,77409.56,Amount is more than 3× the category average
+2025-12-02,TXN01497,Category Anomaly,Other,Uber,26602.73,Amount is more than 3× the category average
+2025-12-13,TXN00952,Category Anomaly,Bills,Jio,81166.7,Amount is more than 3× the category average
+2025-12-22,TXN01041,Category Anomaly,Groceries,Electricity Board,52458.74,Amount is more than 3× the category average
+2025-12-27,TXN01403,Category Anomaly,Groceries,Airtel,77312.67,Amount is more than 3× the category average
+2025-12-28,TXN00927,Category Anomaly,Bills,DMart,28552.91,Amount is more than 3× the category average
+2025-12-29,TXN01329,Category Anomaly,Entertainment,Amazon,98806.95,Amount is more than 3× the category average
