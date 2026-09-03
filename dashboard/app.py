@@ -1790,5 +1790,4 @@ st.divider()
 
 st.caption(
     "AI Finance Controller • "
-    "Powered by Python, Pandas, Streamlit & Gemini AI • Buildathon Demo"
 )
