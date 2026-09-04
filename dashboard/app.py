@@ -44,6 +44,330 @@ EXCEPTIONS_FILE = BASE_DIR / "results" / "exceptions.csv"
 
 
 # ============================================================
+# FLEXIBLE TRANSACTION IMPORTER
+# ============================================================
+# Supports:
+# 1. AI Finance Controller CSV format
+# 2. PhonePe statement CSV exports such as:
+#    Date, Transaction Details, Type, Amount
+# 3. CSVs with a few common column-name variations
+#
+# PhonePe exports can contain introductory lines before the real CSV
+# header. The importer searches for the actual header instead of assuming
+# that the first line is the header.
+
+import csv
+import io
+import re
+import json
+
+
+def _normalise_column_name(name):
+    name = str(name).strip().lower()
+    name = name.replace("₹", "")
+    name = re.sub(r"[^a-z0-9]+", "_", name)
+    return name.strip("_")
+
+
+def _clean_amount(value):
+    if pd.isna(value):
+        return 0.0
+    text = str(value).strip()
+    if not text:
+        return 0.0
+    negative = text.startswith("(") and text.endswith(")")
+    text = text.replace("₹", "").replace(",", "").replace(" ", "")
+    text = text.replace("INR", "").replace("Rs.", "").replace("Rs", "")
+    text = re.sub(r"[^0-9.\-]", "", text)
+    try:
+        number = float(text)
+        return -number if negative else number
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def _find_csv_header(text):
+    """Find the line that contains the real transaction CSV header."""
+    lines = text.splitlines()
+    header_terms = {
+        "date", "transaction_date", "txn_date",
+        "amount", "transaction_amount", "type",
+        "transaction_type", "transaction_details",
+        "category", "payment_method", "debit", "credit"
+    }
+
+    for index, line in enumerate(lines):
+        if not line.strip():
+            continue
+        try:
+            row = next(csv.reader([line]))
+        except Exception:
+            continue
+        normalised = {_normalise_column_name(x) for x in row}
+        score = len(normalised.intersection(header_terms))
+        if score >= 2:
+            return index
+
+    return 0
+
+
+def _read_uploaded_csv(uploaded_file):
+    """Read normal CSVs and PhonePe-style CSVs with preamble lines."""
+    raw = uploaded_file.getvalue()
+    text = raw.decode("utf-8-sig", errors="replace")
+
+    header_index = _find_csv_header(text)
+
+    # First attempt: read from the detected header.
+    try:
+        return pd.read_csv(
+            io.StringIO(text),
+            skiprows=header_index,
+            engine="python",
+            on_bad_lines="warn"
+        )
+    except Exception:
+        pass
+
+    # Second attempt: standard pandas parsing.
+    try:
+        return pd.read_csv(
+            io.BytesIO(raw),
+            engine="python",
+            on_bad_lines="skip"
+        )
+    except Exception as e:
+        raise ValueError(f"Unable to parse CSV: {e}")
+
+
+def _extract_phonepe_merchant(details):
+    """Extract a readable merchant/person from PhonePe transaction details."""
+    if pd.isna(details):
+        return "Unknown"
+
+    text = str(details).strip()
+    text = re.sub(r"Transaction ID.*", "", text, flags=re.IGNORECASE).strip()
+    text = re.sub(r"UTR No\..*", "", text, flags=re.IGNORECASE).strip()
+    text = re.sub(r"Paid by.*", "", text, flags=re.IGNORECASE).strip()
+    text = re.sub(r"Credited to.*", "", text, flags=re.IGNORECASE).strip()
+
+    text = re.sub(r"^(paid to|bill paid -)\s*", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"^(received from)\s*", "", text, flags=re.IGNORECASE)
+    return text.strip(" -") or "Unknown"
+
+
+def _infer_category(merchant):
+    """Lightweight category inference for statement imports."""
+    text = str(merchant).lower()
+
+    rules = {
+        "Shopping": ["amazon", "flipkart", "myntra", "shopping", "store", "electronics"],
+        "Food": ["swiggy", "zomato", "restaurant", "cafe", "tea stall", "food"],
+        "Travel": ["uber", "ola", "irctc", "flight", "airlines", "metro", "petrol", "fuel"],
+        "Bills": ["electricity", "recharge", "mobile", "broadband", "bill", "gas"],
+        "Entertainment": ["netflix", "spotify", "movie", "bookmyshow", "hotstar"],
+        "Healthcare": ["hospital", "pharmacy", "medical", "clinic"],
+        "Education": ["college", "school", "course", "education"],
+        "Groceries": ["grocery", "groceries", "mart", "dmart", "supermarket"]
+    }
+
+    for category, keywords in rules.items():
+        if any(keyword in text for keyword in keywords):
+            return category
+
+    return "Other"
+
+
+def _normalise_transactions(raw_df):
+    """Convert supported statement formats into the app's common schema."""
+    if raw_df is None or raw_df.empty:
+        raise ValueError("The CSV does not contain transaction rows.")
+
+    df = raw_df.copy()
+    df.columns = [_normalise_column_name(c) for c in df.columns]
+
+    aliases = {
+        "date": ["date", "transaction_date", "txn_date", "transactiondate"],
+        "amount": ["amount", "transaction_amount", "txn_amount"],
+        "transaction_type": ["transaction_type", "type", "transactiontype"],
+        "category": ["category", "expense_category"],
+        "payment_method": ["payment_method", "payment_mode", "mode", "paymentmethod"],
+        "merchant": ["merchant", "merchant_name", "payee", "receiver", "name"],
+        "transaction_id": ["transaction_id", "txn_id", "transactionid", "id"],
+        "transaction_details": ["transaction_details", "transaction_detail", "details", "description", "narration"],
+        "debit": ["debit", "withdrawal", "paid"],
+        "credit": ["credit", "deposit", "received"]
+    }
+
+    def find_column(names):
+        for name in names:
+            if name in df.columns:
+                return name
+        return None
+
+    date_col = find_column(aliases["date"])
+    amount_col = find_column(aliases["amount"])
+    type_col = find_column(aliases["transaction_type"])
+    category_col = find_column(aliases["category"])
+    payment_col = find_column(aliases["payment_method"])
+    merchant_col = find_column(aliases["merchant"])
+    id_col = find_column(aliases["transaction_id"])
+    details_col = find_column(aliases["transaction_details"])
+    debit_col = find_column(aliases["debit"])
+    credit_col = find_column(aliases["credit"])
+
+    # PhonePe-style statements commonly expose Date + Transaction Details + Type + Amount.
+    if date_col is None:
+        raise ValueError("Could not identify a date column.")
+
+    if amount_col is None and debit_col is None and credit_col is None:
+        raise ValueError("Could not identify an amount, debit, or credit column.")
+
+    # Date
+    df["date"] = pd.to_datetime(df[date_col], errors="coerce", dayfirst=False)
+
+    # Amount + transaction type
+    if amount_col is not None:
+        df["amount"] = df[amount_col].apply(_clean_amount).abs()
+    else:
+        debit_values = df[debit_col].apply(_clean_amount) if debit_col else pd.Series(0.0, index=df.index)
+        credit_values = df[credit_col].apply(_clean_amount) if credit_col else pd.Series(0.0, index=df.index)
+        df["amount"] = debit_values.abs().where(debit_values.abs() > 0, credit_values.abs())
+
+    if type_col is not None:
+        raw_type = df[type_col].astype(str).str.strip().str.lower()
+        df["transaction_type"] = raw_type.map({
+            "debit": "Expense",
+            "expense": "Expense",
+            "dr": "Expense",
+            "credit": "Income",
+            "income": "Income",
+            "cr": "Income"
+        })
+    else:
+        debit_values = df[debit_col].apply(_clean_amount) if debit_col else pd.Series(0.0, index=df.index)
+        df["transaction_type"] = debit_values.apply(
+            lambda x: "Expense" if abs(x) > 0 else "Income"
+        )
+
+    # If Type is missing/unknown, infer from PhonePe transaction details.
+    if details_col is not None:
+        details_lower = df[details_col].fillna("").astype(str).str.lower()
+        inferred_type = details_lower.apply(
+            lambda x: "Income" if "received from" in x else (
+                "Expense" if ("paid to" in x or "bill paid" in x) else None
+            )
+        )
+        df["transaction_type"] = df["transaction_type"].where(
+            df["transaction_type"].notna(), inferred_type
+        )
+
+    df["transaction_type"] = df["transaction_type"].fillna("Expense")
+
+    # Merchant
+    if merchant_col is not None:
+        df["merchant"] = df[merchant_col].astype(str).replace("nan", "Unknown")
+    elif details_col is not None:
+        df["merchant"] = df[details_col].apply(_extract_phonepe_merchant)
+    else:
+        df["merchant"] = "Unknown"
+
+    # Category
+    if category_col is not None:
+        df["category"] = df[category_col].astype(str).replace("nan", "Other")
+    else:
+        df["category"] = df["merchant"].apply(_infer_category)
+
+    # Payment method
+    if payment_col is not None:
+        df["payment_method"] = df[payment_col].astype(str).replace("nan", "Unknown")
+    else:
+        # PhonePe statement exports are UPI/PhonePe transactions by definition.
+        df["payment_method"] = "PhonePe / UPI"
+
+    # Transaction ID
+    if id_col is not None:
+        df["transaction_id"] = df[id_col].astype(str).replace("nan", "")
+    elif details_col is not None:
+        extracted_ids = df[details_col].astype(str).str.extract(
+            r"Transaction\s*ID\s*[:]?\s*([A-Za-z0-9_-]+)",
+            expand=False
+        )
+        df["transaction_id"] = extracted_ids.fillna("")
+    else:
+        df["transaction_id"] = ""
+
+    # Remove rows that are not real transactions.
+    df = df.dropna(subset=["date"])
+    df = df[df["amount"] > 0].copy()
+
+    if df.empty:
+        raise ValueError("No valid transaction rows were found in the uploaded CSV.")
+
+    return df
+
+
+def detect_exceptions(transaction_df):
+    """Transparent anomaly detector used for uploaded datasets."""
+    expense_df_local = transaction_df[
+        transaction_df["transaction_type"] == "Expense"
+    ].copy()
+
+    records = []
+
+    # 1. Duplicate transaction IDs.
+    ids = transaction_df["transaction_id"].astype(str).str.strip()
+    duplicate_mask = ids.ne("") & ids.duplicated(keep=False)
+
+    for _, row in transaction_df[duplicate_mask].iterrows():
+        records.append({
+            "date": row["date"],
+            "type": "Duplicate Transaction",
+            "category": row.get("category", "Other"),
+            "merchant": row.get("merchant", "Unknown"),
+            "amount": row["amount"],
+            "reason": "The same transaction ID appears more than once.",
+            "payment_method": row.get("payment_method", "Unknown")
+        })
+
+    # 2. Unusually large expenses using a robust IQR threshold.
+    if len(expense_df_local) >= 4:
+        q1 = expense_df_local["amount"].quantile(0.25)
+        q3 = expense_df_local["amount"].quantile(0.75)
+        iqr = q3 - q1
+        iqr_threshold = q3 + (1.5 * iqr)
+        median_amount = expense_df_local["amount"].median()
+        large_threshold = max(iqr_threshold, median_amount * 3)
+
+        large_rows = expense_df_local[
+            expense_df_local["amount"] > large_threshold
+        ]
+
+        for _, row in large_rows.iterrows():
+            records.append({
+                "date": row["date"],
+                "type": "Unusually Large Expense",
+                "category": row.get("category", "Other"),
+                "merchant": row.get("merchant", "Unknown"),
+                "amount": row["amount"],
+                "reason": f"Expense is unusually high compared with the user's transaction history (threshold ≈ ₹{large_threshold:,.0f}).",
+                "payment_method": row.get("payment_method", "Unknown")
+            })
+
+    if not records:
+        return pd.DataFrame(columns=[
+            "date", "type", "category", "merchant", "amount",
+            "reason", "payment_method"
+        ])
+
+    result = pd.DataFrame(records)
+    result = result.drop_duplicates(
+        subset=["date", "type", "category", "merchant", "amount"]
+    )
+    return result.reset_index(drop=True)
+
+
+# ============================================================
 # TRANSACTION DATA SOURCE
 # ============================================================
 
@@ -58,350 +382,108 @@ data_source = st.sidebar.radio(
 )
 
 if data_source == "📂 Upload My CSV":
-
     uploaded_file = st.sidebar.file_uploader(
         "Upload your transaction CSV",
         type=["csv"],
-        help="Upload a CSV containing your transaction history."
+        help=(
+            "Supports the app CSV format and common PhonePe statement CSV formats. "
+            "For best results, upload the original CSV exported from PhonePe."
+        )
     )
 
     if uploaded_file is None:
-
         st.info(
             "👋 Welcome to AI Finance Controller!\n\n"
             "Upload your transaction CSV from the sidebar "
             "to generate your personalized financial analysis."
         )
-
         st.stop()
 
     try:
-
-        df = pd.read_csv(uploaded_file)
-
+        raw_uploaded_df = _read_uploaded_csv(uploaded_file)
+        df = _normalise_transactions(raw_uploaded_df)
+        exceptions_df = detect_exceptions(df)
     except Exception as e:
-
         st.error(
-            f"❌ Unable to read the uploaded CSV: {e}"
+            f"❌ Unable to process the uploaded CSV.\n\n{e}"
         )
-
+        st.info(
+            "Supported formats include the AI Finance Controller CSV and "
+            "PhonePe statement CSV with Date, Transaction Details, Type and Amount."
+        )
         st.stop()
-
-else:
-
-    df = pd.read_csv(DATA_FILE)
-
-
-# ============================================================
-# VALIDATE TRANSACTION DATA
-# ============================================================
-
-required_columns = [
-    "date",
-    "amount",
-    "category",
-    "payment_method",
-    "transaction_type"
-]
-
-missing_columns = [
-    column
-    for column in required_columns
-    if column not in df.columns
-]
-
-if missing_columns:
-
-    st.error(
-        "❌ Invalid transaction file.\n\n"
-        "Missing required columns: "
-        + ", ".join(missing_columns)
-    )
-
-    st.info(
-        "Your CSV should contain: "
-        + ", ".join(required_columns)
-    )
-
-    st.stop()
-
-
-# ============================================================
-# CLEAN TRANSACTION DATA
-# ============================================================
-
-df["date"] = pd.to_datetime(
-    df["date"],
-    errors="coerce"
-)
-
-df["amount"] = pd.to_numeric(
-    df["amount"],
-    errors="coerce"
-)
-
-df = df.dropna(
-    subset=["date", "amount"]
-).copy()
-
-# Make common text fields consistent even if the user's CSV has
-# extra spaces or different capitalization.
-for column in [
-    "category",
-    "payment_method",
-    "transaction_type",
-    "merchant"
-]:
-    if column in df.columns:
-        df[column] = df[column].fillna("Unknown").astype(str).str.strip()
-
-df["transaction_type"] = df["transaction_type"].str.title()
-df["amount"] = df["amount"].abs()
-
-# Only Income and Expense are supported because the dashboard's
-# financial calculations depend on these two transaction types.
-valid_types = {"Income", "Expense"}
-invalid_types = sorted(
-    set(df["transaction_type"].dropna().unique()) - valid_types
-)
-
-if invalid_types:
-    st.error(
-        "❌ Invalid transaction_type value(s): "
-        + ", ".join(invalid_types)
-    )
-    st.info(
-        "Use exactly 'Income' or 'Expense' in the transaction_type column."
-    )
-    st.stop()
-
-if df.empty:
-    st.error("❌ The CSV does not contain any valid transaction rows.")
-    st.stop()
-
-
-# ============================================================
-# DATA SOURCE STATUS
-# ============================================================
-
-if data_source == "📂 Upload My CSV":
 
     st.sidebar.success(
         f"✅ {len(df):,} transactions loaded"
     )
+    st.sidebar.caption(
+        "PhonePe/statement fields were normalized automatically where possible."
+    )
 
 else:
+    try:
+        df = pd.read_csv(DATA_FILE)
+        df = _normalise_transactions(df)
+    except Exception as e:
+        st.error(f"❌ Unable to load demo transaction data: {e}")
+        st.stop()
+
+    # Keep the prepared demo exception file for the buildathon dataset.
+    if EXCEPTIONS_FILE.exists():
+        try:
+            exceptions_df = pd.read_csv(EXCEPTIONS_FILE)
+        except Exception:
+            exceptions_df = detect_exceptions(df)
+    else:
+        exceptions_df = detect_exceptions(df)
 
     st.sidebar.info(
         f"🎯 Demo dataset: {len(df):,} transactions"
     )
 
+# Common cleaning after either data source.
+df["date"] = pd.to_datetime(df["date"], errors="coerce")
+df["amount"] = df["amount"].apply(_clean_amount).abs()
+df = df.dropna(subset=["date", "amount"]).copy()
 
-# Give new users a ready-to-use CSV format.
-template_df = pd.DataFrame({
-    "date": ["2026-01-01", "2026-01-02", "2026-01-03"],
-    "amount": [50000, 1200, 800],
-    "category": ["Salary", "Groceries", "Transport"],
-    "payment_method": ["Bank Transfer", "UPI", "Card"],
-    "transaction_type": ["Income", "Expense", "Expense"],
-    "merchant": ["Company", "Supermarket", "Metro"]
-})
-
-st.sidebar.download_button(
-    "⬇️ Download CSV Template",
-    data=template_df.to_csv(index=False).encode("utf-8"),
-    file_name="finance_controller_template.csv",
-    mime="text/csv",
-    help="Use this template to prepare your own transaction CSV."
+# Normalize transaction type values so Credit/Debit and Income/Expense work.
+df["transaction_type"] = (
+    df["transaction_type"]
+    .astype(str)
+    .str.strip()
+    .str.lower()
+    .map({
+        "income": "Income",
+        "credit": "Income",
+        "cr": "Income",
+        "expense": "Expense",
+        "debit": "Expense",
+        "dr": "Expense"
+    })
 )
+df = df.dropna(subset=["transaction_type"]).copy()
 
+# Guarantee fields used by the dashboard.
+for column, default in [
+    ("category", "Other"),
+    ("payment_method", "Unknown"),
+    ("merchant", "Unknown"),
+    ("transaction_id", "")
+]:
+    if column not in df.columns:
+        df[column] = default
 
-# ============================================================
-# AI EXCEPTION DETECTION
-# ============================================================
-# Demo data can use the pre-generated exceptions.csv.
-# Uploaded CSVs are analyzed automatically so every user gets
-# exceptions based on THEIR OWN transaction history.
+# Clean exception data used by the dashboard.
+if exceptions_df is None:
+    exceptions_df = pd.DataFrame()
 
-EXCEPTION_COLUMNS = [
-    "date",
-    "type",
-    "category",
-    "merchant",
-    "amount",
-    "reason"
-]
-
-
-def detect_exceptions(transactions):
-    """Detect transparent, data-driven anomalies in any transaction CSV."""
-
-    if transactions.empty:
-        return pd.DataFrame(columns=EXCEPTION_COLUMNS)
-
-    work = transactions.copy().reset_index(drop=True)
-    findings = []
-
-    # --------------------------------------------------------
-    # 1. Duplicate transactions
-    # --------------------------------------------------------
-    duplicate_columns = [
-        column
-        for column in [
-            "date",
-            "amount",
-            "category",
-            "merchant",
-            "transaction_type",
-            "payment_method"
-        ]
-        if column in work.columns
-    ]
-
-    if duplicate_columns:
-        duplicate_mask = work.duplicated(
-            subset=duplicate_columns,
-            keep=False
+if not exceptions_df.empty:
+    if "date" in exceptions_df.columns:
+        exceptions_df["date"] = pd.to_datetime(
+            exceptions_df["date"], errors="coerce"
         )
-
-        for _, row in work[duplicate_mask].iterrows():
-            findings.append({
-                "date": row.get("date"),
-                "type": "Duplicate Transaction",
-                "category": row.get("category", "Unknown"),
-                "merchant": row.get("merchant", "Unknown merchant"),
-                "amount": row.get("amount", 0),
-                "reason": "This transaction has the same key details as another transaction in the uploaded data."
-            })
-
-    # --------------------------------------------------------
-    # 2. Unusually large expenses using the user's own data
-    # --------------------------------------------------------
-    expense_rows = work[
-        work["transaction_type"].astype(str).str.strip().str.lower() == "expense"
-    ].copy()
-
-    if not expense_rows.empty:
-
-        amounts = expense_rows["amount"].astype(float)
-        q1 = amounts.quantile(0.25)
-        q3 = amounts.quantile(0.75)
-        iqr = q3 - q1
-        large_threshold = q3 + (1.5 * iqr)
-
-        # Avoid an overly sensitive threshold for very small datasets.
-        if len(amounts) < 5:
-            large_threshold = amounts.mean() + (2 * amounts.std())
-
-        if pd.isna(large_threshold) or large_threshold <= 0:
-            large_threshold = amounts.max()
-
-        large_rows = expense_rows[
-            expense_rows["amount"] >= large_threshold
-        ]
-
-        for _, row in large_rows.iterrows():
-            findings.append({
-                "date": row.get("date"),
-                "type": "Unusually Large Expense",
-                "category": row.get("category", "Unknown"),
-                "merchant": row.get("merchant", "Unknown merchant"),
-                "amount": row.get("amount", 0),
-                "reason": f"The amount is unusually high compared with the uploaded expense history (threshold ≈ ₹{large_threshold:,.0f})."
-            })
-
-    # --------------------------------------------------------
-    # 3. Category spending outliers
-    # --------------------------------------------------------
-    if "category" in expense_rows.columns:
-
-        for category, group in expense_rows.groupby("category"):
-
-            if len(group) < 3:
-                continue
-
-            category_median = group["amount"].median()
-
-            if category_median <= 0:
-                continue
-
-            category_rows = group[
-                group["amount"] >= category_median * 3
-            ]
-
-            for _, row in category_rows.iterrows():
-
-                # Avoid creating duplicate findings for the same transaction.
-                already_large = any(
-                    item.get("date") == row.get("date")
-                    and item.get("amount") == row.get("amount")
-                    and item.get("merchant") == row.get("merchant")
-                    and item.get("type") == "Unusually Large Expense"
-                    for item in findings
-                )
-
-                if already_large:
-                    continue
-
-                findings.append({
-                    "date": row.get("date"),
-                    "type": "Category Spending Outlier",
-                    "category": category,
-                    "merchant": row.get("merchant", "Unknown merchant"),
-                    "amount": row.get("amount", 0),
-                    "reason": f"This expense is at least 3× the median expense for the '{category}' category in the uploaded data."
-                })
-
-    result = pd.DataFrame(findings, columns=EXCEPTION_COLUMNS)
-
-    if result.empty:
-        return pd.DataFrame(columns=EXCEPTION_COLUMNS)
-
-    result["date"] = pd.to_datetime(
-        result["date"],
-        errors="coerce"
-    )
-
-    result["amount"] = pd.to_numeric(
-        result["amount"],
-        errors="coerce"
-    ).fillna(0)
-
-    return result.drop_duplicates(
-        subset=["date", "type", "category", "merchant", "amount"]
-    ).reset_index(drop=True)
-
-
-if data_source == "📂 Upload My CSV":
-
-    # IMPORTANT: Never use the demo exceptions for a friend's CSV.
-    # Detect exceptions directly from the uploaded transaction history.
-    exceptions_df = detect_exceptions(df)
-
-else:
-
-    # Keep the polished, pre-generated exception results for Demo Data.
-    if EXCEPTIONS_FILE.exists():
-
-        exceptions_df = pd.read_csv(EXCEPTIONS_FILE)
-
-        if not exceptions_df.empty:
-
-            if "date" in exceptions_df.columns:
-                exceptions_df["date"] = pd.to_datetime(
-                    exceptions_df["date"],
-                    errors="coerce"
-                )
-
-            if "amount" in exceptions_df.columns:
-                exceptions_df["amount"] = pd.to_numeric(
-                    exceptions_df["amount"],
-                    errors="coerce"
-                ).fillna(0)
-
-    else:
-        exceptions_df = pd.DataFrame(columns=EXCEPTION_COLUMNS)
-
+    if "amount" in exceptions_df.columns:
+        exceptions_df["amount"] = exceptions_df["amount"].apply(_clean_amount)
 
 # ============================================================
 # TITLE
@@ -799,7 +881,7 @@ risk_breakdown["Contribution"] = (
 st.dataframe(
     risk_breakdown,
     hide_index=True,
-    use_container_width=True
+    width="stretch"
 )
 
 # ============================================================
@@ -886,7 +968,7 @@ risk_drivers["Status"] = risk_drivers["Utilization"].apply(
 
 st.dataframe(
     risk_drivers[["Risk Driver", "Score", "Maximum", "Utilization", "Status"]],
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
     column_config={
         "Score": st.column_config.NumberColumn(format="%d"),
@@ -1168,7 +1250,7 @@ if not top_expenses.empty:
 
     st.dataframe(
         top_expenses[display_columns],
-        use_container_width=True,
+        width="stretch",
         hide_index=True
     )
 
@@ -1205,7 +1287,7 @@ if not active_exceptions_df.empty:
         st.dataframe(
             exception_summary,
             hide_index=True,
-            use_container_width=True
+            width="stretch"
         )
 
     st.markdown("#### 🔍 Suspicious Transactions")
@@ -1234,7 +1316,7 @@ if not active_exceptions_df.empty:
     st.dataframe(
         display_exceptions,
         hide_index=True,
-        use_container_width=True
+        width="stretch"
     )
 
 else:
@@ -1479,8 +1561,6 @@ Rules:
                         response_mime_type="application/json"
                     )
                 )
-
-                import json
 
                 raw_recommendations = recommendation_response.text.strip()
 
