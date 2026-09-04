@@ -1,74 +1,114 @@
 # AI Finance Controller
 
-An AI-powered personal finance dashboard that analyzes transactions, detects financial risks and anomalies, and provides actionable recommendations using data analysis and Gemini AI.
+An AI-powered personal finance control system that analyzes transaction data, detects financial risks and anomalies, and provides actionable financial recommendations.
 
 ## 🚀 Overview
 
-Managing financial transactions can make it difficult to identify overspending, unusual transactions, and potential financial risks.
+AI Finance Controller transforms raw transaction data into an intelligent financial health report.
 
-**AI Finance Controller** converts raw transaction data into meaningful financial insights through automated analysis, risk scoring, anomaly detection, and AI-powered explanations.
+Instead of simply displaying charts, the system answers:
 
-The application supports both **demo data** and **custom CSV uploads**, allowing users to analyze their own transaction history.
+- How financially healthy am I?
+- Where is my money going?
+- Are there unusual or suspicious transactions?
+- What financial risks should I address?
+- What should I do next?
 
 ## ✨ Key Features
 
-### 📊 Financial Overview
+### 📊 Financial Dashboard
 - Total income
 - Total expenses
 - Net savings
 - Savings rate
 - Monthly financial trends
+- Top spending categories
+- Payment-method analysis
+- Largest expenses
 
 ### 🛡️ Financial Risk Score
-Calculates an overall financial risk score based on:
+
+The application calculates a financial risk score from multiple signals:
+
 - Savings health
 - Spending pressure
 - Suspicious activity
 - Large transaction exposure
 
-The dashboard categorizes the result as:
-- Low Risk
-- Low-Moderate Risk
-- Moderate Risk
-- High Risk
+The result is classified as:
 
-### 🔎 Exception & Anomaly Detection
-Automatically identifies potentially unusual financial activity, including:
+- 🟢 Low Risk
+- 🟡 Low-Moderate Risk
+- 🟠 Moderate Risk
+- 🔴 High Risk
+
+### 🔍 AI Detected Exceptions
+
+Automatically identifies potentially important transaction anomalies such as:
+
 - Duplicate transactions
 - Unusually large expenses
 - Category spending outliers
+- Suspicious transaction patterns
 
 ### 🤖 AI Financial Recommendations
-Gemini AI analyzes financial metrics and provides:
-- Personalized recommendations
-- Spending optimization suggestions
-- Risk explanations
-- Actionable financial guidance
+
+Gemini analyzes the user's financial data and provides personalized recommendations based on the detected risks and spending patterns.
 
 ### 🚨 Suspicious Transaction Analyzer
-Users can select flagged transactions and ask the AI:
+
+Users can select a flagged transaction and ask the AI:
+
 - Why was this transaction flagged?
 - What unusual signals were detected?
 - What should be verified?
 
-The system does not automatically claim that a transaction is fraudulent.
+The system does not claim fraud without evidence.
 
 ### 🎯 AI Financial Action Center
-Prioritizes financial actions into:
+
+Prioritizes financial actions using:
+
 - ACT NOW
 - REVIEW
 - OPTIMIZE
 
-### 📁 Custom CSV Upload
-Users can upload their own transaction data instead of relying only on demo data.
+This helps users focus on the most important financial decisions first.
 
-Required columns:
+### 💬 Ask Finance AI
+
+Users can ask natural-language questions about their financial data and receive AI-generated explanations.
+
+### 📥 Flexible Data Import
+
+The application supports:
+
+- Demo transaction data
+- Custom CSV files
+- PhonePe transaction statements
+
+PhonePe Credit/Debit transactions are automatically normalized into Income/Expense categories.
+
+## 🏗️ Architecture
 
 ```text
-transaction_id
-date
-transaction_type
-category
-merchant
-amount
-payment_method
+Transaction CSV / Statement
+          ↓
+   Data Import & Validation
+          ↓
+   Transaction Normalization
+          ↓
+ ┌────────┴─────────┐
+ ↓                  ↓
+Financial         Exception &
+Analysis          Risk Detection
+ ↓                  ↓
+ └────────┬─────────┘
+          ↓
+      Gemini AI
+          ↓
+ ┌────────┼─────────────┐
+ ↓        ↓             ↓
+Insights Recommendations Actions
+          ↓
+     Streamlit Dashboard
